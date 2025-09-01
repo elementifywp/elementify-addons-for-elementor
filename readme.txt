@@ -4,6 +4,7 @@ Version             : 1.0.1
 Author              : elementifywp
 Author URI          : https://elementifywp.com/
 Contributors        : elementifywp, rabindratharu
+Donate link         : https://github.com/elementifywp/elementify-addons-for-elementor
 Tags                : Elementor, Elementor Addons, Elementor Widget
 Requires at least   : 5.2
 Tested up to        : 6.8
