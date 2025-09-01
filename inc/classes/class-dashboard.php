@@ -86,7 +86,7 @@ class Dashboard
             'title' => '<div class="eae-icon-addons"></div> ' . sanitize_text_field($this->menu_info['menu_title']),
             'href'  => Utils::get_dashboard_url(),
             'meta'  => [
-                'title' => __('Elementify Addons', 'elementify-addons-for-elementor'),
+                'title' => sanitize_text_field($this->menu_info['menu_title']),
             ]
         ]);
     }

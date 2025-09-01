@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Elementify Addons for Elementor 1.0.1\n"
 "Report-Msgid-Bugs-To: https://example.com/support\n"
-"POT-Creation-Date: 2025-09-01T04:35:19.147Z\n"
+"POT-Creation-Date: 2025-09-01T05:48:04.470Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +23,6 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
-
-#: inc/classes/class-dashboard.php:89 inc/classes/class-utils.php:75
-#: inc/classes/class-utils.php:422 inc/classes/class-utils.php:430
-msgid "Elementify Addons"
-msgstr ""
 
 #: inc/classes/class-plugin.php:91
 msgid "Cloning is forbidden."
@@ -51,6 +46,11 @@ msgstr ""
 
 #: inc/classes/class-utils.php:59
 msgid "(no title)"
+msgstr ""
+
+#: inc/classes/class-utils.php:75 inc/classes/class-utils.php:422
+#: inc/classes/class-utils.php:430
+msgid "Elementify Addons"
 msgstr ""
 
 #: inc/classes/class-utils.php:238
