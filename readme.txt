@@ -50,7 +50,7 @@ Boost your Elementor designs with our ever-growing library of free widgets—cra
 ### Documentation and Support
 
 - If you have any more questions, visit our support on the [Plugin's Forum](https://wordpress.org/support/plugin/elementify-addons-for-elementor).
-- For more information about features, FAQs and documentation, check out our website at [Elementify Addons](https://elementifywp.com/elementify-addons).
+- For more information about features, FAQs and documentation, check out our website at [Elementify Addons for Elementor](https://elementifywp.com/elementify-addons).
 
 == Installation ==
 
