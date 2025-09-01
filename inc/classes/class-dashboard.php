@@ -68,8 +68,14 @@ class Dashboard
         add_action('admin_init', [$this, 'register_settings']);
     }
 
-
-    public static function add_toolbar_items(\WP_Admin_Bar $admin_bar)
+    /**
+     * Adds Elementify Addons menu item to the WordPress admin bar.
+     *
+     * @since 1.0.0
+     * @param \WP_Admin_Bar $admin_bar The admin bar object.
+     * @return void
+     */
+    public function add_toolbar_items(\WP_Admin_Bar $admin_bar)
     {
         if (! current_user_can('manage_options')) {
             return;
@@ -77,7 +83,7 @@ class Dashboard
 
         $admin_bar->add_menu([
             'id'    => 'elementify-addons-for-elementor',
-            'title' => '<div class="eae-icon-addons"></div>',
+            'title' => '<div class="eae-icon-addons"></div> ' . sanitize_text_field($this->menu_info['menu_title']),
             'href'  => Utils::get_dashboard_url(),
             'meta'  => [
                 'title' => __('Elementify Addons', 'elementify-addons-for-elementor'),
