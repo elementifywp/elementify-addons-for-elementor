@@ -1,0 +1,1363 @@
+# Copyright (C) 2025 elementifywp
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Elementify Addons for Elementor 1.0.1\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2025-09-01T02:35:09.594Z\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Your Team <team@example.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: inc/classes/class-dashboard.php:83 inc/classes/class-utils.php:75
+#: inc/classes/class-utils.php:422 inc/classes/class-utils.php:430
+msgid "Elementify Addons"
+msgstr ""
+
+#: inc/classes/class-plugin.php:91
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: inc/classes/class-plugin.php:105
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: inc/classes/class-rest-endpoint.php:87
+msgid "You do not have permission to access this resource."
+msgstr ""
+
+#: inc/classes/class-rest-endpoint.php:132
+msgid "Invalid settings data provided."
+msgstr ""
+
+#: inc/classes/class-rest-endpoint.php:225
+msgid "The settings data could not be sanitized."
+msgstr ""
+
+#: inc/classes/class-utils.php:59
+msgid "(no title)"
+msgstr ""
+
+#: inc/classes/class-utils.php:238
+msgid "Full"
+msgstr ""
+
+#: inc/classes/class-utils.php:337
+msgid "Enable animation text."
+msgstr ""
+
+#: inc/classes/class-utils.php:342
+msgid "Enable from styler."
+msgstr ""
+
+#: inc/classes/class-utils.php:347
+msgid "Enable tabs."
+msgstr ""
+
+#: inc/classes/class-utils.php:352
+msgid "Enable logos."
+msgstr ""
+
+#: inc/classes/class-utils.php:357
+msgid "Enable testimonials."
+msgstr ""
+
+#: inc/classes/class-utils.php:362
+msgid "Enable Portfolio."
+msgstr ""
+
+#: inc/classes/class-utils.php:429
+msgid "Elementify Addons Page"
+msgstr ""
+
+#: inc/classes/class-utils.php:441
+#. translators: %s is the plugin name
+msgid ""
+"Thank you for selecting %s for Elementor – your new go-to tool for creating "
+"stunning, functional, and super-fast websites without any coding."
+msgstr ""
+
+#: inc/classes/class-utils.php:456
+msgid "Join Our Facebook Community"
+msgstr ""
+
+#: inc/classes/class-utils.php:457
+msgid ""
+"Become part of a larger community!. Connect with fellow designers, showcase "
+"your work, gain inspiration, and keep up with exclusive tips and insights "
+"from our team and community members."
+msgstr ""
+
+#: inc/classes/class-utils.php:458
+msgid "Join Now"
+msgstr ""
+
+#: inc/classes/class-utils.php:466
+msgid "Need Assistance or Have Inquiries?"
+msgstr ""
+
+#: inc/classes/class-utils.php:467
+msgid ""
+"We’re here for you – anytime! Whether you’re facing a technical issue or "
+"exploring a feature, our dedicated support team is available 24/7 to assist "
+"you. Get live help or submit a ticket, and we’ll take care of it."
+msgstr ""
+
+#: inc/classes/class-utils.php:468
+msgid "Get Support"
+msgstr ""
+
+#: inc/classes/class-utils.php:484
+msgid "Stay Updated"
+msgstr ""
+
+#: inc/classes/class-utils.php:485
+msgid ""
+"Subscribe to Our Newsletter! Don’t miss out on new feature releases, "
+"tutorials, design inspiration, or special offers. Our newsletter is "
+"concise, engaging, and always a great read."
+msgstr ""
+
+#: inc/classes/class-utils.php:486
+msgid "Subscribe Now"
+msgstr ""
+
+#: inc/classes/class-utils.php:501
+msgid "Docs & Tutorials or Guides & Resources"
+msgstr ""
+
+#: inc/classes/class-utils.php:502
+msgid ""
+"Become proficient with ElementifyWP — Gradually. Our detailed documentation "
+"serves as your primary resource for all things ElementifyWP. Regardless of "
+"whether you`re a beginner or diving into more advanced features, you`ll "
+"discover all the solutions in our extensive knowledge base, filled with "
+"images, videos, and recommended practices."
+msgstr ""
+
+#: inc/classes/class-utils.php:505
+msgid "Documentation"
+msgstr ""
+
+#: inc/classes/class-utils.php:513
+msgid "SEO"
+msgstr ""
+
+#: inc/classes/class-utils.php:517
+msgid "Advanced Animated Text"
+msgstr ""
+
+#: inc/classes/class-utils.php:521 inc/widgets/class-form-styler.php:53
+msgid "Form Styler"
+msgstr ""
+
+#: inc/classes/class-utils.php:525 inc/widgets/class-logos.php:52
+msgid "Logos Carousel"
+msgstr ""
+
+#: inc/classes/class-utils.php:529
+msgid "Portfolio Widget"
+msgstr ""
+
+#: inc/classes/class-utils.php:533
+msgid "Tabs Widget"
+msgstr ""
+
+#: inc/classes/class-utils.php:537
+msgid "Testimonials Carousel"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:53
+#: inc/widgets/class-animated-text.php:435
+msgid "Animated Text"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:140
+#: inc/widgets/class-form-styler.php:139 inc/widgets/class-logos.php:131
+#: inc/widgets/class-portfolio.php:155 inc/widgets/class-tabs.php:112
+#: inc/widgets/class-tabs.php:188 inc/widgets/class-tabs.php:977
+#: inc/widgets/class-testimonials.php:144
+msgid "Content"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:148
+msgid "Before Text"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:151
+msgid "This is"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:160
+#: inc/widgets/class-animated-text.php:190
+msgid "Text"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:164
+#: inc/widgets/class-animated-text.php:171
+msgid "Dynamic Text"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:174
+msgid "Designer"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:175
+msgid "Developer"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:176
+msgid "Awesome"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:187
+msgid "After Text"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:199
+msgid "HTML Tag"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:220
+msgid "Display"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:223
+msgid "Inline"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:224
+msgid "Block"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:237
+#: inc/widgets/class-form-styler.php:1820 inc/widgets/class-portfolio.php:559
+msgid "Alignment"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:241
+#: inc/widgets/class-form-styler.php:505 inc/widgets/class-form-styler.php:1824
+#: inc/widgets/class-logos.php:199 inc/widgets/class-portfolio.php:563
+#: inc/widgets/class-tabs.php:353
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:245
+#: inc/widgets/class-form-styler.php:509 inc/widgets/class-form-styler.php:1828
+#: inc/widgets/class-portfolio.php:503 inc/widgets/class-portfolio.php:535
+#: inc/widgets/class-portfolio.php:567 inc/widgets/class-portfolio.php:712
+#: inc/widgets/class-tabs.php:286 inc/widgets/class-tabs.php:322
+#: inc/widgets/class-tabs.php:357 inc/widgets/class-tabs.php:831
+#: inc/widgets/class-testimonials.php:329
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:249
+#: inc/widgets/class-form-styler.php:513 inc/widgets/class-form-styler.php:1832
+#: inc/widgets/class-logos.php:200 inc/widgets/class-portfolio.php:571
+#: inc/widgets/class-tabs.php:361
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:264 inc/widgets/class-logos.php:165
+#: inc/widgets/class-testimonials.php:209
+#: inc/widgets/class-testimonials.php:679
+msgid "Link"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:285
+msgid "Animation Settings"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:293
+msgid "Typing Speed (ms)"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:299
+msgid "Speed at which typing happens in milliseconds."
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:306
+msgid "Backspace Speed (ms)"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:312
+msgid "Speed at which backspacing happens in milliseconds."
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:319
+msgid "Start Delay (ms)"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:325
+msgid "Delay before typing starts in milliseconds."
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:332
+msgid "Backspace Delay (ms)"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:338
+msgid "Delay before backspacing in milliseconds."
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:345
+msgid "Loop Animation"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:355
+msgid "Show Cursor"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:365
+msgid "Fade Out Effect"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:374
+msgid "Smart Backspace"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:377
+msgid "Only backspace what doesn't match the next string"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:396
+msgid "Static Text"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:404
+#: inc/widgets/class-animated-text.php:443
+#: inc/widgets/class-form-styler.php:831 inc/widgets/class-form-styler.php:917
+#: inc/widgets/class-form-styler.php:1125 inc/widgets/class-portfolio.php:954
+#: inc/widgets/class-portfolio.php:1040 inc/widgets/class-portfolio.php:1125
+msgid "Text Color"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:472
+#: inc/widgets/class-form-styler.php:533 inc/widgets/class-form-styler.php:1018
+#: inc/widgets/class-form-styler.php:1224
+#: inc/widgets/class-testimonials.php:773
+msgid "Background Color"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:484
+#: inc/widgets/class-form-styler.php:606 inc/widgets/class-form-styler.php:1669
+#: inc/widgets/class-form-styler.php:2098 inc/widgets/class-logos.php:323
+#: inc/widgets/class-logos.php:367 inc/widgets/class-portfolio.php:1226
+#: inc/widgets/class-portfolio.php:1484 inc/widgets/class-portfolio.php:1607
+#: inc/widgets/class-portfolio.php:1709 inc/widgets/class-portfolio.php:1823
+#: inc/widgets/class-portfolio.php:1988 inc/widgets/class-tabs.php:599
+#: inc/widgets/class-tabs.php:1057 inc/widgets/class-testimonials.php:512
+msgid "Padding"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:498
+msgid "Cursor"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:506
+#: inc/widgets/class-form-styler.php:748 inc/widgets/class-form-styler.php:1880
+#: inc/widgets/class-form-styler.php:1950
+#: inc/widgets/class-form-styler.php:2335 inc/widgets/class-portfolio.php:1275
+#: inc/widgets/class-portfolio.php:1348 inc/widgets/class-portfolio.php:1409
+#: inc/widgets/class-portfolio.php:1532 inc/widgets/class-portfolio.php:1655
+#: inc/widgets/class-portfolio.php:1748 inc/widgets/class-tabs.php:656
+#: inc/widgets/class-tabs.php:695 inc/widgets/class-tabs.php:731
+#: inc/widgets/class-tabs.php:896 inc/widgets/class-tabs.php:923
+#: inc/widgets/class-tabs.php:950 inc/widgets/class-tabs.php:985
+#: inc/widgets/class-testimonials.php:541
+#: inc/widgets/class-testimonials.php:571
+#: inc/widgets/class-testimonials.php:658
+#: inc/widgets/class-testimonials.php:688
+msgid "Color"
+msgstr ""
+
+#: inc/widgets/class-animated-text.php:527
+msgid "Blink Speed (ms)"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:147
+msgid "Source"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:151
+msgid "- Select -"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:152
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:153
+msgid "WPForms"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:154
+msgid "Ninja Forms"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:155
+msgid "Caldera Forms"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:156
+msgid "Mailchimp"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:179 inc/widgets/class-form-styler.php:226
+#: inc/widgets/class-form-styler.php:299 inc/widgets/class-form-styler.php:340
+#: inc/widgets/class-form-styler.php:382
+msgid "No Forms Found!"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:185 inc/widgets/class-form-styler.php:232
+#: inc/widgets/class-form-styler.php:305 inc/widgets/class-form-styler.php:346
+#: inc/widgets/class-form-styler.php:388 inc/widgets/class-tabs.php:177
+msgid "Template"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:199
+msgid "Please install Contact Form 7 plugin to use this feature."
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:246
+msgid "Show Title"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:258
+msgid "Show Description"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:277
+msgid "Please install WPForms plugin to use this feature."
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:319
+msgid "Please install Ninja Forms plugin to use this feature."
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:360
+msgid "Please install Caldera Forms plugin to use this feature."
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:402
+msgid ""
+"Please install and activate the Mailchimp for WordPress plugin and add an "
+"API key to use this feature."
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:423
+msgid "Show Labels"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:444
+msgid "Show Placeholders"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:461
+msgid "Show Notices"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:492 inc/widgets/class-logos.php:350
+msgid "Container"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:501
+msgid "Form Alignment"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:544 inc/widgets/class-form-styler.php:1067
+#: inc/widgets/class-form-styler.php:1273
+#: inc/widgets/class-form-styler.php:1899
+#: inc/widgets/class-form-styler.php:1970
+#: inc/widgets/class-form-styler.php:2261
+msgid "Border Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:564 inc/widgets/class-form-styler.php:1395
+#: inc/widgets/class-form-styler.php:2040
+msgid "Border Type"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:567 inc/widgets/class-form-styler.php:1398
+#: inc/widgets/class-form-styler.php:2043 inc/widgets/class-logos.php:281
+msgid "None"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:568 inc/widgets/class-form-styler.php:1399
+#: inc/widgets/class-form-styler.php:2044
+msgid "Solid"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:569 inc/widgets/class-form-styler.php:1400
+#: inc/widgets/class-form-styler.php:2045
+msgid "Double"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:570 inc/widgets/class-form-styler.php:1401
+#: inc/widgets/class-form-styler.php:2046
+msgid "Dotted"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:571 inc/widgets/class-form-styler.php:1402
+#: inc/widgets/class-form-styler.php:2047
+msgid "Dashed"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:572 inc/widgets/class-form-styler.php:1403
+#: inc/widgets/class-form-styler.php:2048
+msgid "Groove"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:585 inc/widgets/class-form-styler.php:1452
+#: inc/widgets/class-form-styler.php:2069
+msgid "Border Width"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:625 inc/widgets/class-form-styler.php:1720
+#: inc/widgets/class-form-styler.php:2125 inc/widgets/class-logos.php:303
+#: inc/widgets/class-portfolio.php:1205 inc/widgets/class-portfolio.php:1464
+#: inc/widgets/class-portfolio.php:1587 inc/widgets/class-portfolio.php:1689
+#: inc/widgets/class-portfolio.php:1803 inc/widgets/class-portfolio.php:1968
+#: inc/widgets/class-tabs.php:587 inc/widgets/class-tabs.php:1036
+#: inc/widgets/class-testimonials.php:492
+#: inc/widgets/class-testimonials.php:621
+#: inc/widgets/class-testimonials.php:699
+#: inc/widgets/class-testimonials.php:785
+msgid "Border Radius"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:646
+msgid "Form Header"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:670
+msgid "Title Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:690
+msgid "Description Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:712
+msgid "Distance"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:739
+msgid "Field Labels"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:788 inc/widgets/class-form-styler.php:869
+#: inc/widgets/class-portfolio.php:1421
+msgid "Spacing"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:819
+msgid "Field Description"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:846 inc/widgets/class-form-styler.php:2352
+msgid "Link Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:899
+msgid "Fields (Input, Textarea)"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:910 inc/widgets/class-form-styler.php:1858
+#: inc/widgets/class-portfolio.php:947 inc/widgets/class-portfolio.php:1864
+#: inc/widgets/class-tabs.php:136 inc/widgets/class-tabs.php:477
+#: inc/widgets/class-tabs.php:649 inc/widgets/class-tabs.php:886
+msgid "Normal"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:968 inc/widgets/class-form-styler.php:1174
+msgid "Placeholder Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1118
+msgid "Focus"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1335
+#: inc/widgets/class-form-styler.php:2009
+msgid "Transition Duration"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1517
+msgid "Input Width"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1552
+msgid "Input Height"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1615
+msgid "Textarea (Message) Height"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1641
+msgid "Textarea Width"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1776
+msgid "Vertical Gutter"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1811
+msgid "Submit Button"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1836
+msgid "Justified"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1866
+#: inc/widgets/class-form-styler.php:1936
+msgid "Background"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:1928 inc/widgets/class-portfolio.php:1033
+#: inc/widgets/class-portfolio.php:1917 inc/widgets/class-tabs.php:154
+#: inc/widgets/class-tabs.php:512 inc/widgets/class-tabs.php:688
+#: inc/widgets/class-tabs.php:913
+msgid "Hover"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2151
+msgid "Top Distance"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2186
+msgid "Checkbox & Radio"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2198
+msgid "Use Custom Styles"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2207
+msgid "Static Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2235
+#: inc/widgets/class-testimonials.php:740
+msgid "Active Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2289
+#: inc/widgets/class-testimonials.php:601
+msgid "Size"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2326
+msgid "Custom HTML"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2366
+msgid "Divider Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2390
+msgid "Notices"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2402
+msgid "Error Text Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2433
+msgid "Error Field Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2454
+msgid "Error Field Background Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2474
+msgid "Error Field Border Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2494
+msgid "Success Text Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2513
+msgid "Success Background Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2531
+msgid "Success Border Color"
+msgstr ""
+
+#: inc/widgets/class-form-styler.php:2678
+msgid "Please select a form source and template from the widget settings."
+msgstr ""
+
+#: inc/widgets/class-logos.php:141 inc/widgets/class-portfolio.php:227
+#: inc/widgets/class-portfolio.php:229 inc/widgets/class-portfolio.php:324
+#: inc/widgets/class-portfolio.php:1258
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/class-logos.php:143
+msgid "Logo"
+msgstr ""
+
+#: inc/widgets/class-logos.php:152
+msgid "Image"
+msgstr ""
+
+#: inc/widgets/class-logos.php:167
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/widgets/class-logos.php:180 inc/widgets/class-logos.php:270
+#: inc/widgets/class-portfolio.php:297
+msgid "Logos"
+msgstr ""
+
+#: inc/widgets/class-logos.php:184
+msgid "Logo 1"
+msgstr ""
+
+#: inc/widgets/class-logos.php:185
+msgid "Logo 2"
+msgstr ""
+
+#: inc/widgets/class-logos.php:186
+msgid "Logo 3"
+msgstr ""
+
+#: inc/widgets/class-logos.php:195
+msgid "Scroll Direction"
+msgstr ""
+
+#: inc/widgets/class-logos.php:209
+msgid "Scroll Speed (seconds)"
+msgstr ""
+
+#: inc/widgets/class-logos.php:223
+msgid "Logo Width"
+msgstr ""
+
+#: inc/widgets/class-logos.php:240
+msgid "Enable Links"
+msgstr ""
+
+#: inc/widgets/class-logos.php:250 inc/widgets/class-testimonials.php:436
+msgid "Pause on Hover"
+msgstr ""
+
+#: inc/widgets/class-logos.php:278
+msgid "Hover Effect"
+msgstr ""
+
+#: inc/widgets/class-logos.php:282
+msgid "Grayscale"
+msgstr ""
+
+#: inc/widgets/class-logos.php:283
+msgid "Scale"
+msgstr ""
+
+#: inc/widgets/class-logos.php:284
+msgid "Opacity"
+msgstr ""
+
+#: inc/widgets/class-logos.php:336 inc/widgets/class-logos.php:379
+msgid "Margin"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:60
+msgid "Portfolio"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:168
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:177 inc/widgets/class-portfolio.php:278
+msgid "Icon"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:184
+msgid "Categories"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:189
+msgid "Blog"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:202
+msgid "Feature Image"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:215 inc/widgets/class-portfolio.php:1392
+msgid "Label"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:217
+msgid "Free"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:239 inc/widgets/class-portfolio.php:241
+#: inc/widgets/class-portfolio.php:1331
+msgid "Description"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:251
+msgid "Button Text"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:253
+msgid "View"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:262
+msgid "Button Url"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:285
+msgid "Url"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:333 inc/widgets/class-portfolio.php:1515
+msgid "Skills"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:338 inc/widgets/class-portfolio.php:379
+msgid "React"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:341 inc/widgets/class-portfolio.php:382
+msgid "Node.js"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:344 inc/widgets/class-portfolio.php:385
+msgid "MangoDB"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:347
+msgid "GraphQL"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:360 inc/widgets/class-tabs.php:222
+msgid "Items"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:367
+msgid "Web Development"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:373
+msgid "E-Commerce Platform"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:374
+msgid ""
+"A modern e-commerce platform built with React and Node.js, featuring "
+"real-time inventory management and secure payment processing."
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:375
+msgid "Web"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:376 inc/widgets/class-portfolio.php:404
+#: inc/widgets/class-portfolio.php:429
+msgid "View Details"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:388
+msgid "Stripe"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:395
+msgid "Mobile Apps"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:401
+msgid "Mobile Banking App"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:402
+msgid ""
+"Secure mobile banking application with biometric authentication and "
+"real-time transaction monitoring."
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:403
+msgid "Mobile"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:407
+msgid "React Native"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:410
+msgid "Firebase"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:413
+msgid "TypeScript"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:420 inc/widgets/class-portfolio.php:428
+msgid "Design"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:426
+msgid "Brand Identity Design"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:427
+msgid ""
+"Complete brand identity package including logo design, color palette, and "
+"brand guidelines for a tech startup."
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:432
+msgid "Figma"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:435
+msgid "Adobe Illustrator"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:438
+msgid "Photoshop"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:461 inc/widgets/class-portfolio.php:883
+msgid "Filter"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:469
+msgid "Enable"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:478
+msgid "Position"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:481 inc/widgets/class-tabs.php:263
+msgid "Vertical"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:482 inc/widgets/class-tabs.php:264
+msgid "Horizontal"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:495 inc/widgets/class-portfolio.php:527
+#: inc/widgets/class-tabs.php:278 inc/widgets/class-tabs.php:314
+msgid "Justify"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:499 inc/widgets/class-portfolio.php:531
+#: inc/widgets/class-portfolio.php:708 inc/widgets/class-tabs.php:282
+#: inc/widgets/class-tabs.php:318 inc/widgets/class-tabs.php:827
+msgid "Start"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:507 inc/widgets/class-portfolio.php:539
+#: inc/widgets/class-portfolio.php:716 inc/widgets/class-tabs.php:290
+#: inc/widgets/class-tabs.php:326 inc/widgets/class-tabs.php:835
+msgid "End"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:511 inc/widgets/class-portfolio.php:543
+#: inc/widgets/class-tabs.php:294 inc/widgets/class-tabs.php:330
+msgid "Stretch"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:589
+msgid "Width"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:616
+msgid "Show \"All\" Tab"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:626
+msgid "Text for \"All\" Tab"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:628 inc/widgets/class-portfolio.php:2056
+msgid "All Projects"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:639
+msgid "Enable Icon"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:649
+msgid "All Tab Icon"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:650
+msgid "Global icon will be replaced with individual category icon."
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:663 inc/widgets/class-tabs.php:783
+msgid "Icon Size"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:684 inc/widgets/class-tabs.php:803
+msgid "Icon Gap"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:704 inc/widgets/class-tabs.php:823
+msgid "Icon Justify"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:735
+msgid "Icon Offset"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:776 inc/widgets/class-portfolio.php:1854
+#: inc/widgets/class-testimonials.php:466
+msgid "Card"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:784 inc/widgets/class-tabs.php:260
+msgid "Layout"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:787
+msgid "Boxes"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:788
+msgid "Masonry"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:798
+msgid "Columns"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:818
+msgid "Columns Gap"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:840
+msgid "Gap between each column in pixels."
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:851
+msgid "Title Tag"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:901 inc/widgets/class-portfolio.php:1544
+#: inc/widgets/class-portfolio.php:1760
+msgid "Gap"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:923 inc/widgets/class-portfolio.php:1298
+#: inc/widgets/class-portfolio.php:1360
+msgid "Bottom Spacing"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:1119 inc/widgets/class-tabs.php:547
+#: inc/widgets/class-tabs.php:724 inc/widgets/class-tabs.php:940
+msgid "Active"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:1286
+msgid "Hover Color"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:1638
+msgid "Button"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:1740
+msgid "Socials"
+msgstr ""
+
+#: inc/widgets/class-portfolio.php:2283
+#. translators: %s: Number of remaining items
+msgid "+%s More"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:48 inc/widgets/class-tabs.php:252
+#: inc/widgets/class-tabs.php:423
+msgid "Tabs"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:122 inc/widgets/class-tabs.php:126
+msgid "Tab Title"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:143 inc/widgets/class-tabs.php:161
+msgid "Tab Icon"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:173
+msgid "Content Type"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:176
+msgid "Editor"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:190
+msgid "Tab Content"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:202
+msgid "Select Template"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:205
+#. translators: %1$s: Opening anchor tag, %2$s: Closing anchor tag
+msgid "To create a elementor section template click %1$s here %2$s."
+msgstr ""
+
+#: inc/widgets/class-tabs.php:227
+msgid "Branding"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:229 inc/widgets/class-tabs.php:234
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet assumenda "
+"distinctio a excepturi."
+msgstr ""
+
+#: inc/widgets/class-tabs.php:232
+msgid "Organizing"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:349
+msgid "Title Align"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:377
+msgid "Title Width"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:403
+msgid "Show Icon"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:406
+msgid "Show"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:407
+msgid "Hide"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:431
+msgid "Tabs Gap"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:453
+msgid "Content Distance"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:628
+msgid "Titles"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:772
+msgid "Icons"
+msgstr ""
+
+#: inc/widgets/class-tabs.php:853
+msgid "Icon Offset (Vertical)"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:57 inc/widgets/class-testimonials.php:218
+msgid "Testimonials"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:154
+#: inc/widgets/class-testimonials.php:649
+msgid "Author"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:164
+#: inc/widgets/class-testimonials.php:592
+msgid "Avatar"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:176
+#: inc/widgets/class-testimonials.php:532
+msgid "Headline"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:186
+#: inc/widgets/class-testimonials.php:562
+msgid "Quote"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:196
+msgid "Rating"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:222
+msgid "John Doe"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:223
+msgid "Outstanding service and supportive team!"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:227
+msgid "Jane Smith"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:228
+msgid "Fantastic experience, highly recommended!"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:232
+msgid "Michael Brown"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:233
+msgid "Professional and efficient, exceeded expectations."
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:237
+msgid "Emily Davis"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:238
+msgid "Great attention to detail and support."
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:250
+msgid "Headline Tag"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:271
+msgid "Author Tag"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:292
+msgid "Enable Author Link"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:302
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:312
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:321
+msgid "Card Alignment"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:325
+msgid "Top"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:333
+msgid "Bottom"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:359
+msgid "Slider"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:367
+msgid "Slides Per View"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:379
+msgid "Slide Gap"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:386
+msgid "Gap between slides in pixels."
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:393
+msgid "Transition Speed"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:398
+msgid "Duration of slide transition in milliseconds."
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:405
+msgid "Autoplay"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:414
+msgid "Autoplay Delay"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:419
+msgid "Delay between slide transitions in milliseconds."
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:427
+msgid "Infinite Loop"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:446
+msgid "Center Slides"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:721
+msgid "Pagination"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:729
+msgid "Normal Color"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:753
+msgid "Navigation"
+msgstr ""
+
+#: inc/widgets/class-testimonials.php:761
+msgid "Icon Color"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Elementify Addons for Elementor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://elementifywp.com/elementify-addons"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<a href=\"https://elementifywp.com/\">Elementify Addons for Elementor</a> "
+"is a powerful and lightweight extension designed to supercharge your "
+"Elementor Page Builder. Packed with a collection of creative and fully "
+"customizable widgets, it helps you build faster and design smarter—just "
+"like a pro. Whether you're crafting landing pages, blogs, or business "
+"websites, Elementify Addons makes it easy to create stunning layouts with "
+"minimal effort and maximum flexibility."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "elementifywp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://elementifywp.com/"
+msgstr ""

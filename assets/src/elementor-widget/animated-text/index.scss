@@ -1,0 +1,10 @@
+$color_1: var(--eae-dynamic-text-color, inherit);
+
+/*--------------------------------------------------------------
+# Animated Text
+--------------------------------------------------------------*/
+.eae-animated-text {
+    .eae-animated-text--dynamic-text {
+        color: $color_1;
+    }
+}

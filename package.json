@@ -1,0 +1,59 @@
+{
+	"name": "elementify-addons-for-elementor",
+	"version": "1.0.0",
+	"description": "Elementify Addons is a next-gen Elementor plugin that empowers anyone to build stunning, professional websites—faster, easier, and with zero coding.",
+	"author": "ElementifyWP",
+	"license": "GPL-3.0-or-later",
+	"main": "Gruntfile.js",
+	"scripts": {
+		"clean": "rimraf assets/build",
+		"init": "npm run build:pot && npm run build:zip",
+		"build:pot": "grunt i18n",
+		"build:zip": "grunt release",
+		"build": "npm run clean && wp-scripts build --webpack-copy-php --blocks-manifest",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "npm run clean && wp-scripts start --webpack-copy-php --blocks-manifest",
+		"prepare": "npm run init"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.17.0",
+		"atrc": "^1.0.37",
+		"autoprefixer": "^10.4.21",
+		"copy-webpack-plugin": "^13.0.0",
+		"grunt": "^1.6.1",
+		"grunt-checktextdomain": "^1.0.1",
+		"grunt-contrib-clean": "^2.0.1",
+		"grunt-contrib-compress": "^2.0.0",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-wp-i18n": "^1.0.3",
+		"grunt-wp-readme-to-markdown": "^2.1.0",
+		"load-grunt-tasks": "^5.1.0",
+		"npm-run-all": "^4.1.5",
+		"postcss-nested": "^7.0.2",
+		"rimraf": "^6.0.1",
+		"rtlcss-webpack-plugin": "^4.0.7",
+		"webpack-remove-empty-scripts": "^1.0.4"
+	},
+	"browserslist": {
+		"production": [
+			"> 0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/postcss": "^4.1.10",
+		"postcss": "^8.5.5",
+		"tailwindcss": "^4.1.10"
+	}
+}
