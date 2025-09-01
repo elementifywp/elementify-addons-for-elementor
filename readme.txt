@@ -18,6 +18,8 @@ Elementify Addons is a next-gen Elementor plugin that empowers anyone to build s
 
 <a href="https://elementifywp.com/elementify-addons">Elementify Addons for Elementor</a> is a powerful and lightweight extension designed to supercharge your Elementor Page Builder. Packed with a collection of creative and fully customizable widgets, it helps you build faster and design smarter—just like a pro. Whether you're crafting landing pages, blogs, or business websites, Elementify Addons for Elementor makes it easy to create stunning layouts with minimal effort and maximum flexibility.
 
+*GitHub Repository:* [https://github.com/elementifywp/elementify-addons-for-elementor](https://github.com/elementifywp/elementify-addons-for-elementor)
+
 ### Fully Customizable
 Every widget and extension offers extensive customization options, allowing you to tailor your website to your exact vision. Bring any design idea to life with ease.
 
