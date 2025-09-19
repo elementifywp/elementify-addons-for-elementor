@@ -1,0 +1,10 @@
+//Root variable Prefix from atomic css, we are overiting css variables values
+// dont change it
+$varPrefix: '--at';
+
+:root {
+    #{$varPrefix}-primary: #221f77;
+    #{$varPrefix}-primary--hover: #0063cc;
+    #{$varPrefix}-secondary: #B2B2B2;
+    #{$varPrefix}-secondary--hover: #A2A2A2;
+}

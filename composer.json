@@ -1,0 +1,40 @@
+{
+	"name": "elementify-addons-for-elementor",
+	"description": "Elementify Addons is a next-gen Elementor plugin that empowers anyone to build stunning, professional websites—faster, easier, and with zero coding.",
+	"type": "wp-plugin",
+	"config": {
+		"platform": {
+			"php": "7.4"
+		},
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"preferred-install": "dist",
+		"archive": {
+			"exclude": [
+				"Tests",
+				"tests",
+				"assets/src/images",
+				"docs",
+				"*.md",
+				".*"
+			]
+		}
+	},
+	"homepage": "https://elementifywp.com/elementify-addons",
+	"license": "GPL-3.0+",
+	"authors": [
+		{
+			"name": "elementifywp",
+			"homepage": "https://elementifywp.com/"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1"
+	}
+}
