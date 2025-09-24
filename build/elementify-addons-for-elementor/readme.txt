@@ -1,6 +1,6 @@
 === Elementify Addons for Elementor ===
 Plugin Name         : Elementify Addons for Elementor
-Version             : 1.0.1
+Version             : 1.0.2
 Author              : elementifywp
 Author URI          : https://elementifywp.com/
 Contributors        : elementifywp, rabindratharu
@@ -8,7 +8,7 @@ Donate link         : https://github.com/elementifywp/elementify-addons-for-elem
 Tags                : Elementor, Elementor Addons, Elementor Widget
 Requires at least   : 5.2
 Tested up to        : 6.8
-Stable tag          : 1.0.1
+Stable tag          : 1.0.2
 Requires PHP        : 7.4
 License             : GPLv3 or later
 License URI         : https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -107,10 +107,14 @@ Source: https://github.com/desandro/imagesloaded
 
 == Changelog ==
 
+= 1.0.2 - 01/09/2025 =
+
+- Fix - Form styler design.
+- Update - Swiper slider library to latest version.
+
 = 1.0.1 - 01/09/2025 =
 
 - Fix - Plugin prefix  for variables, filters and actions.
-- Update - Swiper slider library to latest version.
 
 = 1.0.0 - 20/08/2025 =
 

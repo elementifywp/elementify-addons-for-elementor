@@ -6,7 +6,6 @@
     display: block !important;
 }
 
-.wpcf7 label,
 .mc4wp-form label,
 .wpcf7-quiz-label {
     width: 100%;
@@ -18,7 +17,10 @@
     display: flex;
   align-items: center;
 }
-
+.eae-form-styler-container .listcheckbox-wrap label,
+.eae-form-styler-container .listradio-wrap .nf-field-element label {
+  margin-left: 0 !important;
+}
 .eae-form-styler-container {
 
     .wpcf7 p {
@@ -128,9 +130,6 @@
         display: inline-block !important;
         max-width: 100% !important;
     }
-    .list-checkbox-wrap .nf-field-element li label {
-        margin: 0;
-    }
 }
 
 .eae-forms-align-left .eae-form-styler-container div.wpforms-container-full .wpforms-form .wpforms-list-inline ul li:last-child {
@@ -176,6 +175,7 @@
 
                 input[type="radio"] {
                     height: auto !important;
+                    margin-top: .1em !important;
                 }
             }
         } 
@@ -527,7 +527,8 @@
 
     .listradio-wrap {
         .nf-field-element label {
-            margin: 0;
+            margin-left: 25px !important;
+
             &:after {
                 top: 0;
                 left: -25px;
@@ -653,7 +654,9 @@
     .caldera-forms-summary-field ul li {
         font-size: 14px;
     }
+
     .caldera-grid {
+
         .total-line,
         .checkbox label,
         .radio label,
