@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name:       Elementify Addons for Elementor
  * Plugin URI:        https://elementifywp.com/elementify-addons
@@ -19,20 +18,19 @@
  * @package           elementify-addons-for-elementor
  */
 
-if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
-}
+// Abort if called directly.
+defined( 'WPINC' ) || die;
 
 /**
  * Define plugin constants.
  */
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_VERSION', '1.0.0');
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_NAME', 'elementify-addons-for-elementor');
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH', plugin_dir_path(__FILE__));
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_URL', plugin_dir_url(__FILE__));
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BASENAME', plugin_basename(__FILE__));
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH . 'assets/build/');
-define('ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_URL . 'assets/build/');
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_VERSION', '1.0.0' );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_NAME', 'elementify-addons-for-elementor' );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH', plugin_dir_path( __FILE__ ) );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_URL', plugin_dir_url( __FILE__ ) );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BASENAME', plugin_basename( __FILE__ ) );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH . 'assets/build/' );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_URL . 'assets/build/' );
 
 /**
  * Bootstrap the plugin.
@@ -41,12 +39,12 @@ require_once ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH . 'inc/helpers/autoloader.php'
 
 use Elementify_Addons_For_Elementor\Inc\Plugin;
 
-// Check if the class exists and WordPress environment is valid
-if (class_exists('Elementify_Addons_For_Elementor\Inc\Plugin')) {
-    // Instantiate the plugin
-    $the_plugin = Plugin::get_instance();
+// Check if the class exists and WordPress environment is valid.
+if ( class_exists( 'Elementify_Addons_For_Elementor\Inc\Plugin' ) ) {
+	// Instantiate the plugin.
+	$elementify_addons_for_elementor_plugin = Plugin::get_instance();
 
-    // Register activation and deactivation hooks
-    register_activation_hook(__FILE__, [$the_plugin, 'activate']);
-    register_deactivation_hook(__FILE__, [$the_plugin, 'deactivate']);
+	// Register activation and deactivation hooks.
+	register_activation_hook( __FILE__, array( $elementify_addons_for_elementor_plugin, 'activate' ) );
+	register_deactivation_hook( __FILE__, array( $elementify_addons_for_elementor_plugin, 'deactivate' ) );
 }

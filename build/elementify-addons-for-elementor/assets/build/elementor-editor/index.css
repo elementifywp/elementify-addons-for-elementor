@@ -1,1 +1,0 @@
-.elementor-element-wrapper:not(.elementor-element--promotion) [class^=eae-]::after,.elementor-element-wrapper:not(.elementor-element--promotion) [class*=eae-]::after{content:"";font-family:"ElementifyWP",sans-serif;font-weight:700;font-size:10px;position:absolute;right:.6em;top:.6em;border-radius:2px;padding:2px}

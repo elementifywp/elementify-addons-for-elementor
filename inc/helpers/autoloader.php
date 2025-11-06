@@ -1,60 +1,58 @@
 <?php
-
 /**
  * Autoloader files.
  *
  * @package elementify-addons-for-elementor
+ * @since 1.0.0
  */
 
 namespace Elementify_Addons_For_Elementor\Inc\Helpers;
 
-if (! defined('ABSPATH')) {
-	exit; // Exit if accessed directly.
-}
+// Abort if called directly.
+defined( 'WPINC' ) || die;
 
 /**
  * Auto loader function.
  *
- * @param string $resource Source namespace.
+ * @param string $resource_name Source namespace.
  *
  * @return void
  */
-function autoloader($resource = '')
-{
+function autoloader( $resource_name = '' ) {
 	$resource_path  = false;
 	$namespace_root = 'Elementify_Addons_For_Elementor\\';
-	$resource       = trim($resource, '\\');
+	$resource_name  = trim( $resource_name, '\\' );
 
-	if (empty($resource) || strpos($resource, '\\') === false || strpos($resource, $namespace_root) !== 0) {
+	if ( empty( $resource_name ) || strpos( $resource_name, '\\' ) === false || strpos( $resource_name, $namespace_root ) !== 0 ) {
 		// Not our namespace, bail out.
 		return;
 	}
 
 	// Remove our root namespace.
-	$resource = str_replace($namespace_root, '', $resource);
+	$resource_name = str_replace( $namespace_root, '', $resource_name );
 
 	$path = explode(
 		'\\',
-		str_replace('_', '-', strtolower($resource))
+		str_replace( '_', '-', strtolower( $resource_name ) )
 	);
 
 	/**
 	 * Time to determine which type of resource path it is,
 	 * so that we can deduce the correct file path for it.
 	 */
-	if (empty($path[0]) || empty($path[1])) {
+	if ( empty( $path[0] ) || empty( $path[1] ) ) {
 		return;
 	}
 
 	$directory = '';
 	$file_name = '';
 
-	if ('inc' === $path[0]) {
+	if ( 'inc' === $path[0] ) {
 
-		switch ($path[1]) {
+		switch ( $path[1] ) {
 			case 'traits':
 				$directory = 'traits';
-				$file_name = sprintf('trait-%s', trim(strtolower($path[2])));
+				$file_name = sprintf( 'trait-%s', trim( strtolower( $path[2] ) ) );
 				break;
 
 			case 'widgets':
@@ -63,28 +61,28 @@ function autoloader($resource = '')
 				 * If there is class name provided for specific directory then load that.
 				 * otherwise find in inc/ directory.
 				 */
-				if (! empty($path[2])) {
-					$directory = sprintf('classes/%s', $path[1]);
-					$file_name = sprintf('class-%s', trim(strtolower($path[2])));
+				if ( ! empty( $path[2] ) ) {
+					$directory = sprintf( 'classes/%s', $path[1] );
+					$file_name = sprintf( 'class-%s', trim( strtolower( $path[2] ) ) );
 					break;
 				}
 			default:
 				$directory = 'classes';
-				$file_name = sprintf('class-%s', trim(strtolower($path[1])));
+				$file_name = sprintf( 'class-%s', trim( strtolower( $path[1] ) ) );
 				break;
 		}
 
-		$resource_path = sprintf('%s/inc/%s/%s.php', untrailingslashit(ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH), $directory, $file_name);
+		$resource_path = sprintf( '%s/inc/%s/%s.php', untrailingslashit( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH ), $directory, $file_name );
 	}
 
 	/**
 	 * If $is_valid_file has 0 means valid path or 2 means the file path contains a Windows drive path.
 	 */
-	$is_valid_file = validate_file($resource_path);
+	$is_valid_file = validate_file( $resource_path );
 
-	if (! empty($resource_path) && file_exists($resource_path) && (0 === $is_valid_file || 2 === $is_valid_file)) {
+	if ( ! empty( $resource_path ) && file_exists( $resource_path ) && ( 0 === $is_valid_file || 2 === $is_valid_file ) ) {
 		// We already making sure that file is exists and valid.
 		require_once($resource_path); // phpcs:ignore
 	}
 }
-spl_autoload_register('\Elementify_Addons_For_Elementor\Inc\Helpers\autoloader');
+spl_autoload_register( '\Elementify_Addons_For_Elementor\Inc\Helpers\autoloader' );

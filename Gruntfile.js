@@ -2,8 +2,8 @@ module.exports = function (grunt) {
 	require("load-grunt-tasks")(grunt);
 
 	const copyFiles = [
-		'assets/**',              // include everything in assets
-		'!assets/src/images/**',  // exclude only assets/src/images
+		'assets/**',            // include everything in assets
+		'!assets/src/**',  		// exclude everything in assets/src
 		'inc/**',
 		'languages/**',
 		'uninstall.php',
@@ -106,8 +106,6 @@ module.exports = function (grunt) {
 			},
 		},
 	});
-
-	grunt.loadNpmTasks("grunt-search");
 
 	// Register tasks
 	grunt.registerTask('version-compare', ['search:version']);
