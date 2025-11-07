@@ -28,8 +28,7 @@
 
 namespace Elementify_Addons_For_Elementor\Inc\Traits;
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 trait Singleton {
 

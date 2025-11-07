@@ -24,8 +24,7 @@ use Elementor\Core\Kits\Documents\Tabs\Global_Colors;
 use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 use Elementify_Addons_For_Elementor\Inc\Utils as ElementifyUtils;
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Portfolio Widget

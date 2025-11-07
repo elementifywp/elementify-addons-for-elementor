@@ -18,8 +18,7 @@
  * @package           elementify-addons-for-elementor
  */
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Define plugin constants.

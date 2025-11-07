@@ -12,7 +12,7 @@
 [class^=eae-icon-],
 [class*=" eae-icon-"] {
   display: inline-block;
-  font-family: ElementifyWP !important;
+  font-family: ElementifyWP, sans-serif !important;
   font-weight: 400;
   font-style: normal;
   font-variant: normal;

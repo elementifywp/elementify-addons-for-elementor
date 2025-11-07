@@ -8,8 +8,7 @@
 
 namespace Elementify_Addons_For_Elementor\Inc\Helpers;
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Auto loader function.

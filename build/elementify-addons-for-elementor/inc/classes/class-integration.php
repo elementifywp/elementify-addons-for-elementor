@@ -13,8 +13,7 @@ use Elementify_Addons_For_Elementor\Inc\Utils;
 use Elementor\Elements_Manager;
 use Elementor\Widgets_Manager;
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Integration Handler

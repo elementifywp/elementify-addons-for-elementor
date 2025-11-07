@@ -267,7 +267,7 @@
 
             .at-btn-close {
                 margin-bottom: 0;
-                background: red;
+                background: #f00;
                 border-radius: 50px;
                 padding: 5px;
                 text-align: center;
@@ -486,13 +486,13 @@
 
     .at-cont-sdbar-wrp {
         .at-col-7 {
-            ms-flex: 0 0 100%;
+            -ms-flex: 0 0 100%;
             flex: 0 0 100%;
             max-width: 100%;
         }
 
         .at-col-5 {
-            ms-flex: 0 0 100%;
+            -ms-flex: 0 0 100%;
             flex: 0 0 100%;
             max-width: 100%;
         }

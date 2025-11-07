@@ -24,8 +24,7 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Icons_Manager;
 use Elementify_Addons_For_Elementor\Inc\Utils as ElementifyUtils;
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Tabs Widget.

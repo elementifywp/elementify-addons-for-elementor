@@ -18,8 +18,7 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Image_Size;
 use Elementify_Addons_For_Elementor\Inc\Utils as ElementifyUtils;
 
-// Abort if called directly.
-defined( 'WPINC' ) || die;
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Logos Widget
