@@ -1,7 +1,7 @@
 module.exports = {
     content: [
         './assets/src/js/**/*.{js,jsx,ts,tsx}',
-        './includes/**/*.php',
+        './inc/**/*.php',
         './templates/**/*.php', // if using templates
         './*.php',              // root files like index.php
         './assets/**/*.html',   // if using HTML templates
@@ -15,7 +15,4 @@ module.exports = {
             },
         },
     },
-    plugins: [
-        require('@tailwindcss/aspect-ratio'),
-    ],
 }

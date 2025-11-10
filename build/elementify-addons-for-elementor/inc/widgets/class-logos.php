@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Logos Widget.
  *
@@ -19,497 +18,494 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Image_Size;
 use Elementify_Addons_For_Elementor\Inc\Utils as ElementifyUtils;
 
-if (! defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
-}
+defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
 /**
  * Logos Widget
  *
  * @since 1.0.0
  */
-class Logos extends Widget_Base
-{
-    /**
-     * Get widget name.
-     *
-     * @since 1.0.0
-     * @return string Widget name.
-     */
-    public function get_name(): string
-    {
-        return 'eae-logos';
-    }
+class Logos extends Widget_Base {
 
-    /**
-     * Get widget title.
-     *
-     * @since 1.0.0
-     * @return string Widget title.
-     */
-    public function get_title(): string
-    {
-        return esc_html__('Logos Carousel', 'elementify-addons-for-elementor');
-    }
+	/**
+	 * Get widget name.
+	 *
+	 * @since 1.0.0
+	 * @return string Widget name.
+	 */
+	public function get_name(): string {
+		return 'eae-logos';
+	}
 
-    /**
-     * Get widget icon.
-     *
-     * @since 1.0.0
-     * @return string Widget icon.
-     */
-    public function get_icon(): string
-    {
-        return 'eae-icon-logo-carousel';
-    }
+	/**
+	 * Get widget title.
+	 *
+	 * @since 1.0.0
+	 * @return string Widget title.
+	 */
+	public function get_title(): string {
+		return esc_html__( 'Logos Carousel', 'elementify-addons-for-elementor' );
+	}
 
-    /**
-     * Get widget categories.
-     *
-     * @since 1.0.0
-     * @return array Widget categories.
-     */
-    public function get_categories(): array
-    {
-        return ['elementify-addons-for-elementor-category'];
-    }
+	/**
+	 * Get widget icon.
+	 *
+	 * @since 1.0.0
+	 * @return string Widget icon.
+	 */
+	public function get_icon(): string {
+		return 'eae-icon-logo-carousel';
+	}
 
-    /**
-     * Get style dependencies.
-     *
-     * @since 1.0.0
-     * @return array CSS style handles.
-     */
-    public function get_style_depends(): array
-    {
-        return ['elementify-addons-for-elementor-widget'];
-    }
+	/**
+	 * Get widget categories.
+	 *
+	 * @since 1.0.0
+	 * @return array Widget categories.
+	 */
+	public function get_categories(): array {
+		return array( 'elementify-addons-for-elementor-category' );
+	}
 
-    /**
-     * Get script dependencies.
-     *
-     * @since 1.0.0
-     * @return array Script dependencies.
-     */
-    public function get_script_depends(): array
-    {
-        return ['elementify-addons-for-elementor-widget'];
-    }
+	/**
+	 * Get style dependencies.
+	 *
+	 * @since 1.0.0
+	 * @return array CSS style handles.
+	 */
+	public function get_style_depends(): array {
+		return array( 'elementify-addons-for-elementor-widget' );
+	}
 
-    /**
-     * Get widget keywords.
-     *
-     * @since 1.0.0
-     * @return array Widget keywords.
-     */
-    public function get_keywords(): array
-    {
-        return ['elementify', 'logos', 'carousel', 'brands', 'clients'];
-    }
+	/**
+	 * Get script dependencies.
+	 *
+	 * @since 1.0.0
+	 * @return array Script dependencies.
+	 */
+	public function get_script_depends(): array {
+		return array( 'elementify-addons-for-elementor-widget' );
+	}
 
-    /**
-     * Register all widget controls.
-     *
-     * @since 1.0.0
-     */
-    protected function register_controls(): void
-    {
-        $this->register_content_controls();
-        $this->register_style_controls();
-    }
+	/**
+	 * Get widget keywords.
+	 *
+	 * @since 1.0.0
+	 * @return array Widget keywords.
+	 */
+	public function get_keywords(): array {
+		return array( 'elementify', 'logos', 'carousel', 'brands', 'clients' );
+	}
 
-    /**
-     * Register content controls.
-     *
-     * @since 1.0.0
-     */
-    protected function register_content_controls(): void
-    {
-        $this->start_controls_section(
-            'content_section',
-            [
-                'label' => esc_html__('Content', 'elementify-addons-for-elementor'),
-                'tab'   => Controls_Manager::TAB_CONTENT,
-            ]
-        );
+	/**
+	 * Register all widget controls.
+	 *
+	 * @since 1.0.0
+	 */
+	protected function register_controls(): void {
+		$this->register_content_controls();
+		$this->register_style_controls();
+	}
 
-        $repeater = new Repeater();
+	/**
+	 * Register content controls.
+	 *
+	 * @since 1.0.0
+	 */
+	protected function register_content_controls(): void {
+		$this->start_controls_section(
+			'content_section',
+			array(
+				'label' => esc_html__( 'Content', 'elementify-addons-for-elementor' ),
+				'tab'   => Controls_Manager::TAB_CONTENT,
+			)
+		);
 
-        $repeater->add_control(
-            'logo_title',
-            [
-                'label'       => esc_html__('Title', 'elementify-addons-for-elementor'),
-                'type'        => Controls_Manager::TEXT,
-                'default'     => esc_html__('Logo', 'elementify-addons-for-elementor'),
-                'dynamic'     => ['active' => true],
-                'label_block' => true,
-            ]
-        );
+		$repeater = new Repeater();
 
-        $repeater->add_control(
-            'logo_image',
-            [
-                'label'       => esc_html__('Image', 'elementify-addons-for-elementor'),
-                'type'        => Controls_Manager::MEDIA,
-                'default'     => [
-                    'url' => Utils::get_placeholder_image_src(),
-                ],
-                'dynamic'    => ['active' => true],
-                'label_block' => true,
-            ]
-        );
+		$repeater->add_control(
+			'logo_title',
+			array(
+				'label'       => esc_html__( 'Title', 'elementify-addons-for-elementor' ),
+				'type'        => Controls_Manager::TEXT,
+				'default'     => esc_html__( 'Logo', 'elementify-addons-for-elementor' ),
+				'dynamic'     => array( 'active' => true ),
+				'label_block' => true,
+			)
+		);
 
-        $repeater->add_control(
-            'logo_link',
-            [
-                'label'       => esc_html__('Link', 'elementify-addons-for-elementor'),
-                'type'        => Controls_Manager::URL,
-                'placeholder' => esc_html__('https://your-link.com', 'elementify-addons-for-elementor'),
-                'dynamic'     => ['active' => true],
-                'default'     => [
-                    'url' => '',
-                    'is_external' => false,
-                    'nofollow' => false,
-                ],
-            ]
-        );
+		$repeater->add_control(
+			'logo_image',
+			array(
+				'label'       => esc_html__( 'Image', 'elementify-addons-for-elementor' ),
+				'type'        => Controls_Manager::MEDIA,
+				'default'     => array(
+					'url' => Utils::get_placeholder_image_src(),
+				),
+				'dynamic'     => array( 'active' => true ),
+				'label_block' => true,
+			)
+		);
 
-        $this->add_control(
-            'logos_list',
-            [
-                'label'       => esc_html__('Logos', 'elementify-addons-for-elementor'),
-                'type'        => Controls_Manager::REPEATER,
-                'fields'      => $repeater->get_controls(),
-                'default'     => [
-                    ['logo_title' => esc_html__('Logo 1', 'elementify-addons-for-elementor')],
-                    ['logo_title' => esc_html__('Logo 2', 'elementify-addons-for-elementor')],
-                    ['logo_title' => esc_html__('Logo 3', 'elementify-addons-for-elementor')],
-                ],
-                'title_field' => '{{{ logo_title }}}',
-            ]
-        );
+		$repeater->add_control(
+			'logo_link',
+			array(
+				'label'       => esc_html__( 'Link', 'elementify-addons-for-elementor' ),
+				'type'        => Controls_Manager::URL,
+				'placeholder' => esc_html__( 'https://your-link.com', 'elementify-addons-for-elementor' ),
+				'dynamic'     => array( 'active' => true ),
+				'default'     => array(
+					'url'         => '',
+					'is_external' => false,
+					'nofollow'    => false,
+				),
+			)
+		);
 
-        $this->add_control(
-            'direction',
-            [
-                'label'     => esc_html__('Scroll Direction', 'elementify-addons-for-elementor'),
-                'type'      => Controls_Manager::SELECT,
-                'default'   => 'left',
-                'options'   => [
-                    'left'  => esc_html__('Left', 'elementify-addons-for-elementor'),
-                    'right' => esc_html__('Right', 'elementify-addons-for-elementor'),
-                ],
-                'separator' => 'before',
-            ]
-        );
+		$this->add_control(
+			'logos_list',
+			array(
+				'label'       => esc_html__( 'Logos', 'elementify-addons-for-elementor' ),
+				'type'        => Controls_Manager::REPEATER,
+				'fields'      => $repeater->get_controls(),
+				'default'     => array(
+					array( 'logo_title' => esc_html__( 'Logo 1', 'elementify-addons-for-elementor' ) ),
+					array( 'logo_title' => esc_html__( 'Logo 2', 'elementify-addons-for-elementor' ) ),
+					array( 'logo_title' => esc_html__( 'Logo 3', 'elementify-addons-for-elementor' ) ),
+				),
+				'title_field' => '{{{ logo_title }}}',
+			)
+		);
 
-        $this->add_control(
-            'scroll_speed',
-            [
-                'label'     => esc_html__('Scroll Speed (seconds)', 'elementify-addons-for-elementor'),
-                'type'      => Controls_Manager::NUMBER,
-                'default'  => 40,
-                'min'       => 5,
-                'max'       => 100,
-                'selectors' => [
-                    '{{WRAPPER}} .eae-logo-scroller' => '--animation-duration: {{VALUE}}s;',
-                ],
-            ]
-        );
+		$this->add_control(
+			'direction',
+			array(
+				'label'     => esc_html__( 'Scroll Direction', 'elementify-addons-for-elementor' ),
+				'type'      => Controls_Manager::SELECT,
+				'default'   => 'left',
+				'options'   => array(
+					'left'  => esc_html__( 'Left', 'elementify-addons-for-elementor' ),
+					'right' => esc_html__( 'Right', 'elementify-addons-for-elementor' ),
+				),
+				'separator' => 'before',
+			)
+		);
 
-        $this->add_responsive_control(
-            'logo_width',
-            [
-                'label'      => esc_html__('Logo Width', 'elementify-addons-for-elementor'),
-                'type'       => Controls_Manager::SLIDER,
-                'size_units' => ['px', '%'],
-                'range'      => [
-                    'px' => ['min' => 50, 'max' => 500],
-                    '%'  => ['min' => 5, 'max' => 100],
-                ],
-                'default'   => ['unit' => 'px', 'size' => 200],
-                'selectors'  => [
-                    '{{WRAPPER}} .eae-logo-item' => 'width: {{SIZE}}{{UNIT}};',
-                ],
-            ]
-        );
+		$this->add_control(
+			'scroll_speed',
+			array(
+				'label'     => esc_html__( 'Scroll Speed (seconds)', 'elementify-addons-for-elementor' ),
+				'type'      => Controls_Manager::NUMBER,
+				'default'   => 40,
+				'min'       => 5,
+				'max'       => 100,
+				'selectors' => array(
+					'{{WRAPPER}} .eae-logo-scroller' => '--animation-duration: {{VALUE}}s;',
+				),
+			)
+		);
 
-        $this->add_control(
-            'enable_links',
-            [
-                'label'     => esc_html__('Enable Links', 'elementify-addons-for-elementor'),
-                'type'      => Controls_Manager::SWITCHER,
-                'default'   => 'yes',
-                'separator' => 'before',
-            ]
-        );
+		$this->add_responsive_control(
+			'logo_width',
+			array(
+				'label'      => esc_html__( 'Logo Width', 'elementify-addons-for-elementor' ),
+				'type'       => Controls_Manager::SLIDER,
+				'size_units' => array( 'px', '%' ),
+				'range'      => array(
+					'px' => array(
+						'min' => 50,
+						'max' => 500,
+					),
+					'%'  => array(
+						'min' => 5,
+						'max' => 100,
+					),
+				),
+				'default'    => array(
+					'unit' => 'px',
+					'size' => 200,
+				),
+				'selectors'  => array(
+					'{{WRAPPER}} .eae-logo-item' => 'width: {{SIZE}}{{UNIT}};',
+				),
+			)
+		);
 
-        $this->add_control(
-            'pause_on_hover',
-            [
-                'label'     => esc_html__('Pause on Hover', 'elementify-addons-for-elementor'),
-                'type'      => Controls_Manager::SWITCHER,
-                'default'   => 'no',
-                'separator' => 'before',
-            ]
-        );
+		$this->add_control(
+			'enable_links',
+			array(
+				'label'     => esc_html__( 'Enable Links', 'elementify-addons-for-elementor' ),
+				'type'      => Controls_Manager::SWITCHER,
+				'default'   => 'yes',
+				'separator' => 'before',
+			)
+		);
 
-        $this->end_controls_section();
-    }
+		$this->add_control(
+			'pause_on_hover',
+			array(
+				'label'     => esc_html__( 'Pause on Hover', 'elementify-addons-for-elementor' ),
+				'type'      => Controls_Manager::SWITCHER,
+				'default'   => 'no',
+				'separator' => 'before',
+			)
+		);
 
-    /**
-     * Register style controls.
-     *
-     * @since 1.0.0
-     */
-    protected function register_style_controls(): void
-    {
-        $this->start_controls_section(
-            'logo_style_section',
-            [
-                'label' => esc_html__('Logos', 'elementify-addons-for-elementor'),
-                'tab'   => Controls_Manager::TAB_STYLE,
-            ]
-        );
+		$this->end_controls_section();
+	}
 
-        $this->add_control(
-            'logo_hover_effect',
-            [
-                'label'   => esc_html__('Hover Effect', 'elementify-addons-for-elementor'),
-                'type'    => Controls_Manager::SELECT,
-                'options' => [
-                    'none'      => esc_html__('None', 'elementify-addons-for-elementor'),
-                    'grayscale' => esc_html__('Grayscale', 'elementify-addons-for-elementor'),
-                    'scale'     => esc_html__('Scale', 'elementify-addons-for-elementor'),
-                    'opacity'   => esc_html__('Opacity', 'elementify-addons-for-elementor'),
-                ],
-                'default' => 'none',
-                'prefix_class' => 'eae-logo-hover-',
-            ]
-        );
+	/**
+	 * Register style controls.
+	 *
+	 * @since 1.0.0
+	 */
+	protected function register_style_controls(): void {
+		$this->start_controls_section(
+			'logo_style_section',
+			array(
+				'label' => esc_html__( 'Logos', 'elementify-addons-for-elementor' ),
+				'tab'   => Controls_Manager::TAB_STYLE,
+			)
+		);
 
-        $this->add_group_control(
-            Group_Control_Border::get_type(),
-            [
-                'name'      => 'logo_border',
-                'selector'  => '{{WRAPPER}} .eae-logo-item',
-                'separator' => 'before',
-            ]
-        );
+		$this->add_control(
+			'logo_hover_effect',
+			array(
+				'label'        => esc_html__( 'Hover Effect', 'elementify-addons-for-elementor' ),
+				'type'         => Controls_Manager::SELECT,
+				'options'      => array(
+					'none'      => esc_html__( 'None', 'elementify-addons-for-elementor' ),
+					'grayscale' => esc_html__( 'Grayscale', 'elementify-addons-for-elementor' ),
+					'scale'     => esc_html__( 'Scale', 'elementify-addons-for-elementor' ),
+					'opacity'   => esc_html__( 'Opacity', 'elementify-addons-for-elementor' ),
+				),
+				'default'      => 'none',
+				'prefix_class' => 'eae-logo-hover-',
+			)
+		);
 
-        $this->add_responsive_control(
-            'logo_border_radius',
-            [
-                'label'      => esc_html__('Border Radius', 'elementify-addons-for-elementor'),
-                'type'       => Controls_Manager::DIMENSIONS,
-                'size_units' => ['px', '%'],
-                'selectors' => [
-                    '{{WRAPPER}} .eae-logo-item' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-            ]
-        );
+		$this->add_group_control(
+			Group_Control_Border::get_type(),
+			array(
+				'name'      => 'logo_border',
+				'selector'  => '{{WRAPPER}} .eae-logo-item',
+				'separator' => 'before',
+			)
+		);
 
-        $this->add_group_control(
-            Group_Control_Box_Shadow::get_type(),
-            [
-                'name'     => 'logo_shadow',
-                'selector' => '{{WRAPPER}} .eae-logo-item',
-            ]
-        );
+		$this->add_responsive_control(
+			'logo_border_radius',
+			array(
+				'label'      => esc_html__( 'Border Radius', 'elementify-addons-for-elementor' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .eae-logo-item' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
 
-        $this->add_responsive_control(
-            'logo_padding',
-            [
-                'label'      => esc_html__('Padding', 'elementify-addons-for-elementor'),
-                'type'       => Controls_Manager::DIMENSIONS,
-                'size_units' => ['px', '%'],
-                'selectors'  => [
-                    '{{WRAPPER}} .eae-logo-item' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-                'separator' => 'before',
-            ]
-        );
+		$this->add_group_control(
+			Group_Control_Box_Shadow::get_type(),
+			array(
+				'name'     => 'logo_shadow',
+				'selector' => '{{WRAPPER}} .eae-logo-item',
+			)
+		);
 
-        $this->add_responsive_control(
-            'logo_margin',
-            [
-                'label'      => esc_html__('Margin', 'elementify-addons-for-elementor'),
-                'type'       => Controls_Manager::DIMENSIONS,
-                'size_units' => ['px', '%'],
-                'selectors'  => [
-                    '{{WRAPPER}} .eae-logo-item' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-            ]
-        );
+		$this->add_responsive_control(
+			'logo_padding',
+			array(
+				'label'      => esc_html__( 'Padding', 'elementify-addons-for-elementor' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .eae-logo-item' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+				'separator'  => 'before',
+			)
+		);
 
-        $this->end_controls_section();
+		$this->add_responsive_control(
+			'logo_margin',
+			array(
+				'label'      => esc_html__( 'Margin', 'elementify-addons-for-elementor' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .eae-logo-item' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
 
-        $this->start_controls_section(
-            'container_style_section',
-            [
-                'label' => esc_html__('Container', 'elementify-addons-for-elementor'),
-                'tab'   => Controls_Manager::TAB_STYLE,
-            ]
-        );
+		$this->end_controls_section();
 
-        $this->add_group_control(
-            Group_Control_Background::get_type(),
-            [
-                'name'     => 'container_background',
-                'types'    => ['classic', 'gradient'],
-                'selector' => '{{WRAPPER}} .eae-logo-scroller',
-            ]
-        );
+		$this->start_controls_section(
+			'container_style_section',
+			array(
+				'label' => esc_html__( 'Container', 'elementify-addons-for-elementor' ),
+				'tab'   => Controls_Manager::TAB_STYLE,
+			)
+		);
 
-        $this->add_responsive_control(
-            'container_padding',
-            [
-                'label'      => esc_html__('Padding', 'elementify-addons-for-elementor'),
-                'type'       => Controls_Manager::DIMENSIONS,
-                'size_units' => ['px', '%'],
-                'selectors'  => [
-                    '{{WRAPPER}} .eae-logo-scroller' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-            ]
-        );
+		$this->add_group_control(
+			Group_Control_Background::get_type(),
+			array(
+				'name'     => 'container_background',
+				'types'    => array( 'classic', 'gradient' ),
+				'selector' => '{{WRAPPER}} .eae-logo-scroller',
+			)
+		);
 
-        $this->add_responsive_control(
-            'container_margin',
-            [
-                'label'      => esc_html__('Margin', 'elementify-addons-for-elementor'),
-                'type'       => Controls_Manager::DIMENSIONS,
-                'size_units' => ['px', '%'],
-                'selectors'  => [
-                    '{{WRAPPER}} .eae-logos' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-            ]
-        );
+		$this->add_responsive_control(
+			'container_padding',
+			array(
+				'label'      => esc_html__( 'Padding', 'elementify-addons-for-elementor' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .eae-logo-scroller' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
 
-        $this->end_controls_section();
-    }
+		$this->add_responsive_control(
+			'container_margin',
+			array(
+				'label'      => esc_html__( 'Margin', 'elementify-addons-for-elementor' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .eae-logos' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
 
-    /**
-     * Render the logo image.
-     *
-     * @since 1.0.0
-     * @param array $logo Logo data.
-     * @return string HTML for the logo image.
-     */
-    protected function render_logo_image(array $logo): string
-    {
-        if (empty($logo['logo_image']['url'])) {
-            return '';
-        }
+		$this->end_controls_section();
+	}
 
-        $image_src = esc_url($logo['logo_image']['url']);
-        $image_id = attachment_url_to_postid($image_src);
+	/**
+	 * Render the logo image.
+	 *
+	 * @since 1.0.0
+	 * @param array $logo Logo data.
+	 * @return string HTML for the logo image.
+	 */
+	protected function render_logo_image( array $logo ): string {
+		if ( empty( $logo['logo_image']['url'] ) ) {
+			return '';
+		}
 
-        if (!$image_id) {
-            return sprintf(
-                '<img src="%s" alt="%s" class="eae-logo-img" />',
-                esc_url($image_src),
-                esc_attr($logo['logo_title'] ?? '')
-            );
-        }
+		$image_src = esc_url( $logo['logo_image']['url'] );
+		$image_id  = attachment_url_to_postid( $image_src );
 
-        $settings['image_data'] = ElementifyUtils::get_image_data($image_id, $image_src, 'thumbnail');
-        return Group_Control_Image_Size::get_attachment_image_html($settings, 'thumbnail', 'image_data');
-    }
+		if ( ! $image_id ) {
+			return sprintf(
+				'<img src="%s" alt="%s" class="eae-logo-img" />',
+				esc_url( $image_src ),
+				esc_attr( $logo['logo_title'] ?? '' )
+			);
+		}
 
-    /**
-     * Render the widget output.
-     *
-     * @since 1.0.0
-     */
-    protected function render(): void
-    {
-        $settings = $this->get_settings_for_display();
+		$settings['image_data'] = ElementifyUtils::get_image_data( $image_id, $image_src, 'thumbnail' );
+		return Group_Control_Image_Size::get_attachment_image_html( $settings, 'thumbnail', 'image_data' );
+	}
 
-        if (empty($settings['logos_list'])) {
-            return;
-        }
+	/**
+	 * Render the widget output.
+	 *
+	 * @since 1.0.0
+	 */
+	protected function render(): void {
+		$settings = $this->get_settings_for_display();
 
-        $this->add_render_attribute([
-            'wrapper' => [
-                'class' => 'eae-logos',
-            ],
-            'scroller' => [
-                'class' => 'eae-logo-scroller',
-                'data-direction' => esc_attr($settings['direction']),
-                'data-pause-hover' => esc_attr($settings['pause_on_hover']),
-            ],
-            'scroller-inner' => [
-                'class' => 'eae-logo-scroller__inner scroller__inner',
-            ],
-        ]);
+		if ( empty( $settings['logos_list'] ) ) {
+			return;
+		}
 
-?>
-        <div <?php $this->print_render_attribute_string('wrapper'); ?>>
-            <div <?php $this->print_render_attribute_string('scroller'); ?>>
-                <ul <?php $this->print_render_attribute_string('scroller-inner'); ?>>
-                    <?php foreach ($settings['logos_list'] as $item):
-                        if (empty($item['logo_image']['url'])) {
-                            continue;
-                        }
+		$this->add_render_attribute(
+			array(
+				'wrapper'        => array(
+					'class' => 'eae-logos',
+				),
+				'scroller'       => array(
+					'class'            => 'eae-logo-scroller',
+					'data-direction'   => esc_attr( $settings['direction'] ),
+					'data-pause-hover' => esc_attr( $settings['pause_on_hover'] ),
+				),
+				'scroller-inner' => array(
+					'class' => 'eae-logo-scroller__inner scroller__inner',
+				),
+			)
+		);
 
-                        $logo_link_attr = [
-                            'class' => 'eae-logo-link',
-                            'aria-label' => esc_attr($item['logo_title'] ?? ''),
-                        ];
+		?>
+		<div <?php $this->print_render_attribute_string( 'wrapper' ); ?>>
+			<div <?php $this->print_render_attribute_string( 'scroller' ); ?>>
+				<ul <?php $this->print_render_attribute_string( 'scroller-inner' ); ?>>
+					<?php
+					foreach ( $settings['logos_list'] as $item ) :
+						if ( empty( $item['logo_image']['url'] ) ) {
+							continue;
+						}
 
-                        if ('yes' === $settings['enable_links'] && !empty($item['logo_link']['url'])) {
-                            $logo_link_attr['href'] = esc_url($item['logo_link']['url']);
+						$logo_link_attr = array(
+							'class'      => 'eae-logo-link',
+							'aria-label' => esc_attr( $item['logo_title'] ?? '' ),
+						);
 
-                            if ($item['logo_link']['is_external']) {
-                                $logo_link_attr['target'] = '_blank';
-                            }
+						if ( 'yes' === $settings['enable_links'] && ! empty( $item['logo_link']['url'] ) ) {
+							$logo_link_attr['href'] = esc_url( $item['logo_link']['url'] );
 
-                            if ($item['logo_link']['nofollow']) {
-                                $logo_link_attr['rel'] = 'nofollow';
-                            }
-                        }
-                    ?>
-                        <li class="eae-logo-item">
-                            <?php if ('yes' === $settings['enable_links'] && !empty($item['logo_link']['url'])) : ?>
-                                <a <?php echo wp_kses_post($this->render_html_attributes($logo_link_attr)); ?>>
-                                    <figure class="eae-logo-image">
-                                        <?php echo wp_kses_post($this->render_logo_image($item)); ?>
-                                    </figure>
-                                </a>
-                            <?php else : ?>
-                                <figure class="eae-logo-image">
-                                    <?php echo wp_kses_post($this->render_logo_image($item)); ?>
-                                </figure>
-                            <?php endif; ?>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        </div>
-<?php
-    }
+							if ( $item['logo_link']['is_external'] ) {
+								$logo_link_attr['target'] = '_blank';
+							}
 
-    /**
-     * Utils method to render HTML attributes.
-     *
-     * @since 1.0.0
-     * @param array $attributes Key-value pairs of attributes.
-     * @return string Rendered HTML attributes.
-     */
-    protected function render_html_attributes(array $attributes): string
-    {
-        $rendered_attributes = [];
+							if ( $item['logo_link']['nofollow'] ) {
+								$logo_link_attr['rel'] = 'nofollow';
+							}
+						}
+						?>
+						<li class="eae-logo-item">
+							<?php if ( 'yes' === $settings['enable_links'] && ! empty( $item['logo_link']['url'] ) ) : ?>
+								<a <?php echo wp_kses_post( $this->render_html_attributes( $logo_link_attr ) ); ?>>
+									<figure class="eae-logo-image">
+										<?php echo wp_kses_post( $this->render_logo_image( $item ) ); ?>
+									</figure>
+								</a>
+							<?php else : ?>
+								<figure class="eae-logo-image">
+									<?php echo wp_kses_post( $this->render_logo_image( $item ) ); ?>
+								</figure>
+							<?php endif; ?>
+						</li>
+					<?php endforeach; ?>
+				</ul>
+			</div>
+		</div>
+		<?php
+	}
 
-        foreach ($attributes as $key => $value) {
-            if (is_bool($value)) {
-                if ($value) {
-                    $rendered_attributes[] = esc_attr($key);
-                }
-            } elseif (isset($value)) {
-                $rendered_attributes[] = sprintf('%s="%s"', esc_attr($key), esc_attr($value));
-            }
-        }
+	/**
+	 * Utils method to render HTML attributes.
+	 *
+	 * @since 1.0.0
+	 * @param array $attributes Key-value pairs of attributes.
+	 * @return string Rendered HTML attributes.
+	 */
+	protected function render_html_attributes( array $attributes ): string {
+		$rendered_attributes = array();
 
-        return implode(' ', $rendered_attributes);
-    }
+		foreach ( $attributes as $key => $value ) {
+			if ( is_bool( $value ) ) {
+				if ( $value ) {
+					$rendered_attributes[] = esc_attr( $key );
+				}
+			} elseif ( isset( $value ) ) {
+				$rendered_attributes[] = sprintf( '%s="%s"', esc_attr( $key ), esc_attr( $value ) );
+			}
+		}
+
+		return implode( ' ', $rendered_attributes );
+	}
 }
