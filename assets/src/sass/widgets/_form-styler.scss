@@ -130,13 +130,6 @@
         display: inline-block !important;
         max-width: 100% !important;
     }
-}
-
-.eae-forms-align-left .eae-form-styler-container div.wpforms-container-full .wpforms-form .wpforms-list-inline ul li:last-child {
-    margin-right: 0 !important;
-}
-
-.eae-form-styler-container {
 
     .wpcf7-mail-sent-ok,
     .wpforms-confirmation-container-full,
@@ -179,6 +172,13 @@
                 }
             }
         } 
+        input[type="submit"] {
+            background: var(--e-a-btn-bg) !important;
+            border-radius: 4px !important;
+            &:hover{
+                background: var(--e-a-btn-bg-hover) !important;
+            }
+        }
     }
     .checkbox-wrap {
         display: flex !important;
@@ -193,15 +193,170 @@
             }
         }
     }
-    .nf-field-element {
-        input[type="submit"] {
-            background: var(--e-a-btn-bg) !important;
-            border-radius: 4px !important;
-            &:hover{
-                background: var(--e-a-btn-bg-hover) !important;
+    .nf-form-content {
+        padding: 0;
+        max-width: none;
+
+        .label-above {
+            .field-wrap {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+
+            .nf-field-label {
+                margin-top: 0;
             }
         }
+         .list-select-wrap .nf-field-element>div,
+        input:not([type="button"]),
+        textarea {
+            background: transparent;
+            border: none;
+        }
     }
+
+    .field-wrap {
+        &:not(.textarea-wrap):not(.submit-wrap) .ninja-forms-field {
+            border-radius: 0;
+        }
+
+        &.textarea-wrap .ninja-forms-field {
+            display: block;
+        }
+
+        &.submit-wrap .ninja-forms-field {
+            cursor: pointer;
+        }
+    }
+
+    .listselect-wrap>div select.ninja-forms-field {
+        -webkit-appearance: menulist;
+        -moz-appearance: menulist;
+        appearance: menulist;
+    }
+
+    .checkbox-container.label-right .field-wrap {
+        display: block;
+    }
+
+    .listradio-wrap ul li,
+    .listcheckbox-wrap ul li {
+        margin-right: 10px !important;
+        margin-bottom: 7px !important;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .listcheckbox-container .nf-field-element label::after {
+        top: 1px;
+    }
+
+    .listradio-wrap {
+        .nf-field-element label {
+            margin-left: 25px !important;
+
+            &::after {
+                top: 0;
+                left: -25px;
+            }
+
+            &.nf-checked-label::before {
+                top: 4px;
+                left: -21px;
+            }
+        }
+
+        label {
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+    }
+
+    .checkbox-wrap label,
+    .listcheckbox-wrap label {
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    .nf-error.field-wrap .nf-field-element::after {
+        top: 0 !important;
+        bottom: 0 !important;
+        height: auto !important;
+    }
+
+    .wpforms-form .wpforms-field,
+    .wpforms-submit-container {
+        padding: 0 !important;
+    }
+
+    .wpforms-container,
+    div.wpforms-container-full .wpforms-form .wpforms-field-row,
+    .wpforms-field-address .wpforms-field-row:nth-last-child(2) {
+        margin-bottom: 0 !important;
+    }
+
+    .wpforms-submit-container::after {
+        content: " ";
+        clear: both;
+        display: table;
+    }
+
+    .caldera-grid {
+        .help-block {
+            margin-bottom: 0;
+        }
+
+        .caldera-forms-gdpr-field-label a {
+            text-decoration: underline;
+        }
+
+        .intl-tel-input input {
+            text-indent: 40px;
+        }
+
+        input.cf-credit-card {
+            text-indent: 33px;
+        }
+
+        .cf-credit-card {
+            background-position: 5px center !important;
+        }
+        .form-group {
+
+            input,
+            textarea {
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        }
+
+        .has-error .form-control {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .alert-success {
+            text-shadow: none;
+        }
+    }
+
+    .cf2-dropzone .form-control {
+        height: auto;
+    }
+}
+
+.eae-forms-align-left .eae-form-styler-container div.wpforms-container-full .wpforms-form .wpforms-list-inline ul li:last-child {
+    margin-right: 0 !important;
 }
 
 .eae-forms-submit-center {
@@ -459,175 +614,6 @@
     text-align: left !important;
 }
 
-.eae-form-styler-container {
-    .nf-form-content {
-        padding: 0;
-        max-width: none;
-
-        .label-above {
-            .field-wrap {
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                flex-direction: column;
-            }
-
-            .nf-field-label {
-                margin-top: 0;
-            }
-        }
-    }
-
-    .field-wrap {
-        &:not(.textarea-wrap):not(.submit-wrap) .ninja-forms-field {
-            border-radius: 0;
-        }
-
-        &.textarea-wrap .ninja-forms-field {
-            display: block;
-        }
-
-        &.submit-wrap .ninja-forms-field {
-            cursor: pointer;
-        }
-    }
-
-    .listselect-wrap>div select.ninja-forms-field {
-        -webkit-appearance: menulist;
-        -moz-appearance: menulist;
-        appearance: menulist;
-    }
-
-    .nf-form-content {
-
-        .list-select-wrap .nf-field-element>div,
-        input:not([type="button"]),
-        textarea {
-            background: transparent;
-            border: none;
-        }
-    }
-
-    .checkbox-container.label-right .field-wrap {
-        display: block;
-    }
-
-    .listradio-wrap ul li,
-    .listcheckbox-wrap ul li {
-        margin-right: 10px !important;
-        margin-bottom: 7px !important;
-        display: inline-flex;
-        align-items: center;
-    }
-
-    .listcheckbox-container .nf-field-element label::after {
-        top: 1px;
-    }
-
-    .listradio-wrap {
-        .nf-field-element label {
-            margin-left: 25px !important;
-
-            &::after {
-                top: 0;
-                left: -25px;
-            }
-
-            &.nf-checked-label::before {
-                top: 4px;
-                left: -21px;
-            }
-        }
-
-        label {
-            cursor: pointer;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            -o-user-select: none;
-            user-select: none;
-        }
-    }
-
-    .checkbox-wrap label,
-    .listcheckbox-wrap label {
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -o-user-select: none;
-        user-select: none;
-    }
-
-    .nf-error.field-wrap .nf-field-element::after {
-        top: 0 !important;
-        bottom: 0 !important;
-        height: auto !important;
-    }
-
-    .wpforms-form .wpforms-field,
-    .wpforms-submit-container {
-        padding: 0 !important;
-    }
-
-    .wpforms-container,
-    div.wpforms-container-full .wpforms-form .wpforms-field-row,
-    .wpforms-field-address .wpforms-field-row:nth-last-child(2) {
-        margin-bottom: 0 !important;
-    }
-
-    .wpforms-submit-container::after {
-        content: " ";
-        clear: both;
-        display: table;
-    }
-
-    .caldera-grid {
-        .help-block {
-            margin-bottom: 0;
-        }
-
-        .caldera-forms-gdpr-field-label a {
-            text-decoration: underline;
-        }
-
-        .intl-tel-input input {
-            text-indent: 40px;
-        }
-
-        input.cf-credit-card {
-            text-indent: 33px;
-        }
-
-        .cf-credit-card {
-            background-position: 5px center !important;
-        }
-    }
-
-    .cf2-dropzone .form-control {
-        height: auto;
-    }
-
-    .caldera-grid {
-        .form-group {
-
-            input,
-            textarea {
-                -webkit-box-shadow: none;
-                box-shadow: none;
-            }
-        }
-
-        .has-error .form-control {
-            -webkit-box-shadow: none;
-            box-shadow: none;
-        }
-
-        .alert-success {
-            text-shadow: none;
-        }
-    }
-}
 
 /* Defaults */
 
@@ -661,6 +647,36 @@
         .radio label,
         .caldera-forms-gdpr-field-label {
             font-size: 14px;
+            font-weight: normal;
+        }
+        .form-control {
+
+            &[type="text"],
+            &[type="email"],
+            &[type="tel"],
+            &[type="phone"],
+            &[type="number"],
+            &[type="url"],
+            &[type="color_picker"],
+            &[type="credit_card_cvc"] {
+                font-size: 13px;
+                letter-spacing: 0.2px;
+            }
+        }
+
+        select.form-control,
+        textarea.form-control {
+            font-size: 13px;
+            letter-spacing: 0.2px;
+        }
+        .btn-default,
+        .cf2-dropzone button {
+            background-color: #605BE5;
+        }
+        .btn-default:hover,
+        .btn-success,
+        .cf2-dropzone button:hover {
+            background-color: #4A45D2;
         }
     }
 
@@ -668,6 +684,14 @@
 
         .wpforms-confirmation-container-full,
         .nf-response-msg {
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .wpcf7-not-valid-tip,
+        .wpcf7-response-output,
+        label.wpforms-error,
+        .caldera_ajax_error_block,
+        .nf-error-msg {
             font-size: 14px;
         }
     }
@@ -713,29 +737,6 @@
         }
     }
 
-    .caldera-grid {
-        .form-control {
-
-            &[type="text"],
-            &[type="email"],
-            &[type="tel"],
-            &[type="phone"],
-            &[type="number"],
-            &[type="url"],
-            &[type="color_picker"],
-            &[type="credit_card_cvc"] {
-                font-size: 13px;
-                letter-spacing: 0.2px;
-            }
-        }
-
-        select.form-control,
-        textarea.form-control {
-            font-size: 13px;
-            letter-spacing: 0.2px;
-        }
-    }
-
     .wpcf7-submit,
     .submit-wrap .ninja-forms-field,
     .wpforms-submit,
@@ -744,40 +745,12 @@
         background-color: #605BE5;
     }
 
-    .caldera-grid {
-
-        .btn-default,
-        .cf2-dropzone button {
-            background-color: #605BE5;
-        }
-    }
-
     .wpcf7-submit:hover,
     .submit-wrap .ninja-forms-field:hover,
     .wpforms-submit:hover,
     .wpforms-page-next:hover,
     .wpforms-page-previous:hover {
         background-color: #4A45D2;
-    }
-
-    .caldera-grid {
-
-        .btn-default:hover,
-        .btn-success,
-        .cf2-dropzone button:hover {
-            background-color: #4A45D2;
-        }
-    }
-
-    .eae-form-styler-container {
-
-        .wpcf7-not-valid-tip,
-        .wpcf7-response-output,
-        label.wpforms-error,
-        .caldera_ajax_error_block,
-        .nf-error-msg {
-            font-size: 14px;
-        }
     }
 
     .wpcf7-form,
@@ -791,24 +764,6 @@
     .caldera-grid .control-label,
     .caldera-forms-summary-field ul li {
         font-weight: normal;
-    }
-
-    .caldera-grid {
-
-        .total-line,
-        .checkbox label,
-        .radio label,
-        .caldera-forms-gdpr-field-label {
-            font-weight: normal;
-        }
-    }
-
-    .eae-form-styler-container {
-
-        .wpforms-confirmation-container-full,
-        .nf-response-msg {
-            font-weight: normal;
-        }
     }
 
     &.nf-field-description,

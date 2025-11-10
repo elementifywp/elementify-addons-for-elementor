@@ -1751,10 +1751,6 @@
   display: block !important;
 }
 
-.at-tbl {
-  display: table !important;
-}
-
 .at-tbl-row {
   display: table-row !important;
 }
@@ -2134,6 +2130,7 @@ html {
 .at-tbl {
   caption-side: var(--at-cpt-sd, initial);
   table-layout: var(--at-tbl-lyt, initial);
+  display: table !important;
 }
 .at-ls {
   list-style-position: var(--at-ls-pos, outside);
