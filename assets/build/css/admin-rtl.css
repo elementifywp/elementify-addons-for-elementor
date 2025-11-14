@@ -5780,6 +5780,17 @@ a[disabled] {
             flex: 0 0 100%;
     max-width: 100%;
   }
+  .eae-dashboard-container .eae-dashboard-wrap .eae-content-wrap .at-ctnr-fld .eae-content-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .eae-dashboard-container .eae-dashboard-wrap .eae-content-wrap .at-ctnr-fld .eae-content-items .eae-content-items__item {
+    width: 100%;
+  }
 }
 @media (max-width: 479px) {
   .notice.wpr-plugin-update-notice {
