@@ -94,7 +94,8 @@
 			"@check-cs",
 			"@run-tests",
 			"@check-complete-strict"
-		]
+		],
+		"test": "phpunit"
 	},
 	"scripts-descriptions": {
 		"lint": "Lint PHP files against parse errors.",

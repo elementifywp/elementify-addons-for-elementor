@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Elementify Addons for Elementor 1.0.0\n"
+"Project-Id-Version: Elementify Addons for Elementor 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elementify-addons-for-elementor\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-11-06T10:57:56+00:00\n"
+"POT-Creation-Date: 2025-11-18T07:40:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -38,1507 +38,2042 @@ msgstr ""
 msgid "https://elementifywp.com/"
 msgstr ""
 
-#: inc/classes/class-plugin.php:84
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:83
+#: inc/classes/class-plugin.php:83
 msgid "Cloning is forbidden."
 msgstr ""
 
-#: inc/classes/class-plugin.php:97
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:96
+#: inc/classes/class-plugin.php:96
 msgid "Unserializing instances of this class is forbidden."
 msgstr ""
 
+#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:79
 #: inc/classes/class-rest-endpoint.php:79
 msgid "You do not have permission to access this resource."
 msgstr ""
 
+#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:122
 #: inc/classes/class-rest-endpoint.php:122
 msgid "Invalid settings data provided."
 msgstr ""
 
+#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:215
 #: inc/classes/class-rest-endpoint.php:215
 msgid "The settings data could not be sanitized."
 msgstr ""
 
-#: inc/classes/class-utils.php:59
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:58
+#: inc/classes/class-utils.php:58
 msgid "(no title)"
 msgstr ""
 
-#: inc/classes/class-utils.php:74
-#: inc/classes/class-utils.php:413
-#: inc/classes/class-utils.php:421
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:73
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:412
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:420
+#: inc/classes/class-utils.php:73
+#: inc/classes/class-utils.php:412
+#: inc/classes/class-utils.php:420
 msgid "Elementify Addons"
 msgstr ""
 
-#: inc/classes/class-utils.php:234
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:233
+#: inc/classes/class-utils.php:233
 msgid "Full"
 msgstr ""
 
-#: inc/classes/class-utils.php:329
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:328
+#: inc/classes/class-utils.php:328
 msgid "Enable animation text."
 msgstr ""
 
-#: inc/classes/class-utils.php:334
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:333
+#: inc/classes/class-utils.php:333
 msgid "Enable from styler."
 msgstr ""
 
-#: inc/classes/class-utils.php:339
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:338
+#: inc/classes/class-utils.php:338
 msgid "Enable tabs."
 msgstr ""
 
-#: inc/classes/class-utils.php:344
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:343
+#: inc/classes/class-utils.php:343
 msgid "Enable logos."
 msgstr ""
 
-#: inc/classes/class-utils.php:349
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:348
+#: inc/classes/class-utils.php:348
 msgid "Enable testimonials."
 msgstr ""
 
-#: inc/classes/class-utils.php:354
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:353
+#: inc/classes/class-utils.php:353
 msgid "Enable Portfolio."
 msgstr ""
 
-#: inc/classes/class-utils.php:420
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:419
+#: inc/classes/class-utils.php:419
 msgid "Elementify Addons Page"
 msgstr ""
 
 #. translators: %s is the plugin name
-#: inc/classes/class-utils.php:432
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:431
+#: inc/classes/class-utils.php:431
 #, php-format
 msgid "Thank you for selecting %s for Elementor – your new go-to tool for creating stunning, functional, and super-fast websites without any coding."
 msgstr ""
 
-#: inc/classes/class-utils.php:447
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:446
+#: inc/classes/class-utils.php:446
 msgid "Join Our Facebook Community"
 msgstr ""
 
-#: inc/classes/class-utils.php:448
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:447
+#: inc/classes/class-utils.php:447
 msgid "Become part of a larger community!. Connect with fellow designers, showcase your work, gain inspiration, and keep up with exclusive tips and insights from our team and community members."
 msgstr ""
 
-#: inc/classes/class-utils.php:449
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:448
+#: inc/classes/class-utils.php:448
 msgid "Join Now"
 msgstr ""
 
-#: inc/classes/class-utils.php:457
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:456
+#: inc/classes/class-utils.php:456
 msgid "Need Assistance or Have Inquiries?"
 msgstr ""
 
-#: inc/classes/class-utils.php:458
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:457
+#: inc/classes/class-utils.php:457
 msgid "We’re here for you – anytime! Whether you’re facing a technical issue or exploring a feature, our dedicated support team is available 24/7 to assist you. Get live help or submit a ticket, and we’ll take care of it."
 msgstr ""
 
-#: inc/classes/class-utils.php:459
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:458
+#: inc/classes/class-utils.php:458
 msgid "Get Support"
 msgstr ""
 
-#: inc/classes/class-utils.php:475
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:474
+#: inc/classes/class-utils.php:474
 msgid "Stay Updated"
 msgstr ""
 
-#: inc/classes/class-utils.php:476
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:475
+#: inc/classes/class-utils.php:475
 msgid "Subscribe to Our Newsletter! Don’t miss out on new feature releases, tutorials, design inspiration, or special offers. Our newsletter is concise, engaging, and always a great read."
 msgstr ""
 
-#: inc/classes/class-utils.php:477
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:476
+#: inc/classes/class-utils.php:476
 msgid "Subscribe Now"
 msgstr ""
 
-#: inc/classes/class-utils.php:492
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:491
+#: inc/classes/class-utils.php:491
 msgid "Docs & Tutorials or Guides & Resources"
 msgstr ""
 
-#: inc/classes/class-utils.php:493
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:492
+#: inc/classes/class-utils.php:492
 msgid "Become proficient with ElementifyWP — Gradually. Our detailed documentation serves as your primary resource for all things ElementifyWP. Regardless of whether you`re a beginner or diving into more advanced features, you`ll discover all the solutions in our extensive knowledge base, filled with images, videos, and recommended practices."
 msgstr ""
 
-#: inc/classes/class-utils.php:496
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:495
+#: inc/classes/class-utils.php:495
 msgid "Documentation"
 msgstr ""
 
-#: inc/classes/class-utils.php:504
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:503
+#: inc/classes/class-utils.php:503
 msgid "SEO"
 msgstr ""
 
-#: inc/classes/class-utils.php:508
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:507
+#: inc/classes/class-utils.php:507
 msgid "Advanced Animated Text"
 msgstr ""
 
-#: inc/classes/class-utils.php:512
-#: inc/widgets/class-form-styler.php:49
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:511
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:48
+#: inc/classes/class-utils.php:511
+#: inc/widgets/class-form-styler.php:48
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:71
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Form Styler"
 msgstr ""
 
-#: inc/classes/class-utils.php:516
-#: inc/widgets/class-logos.php:48
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:515
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:47
+#: inc/classes/class-utils.php:515
+#: inc/widgets/class-logos.php:47
 msgid "Logos Carousel"
 msgstr ""
 
-#: inc/classes/class-utils.php:520
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:519
+#: inc/classes/class-utils.php:519
 msgid "Portfolio Widget"
 msgstr ""
 
-#: inc/classes/class-utils.php:524
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:523
+#: inc/classes/class-utils.php:523
 msgid "Tabs Widget"
 msgstr ""
 
-#: inc/classes/class-utils.php:528
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:527
+#: inc/classes/class-utils.php:527
 msgid "Testimonials Carousel"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:49
-#: inc/widgets/class-animated-text.php:422
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:48
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:421
+#: inc/widgets/class-animated-text.php:48
+#: inc/widgets/class-animated-text.php:421
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:56
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Animated Text"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:129
-#: inc/widgets/class-form-styler.php:128
-#: inc/widgets/class-logos.php:120
-#: inc/widgets/class-portfolio.php:144
-#: inc/widgets/class-tabs.php:105
-#: inc/widgets/class-tabs.php:181
-#: inc/widgets/class-tabs.php:998
-#: inc/widgets/class-testimonials.php:133
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:128
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:127
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:119
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:143
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:104
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:180
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:997
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:132
+#: inc/widgets/class-animated-text.php:128
+#: inc/widgets/class-form-styler.php:127
+#: inc/widgets/class-logos.php:119
+#: inc/widgets/class-portfolio.php:143
+#: inc/widgets/class-tabs.php:104
+#: inc/widgets/class-tabs.php:180
+#: inc/widgets/class-tabs.php:997
+#: inc/widgets/class-testimonials.php:132
 msgid "Content"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:137
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:136
+#: inc/widgets/class-animated-text.php:136
 msgid "Before Text"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:140
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:139
+#: inc/widgets/class-animated-text.php:139
 msgid "This is"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:149
-#: inc/widgets/class-animated-text.php:179
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:148
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:178
+#: inc/widgets/class-animated-text.php:148
+#: inc/widgets/class-animated-text.php:178
 msgid "Text"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:153
-#: inc/widgets/class-animated-text.php:160
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:152
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:159
+#: inc/widgets/class-animated-text.php:152
+#: inc/widgets/class-animated-text.php:159
 msgid "Dynamic Text"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:163
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:162
+#: inc/widgets/class-animated-text.php:162
 msgid "Designer"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:164
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:163
+#: inc/widgets/class-animated-text.php:163
 msgid "Developer"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:165
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:164
+#: inc/widgets/class-animated-text.php:164
 msgid "Awesome"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:176
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:175
+#: inc/widgets/class-animated-text.php:175
 msgid "After Text"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:188
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:187
+#: inc/widgets/class-animated-text.php:187
 msgid "HTML Tag"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:209
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:208
+#: inc/widgets/class-animated-text.php:208
 msgid "Display"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:212
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:211
+#: inc/widgets/class-animated-text.php:211
 msgid "Inline"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:213
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:212
+#: inc/widgets/class-animated-text.php:212
 msgid "Block"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:226
-#: inc/widgets/class-form-styler.php:1587
-#: inc/widgets/class-portfolio.php:547
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:225
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1586
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:546
+#: inc/widgets/class-animated-text.php:225
+#: inc/widgets/class-form-styler.php:1586
+#: inc/widgets/class-portfolio.php:546
 msgid "Alignment"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:230
-#: inc/widgets/class-form-styler.php:452
-#: inc/widgets/class-form-styler.php:1591
-#: inc/widgets/class-logos.php:188
-#: inc/widgets/class-portfolio.php:551
-#: inc/widgets/class-tabs.php:344
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:229
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:451
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1590
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:187
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:550
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:343
+#: inc/widgets/class-animated-text.php:229
+#: inc/widgets/class-form-styler.php:451
+#: inc/widgets/class-form-styler.php:1590
+#: inc/widgets/class-logos.php:187
+#: inc/widgets/class-portfolio.php:550
+#: inc/widgets/class-tabs.php:343
 msgid "Left"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:234
-#: inc/widgets/class-form-styler.php:456
-#: inc/widgets/class-form-styler.php:1595
-#: inc/widgets/class-portfolio.php:491
-#: inc/widgets/class-portfolio.php:523
-#: inc/widgets/class-portfolio.php:555
-#: inc/widgets/class-portfolio.php:712
-#: inc/widgets/class-tabs.php:278
-#: inc/widgets/class-tabs.php:313
-#: inc/widgets/class-tabs.php:348
-#: inc/widgets/class-tabs.php:853
-#: inc/widgets/class-testimonials.php:318
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:233
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:455
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1594
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:490
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:522
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:554
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:711
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:277
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:312
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:347
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:852
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:317
+#: inc/widgets/class-animated-text.php:233
+#: inc/widgets/class-form-styler.php:455
+#: inc/widgets/class-form-styler.php:1594
+#: inc/widgets/class-portfolio.php:490
+#: inc/widgets/class-portfolio.php:522
+#: inc/widgets/class-portfolio.php:554
+#: inc/widgets/class-portfolio.php:711
+#: inc/widgets/class-tabs.php:277
+#: inc/widgets/class-tabs.php:312
+#: inc/widgets/class-tabs.php:347
+#: inc/widgets/class-tabs.php:852
+#: inc/widgets/class-testimonials.php:317
 msgid "Center"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:238
-#: inc/widgets/class-form-styler.php:460
-#: inc/widgets/class-form-styler.php:1599
-#: inc/widgets/class-logos.php:189
-#: inc/widgets/class-portfolio.php:559
-#: inc/widgets/class-tabs.php:352
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:237
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:459
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1598
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:188
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:558
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:351
+#: inc/widgets/class-animated-text.php:237
+#: inc/widgets/class-form-styler.php:459
+#: inc/widgets/class-form-styler.php:1598
+#: inc/widgets/class-logos.php:188
+#: inc/widgets/class-portfolio.php:558
+#: inc/widgets/class-tabs.php:351
 msgid "Right"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:253
-#: inc/widgets/class-logos.php:154
-#: inc/widgets/class-testimonials.php:198
-#: inc/widgets/class-testimonials.php:679
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:252
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:153
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:197
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:678
+#: inc/widgets/class-animated-text.php:252
+#: inc/widgets/class-logos.php:153
+#: inc/widgets/class-testimonials.php:197
+#: inc/widgets/class-testimonials.php:678
 msgid "Link"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:273
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:272
+#: inc/widgets/class-animated-text.php:272
 msgid "Animation Settings"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:281
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:280
+#: inc/widgets/class-animated-text.php:280
 msgid "Typing Speed (ms)"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:287
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:286
+#: inc/widgets/class-animated-text.php:286
 msgid "Speed at which typing happens in milliseconds."
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:294
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:293
+#: inc/widgets/class-animated-text.php:293
 msgid "Backspace Speed (ms)"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:300
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:299
+#: inc/widgets/class-animated-text.php:299
 msgid "Speed at which backspacing happens in milliseconds."
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:307
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:306
+#: inc/widgets/class-animated-text.php:306
 msgid "Start Delay (ms)"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:313
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:312
+#: inc/widgets/class-animated-text.php:312
 msgid "Delay before typing starts in milliseconds."
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:320
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:319
+#: inc/widgets/class-animated-text.php:319
 msgid "Backspace Delay (ms)"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:326
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:325
+#: inc/widgets/class-animated-text.php:325
 msgid "Delay before backspacing in milliseconds."
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:333
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:332
+#: inc/widgets/class-animated-text.php:332
 msgid "Loop Animation"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:343
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:342
+#: inc/widgets/class-animated-text.php:342
 msgid "Show Cursor"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:353
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:352
+#: inc/widgets/class-animated-text.php:352
 msgid "Fade Out Effect"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:362
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:361
+#: inc/widgets/class-animated-text.php:361
 msgid "Smart Backspace"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:365
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:364
+#: inc/widgets/class-animated-text.php:364
 msgid "Only backspace what doesn't match the next string"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:383
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:382
+#: inc/widgets/class-animated-text.php:382
 msgid "Static Text"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:391
-#: inc/widgets/class-animated-text.php:430
-#: inc/widgets/class-form-styler.php:768
-#: inc/widgets/class-form-styler.php:851
-#: inc/widgets/class-form-styler.php:1013
-#: inc/widgets/class-portfolio.php:974
-#: inc/widgets/class-portfolio.php:1060
-#: inc/widgets/class-portfolio.php:1145
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:390
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:429
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:767
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:850
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1012
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:973
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1059
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1144
+#: inc/widgets/class-animated-text.php:390
+#: inc/widgets/class-animated-text.php:429
+#: inc/widgets/class-form-styler.php:767
+#: inc/widgets/class-form-styler.php:850
+#: inc/widgets/class-form-styler.php:1012
+#: inc/widgets/class-portfolio.php:973
+#: inc/widgets/class-portfolio.php:1059
+#: inc/widgets/class-portfolio.php:1144
 msgid "Text Color"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:459
-#: inc/widgets/class-form-styler.php:480
-#: inc/widgets/class-form-styler.php:928
-#: inc/widgets/class-form-styler.php:1090
-#: inc/widgets/class-testimonials.php:773
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:458
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:479
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:927
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1089
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:772
+#: inc/widgets/class-animated-text.php:458
+#: inc/widgets/class-form-styler.php:479
+#: inc/widgets/class-form-styler.php:927
+#: inc/widgets/class-form-styler.php:1089
+#: inc/widgets/class-testimonials.php:772
 msgid "Background Color"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:471
-#: inc/widgets/class-form-styler.php:553
-#: inc/widgets/class-form-styler.php:1461
-#: inc/widgets/class-form-styler.php:1846
-#: inc/widgets/class-logos.php:320
-#: inc/widgets/class-logos.php:364
-#: inc/widgets/class-portfolio.php:1246
-#: inc/widgets/class-portfolio.php:1534
-#: inc/widgets/class-portfolio.php:1667
-#: inc/widgets/class-portfolio.php:1768
-#: inc/widgets/class-portfolio.php:1892
-#: inc/widgets/class-portfolio.php:2056
-#: inc/widgets/class-tabs.php:623
-#: inc/widgets/class-tabs.php:1078
-#: inc/widgets/class-testimonials.php:506
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:470
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:552
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1460
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1845
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:319
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:363
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1245
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1533
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1666
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1767
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1891
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:2055
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:622
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:1077
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:505
+#: inc/widgets/class-animated-text.php:470
+#: inc/widgets/class-form-styler.php:552
+#: inc/widgets/class-form-styler.php:1460
+#: inc/widgets/class-form-styler.php:1845
+#: inc/widgets/class-logos.php:319
+#: inc/widgets/class-logos.php:363
+#: inc/widgets/class-portfolio.php:1245
+#: inc/widgets/class-portfolio.php:1533
+#: inc/widgets/class-portfolio.php:1666
+#: inc/widgets/class-portfolio.php:1767
+#: inc/widgets/class-portfolio.php:1891
+#: inc/widgets/class-portfolio.php:2055
+#: inc/widgets/class-tabs.php:622
+#: inc/widgets/class-tabs.php:1077
+#: inc/widgets/class-testimonials.php:505
 msgid "Padding"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:485
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:484
+#: inc/widgets/class-animated-text.php:484
 msgid "Cursor"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:493
-#: inc/widgets/class-form-styler.php:695
-#: inc/widgets/class-form-styler.php:1646
-#: inc/widgets/class-form-styler.php:1712
-#: inc/widgets/class-form-styler.php:2076
-#: inc/widgets/class-portfolio.php:1294
-#: inc/widgets/class-portfolio.php:1377
-#: inc/widgets/class-portfolio.php:1448
-#: inc/widgets/class-portfolio.php:1581
-#: inc/widgets/class-portfolio.php:1714
-#: inc/widgets/class-portfolio.php:1806
-#: inc/widgets/class-tabs.php:679
-#: inc/widgets/class-tabs.php:718
-#: inc/widgets/class-tabs.php:754
-#: inc/widgets/class-tabs.php:918
-#: inc/widgets/class-tabs.php:945
-#: inc/widgets/class-tabs.php:972
-#: inc/widgets/class-tabs.php:1006
-#: inc/widgets/class-testimonials.php:535
-#: inc/widgets/class-testimonials.php:565
-#: inc/widgets/class-testimonials.php:658
-#: inc/widgets/class-testimonials.php:688
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:492
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:694
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1645
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1711
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2075
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1293
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1376
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1447
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1580
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1713
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1805
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:678
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:717
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:753
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:917
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:944
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:971
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:1005
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:534
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:564
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:657
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:687
+#: inc/widgets/class-animated-text.php:492
+#: inc/widgets/class-form-styler.php:694
+#: inc/widgets/class-form-styler.php:1645
+#: inc/widgets/class-form-styler.php:1711
+#: inc/widgets/class-form-styler.php:2075
+#: inc/widgets/class-portfolio.php:1293
+#: inc/widgets/class-portfolio.php:1376
+#: inc/widgets/class-portfolio.php:1447
+#: inc/widgets/class-portfolio.php:1580
+#: inc/widgets/class-portfolio.php:1713
+#: inc/widgets/class-portfolio.php:1805
+#: inc/widgets/class-tabs.php:678
+#: inc/widgets/class-tabs.php:717
+#: inc/widgets/class-tabs.php:753
+#: inc/widgets/class-tabs.php:917
+#: inc/widgets/class-tabs.php:944
+#: inc/widgets/class-tabs.php:971
+#: inc/widgets/class-tabs.php:1005
+#: inc/widgets/class-testimonials.php:534
+#: inc/widgets/class-testimonials.php:564
+#: inc/widgets/class-testimonials.php:657
+#: inc/widgets/class-testimonials.php:687
 msgid "Color"
 msgstr ""
 
-#: inc/widgets/class-animated-text.php:514
+#: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:513
+#: inc/widgets/class-animated-text.php:513
 msgid "Blink Speed (ms)"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:136
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:135
+#: inc/widgets/class-form-styler.php:135
 msgid "Source"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:140
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:139
+#: inc/widgets/class-form-styler.php:139
 msgid "- Select -"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:141
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:140
+#: inc/widgets/class-form-styler.php:140
 msgid "Contact Form 7"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:142
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:141
+#: inc/widgets/class-form-styler.php:141
 msgid "WPForms"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:143
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:142
+#: inc/widgets/class-form-styler.php:142
 msgid "Ninja Forms"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:144
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:143
+#: inc/widgets/class-form-styler.php:143
 msgid "Mailchimp"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:169
-#: inc/widgets/class-form-styler.php:218
-#: inc/widgets/class-form-styler.php:291
-#: inc/widgets/class-form-styler.php:332
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:168
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:217
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:290
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:331
+#: inc/widgets/class-form-styler.php:168
+#: inc/widgets/class-form-styler.php:217
+#: inc/widgets/class-form-styler.php:290
+#: inc/widgets/class-form-styler.php:331
 msgid "No Forms Found!"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:175
-#: inc/widgets/class-form-styler.php:224
-#: inc/widgets/class-form-styler.php:297
-#: inc/widgets/class-form-styler.php:338
-#: inc/widgets/class-tabs.php:170
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:174
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:223
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:296
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:337
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:169
+#: inc/widgets/class-form-styler.php:174
+#: inc/widgets/class-form-styler.php:223
+#: inc/widgets/class-form-styler.php:296
+#: inc/widgets/class-form-styler.php:337
+#: inc/widgets/class-tabs.php:169
 msgid "Template"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:189
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:188
+#: inc/widgets/class-form-styler.php:188
 msgid "Please install Contact Form 7 plugin to use this feature."
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:238
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:237
+#: inc/widgets/class-form-styler.php:237
 msgid "Show Title"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:250
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:249
+#: inc/widgets/class-form-styler.php:249
 msgid "Show Description"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:269
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:268
+#: inc/widgets/class-form-styler.php:268
 msgid "Please install WPForms plugin to use this feature."
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:311
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:310
+#: inc/widgets/class-form-styler.php:310
 msgid "Please install Ninja Forms plugin to use this feature."
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:352
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:351
+#: inc/widgets/class-form-styler.php:351
 msgid "Please install and activate the Mailchimp for WordPress plugin and add an API key to use this feature."
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:373
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:372
+#: inc/widgets/class-form-styler.php:372
 msgid "Show Labels"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:393
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:392
+#: inc/widgets/class-form-styler.php:392
 msgid "Show Placeholders"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:410
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:409
+#: inc/widgets/class-form-styler.php:409
 msgid "Show Notices"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:439
-#: inc/widgets/class-logos.php:347
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:438
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:346
+#: inc/widgets/class-form-styler.php:438
+#: inc/widgets/class-logos.php:346
 msgid "Container"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:448
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:447
+#: inc/widgets/class-form-styler.php:447
 msgid "Form Alignment"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:491
-#: inc/widgets/class-form-styler.php:966
-#: inc/widgets/class-form-styler.php:1128
-#: inc/widgets/class-form-styler.php:1663
-#: inc/widgets/class-form-styler.php:1729
-#: inc/widgets/class-form-styler.php:1999
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:490
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:965
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1127
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1662
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1728
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1998
+#: inc/widgets/class-form-styler.php:490
+#: inc/widgets/class-form-styler.php:965
+#: inc/widgets/class-form-styler.php:1127
+#: inc/widgets/class-form-styler.php:1662
+#: inc/widgets/class-form-styler.php:1728
+#: inc/widgets/class-form-styler.php:1998
 msgid "Border Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:511
-#: inc/widgets/class-form-styler.php:1228
-#: inc/widgets/class-form-styler.php:1794
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:510
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1227
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1793
+#: inc/widgets/class-form-styler.php:510
+#: inc/widgets/class-form-styler.php:1227
+#: inc/widgets/class-form-styler.php:1793
 msgid "Border Type"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:514
-#: inc/widgets/class-form-styler.php:1231
-#: inc/widgets/class-form-styler.php:1797
-#: inc/widgets/class-logos.php:278
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:513
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1230
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1796
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:277
+#: inc/widgets/class-form-styler.php:513
+#: inc/widgets/class-form-styler.php:1230
+#: inc/widgets/class-form-styler.php:1796
+#: inc/widgets/class-logos.php:277
 msgid "None"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:515
-#: inc/widgets/class-form-styler.php:1232
-#: inc/widgets/class-form-styler.php:1798
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:514
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1231
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1797
+#: inc/widgets/class-form-styler.php:514
+#: inc/widgets/class-form-styler.php:1231
+#: inc/widgets/class-form-styler.php:1797
 msgid "Solid"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:516
-#: inc/widgets/class-form-styler.php:1233
-#: inc/widgets/class-form-styler.php:1799
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:515
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1232
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1798
+#: inc/widgets/class-form-styler.php:515
+#: inc/widgets/class-form-styler.php:1232
+#: inc/widgets/class-form-styler.php:1798
 msgid "Double"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:517
-#: inc/widgets/class-form-styler.php:1234
-#: inc/widgets/class-form-styler.php:1800
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:516
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1233
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1799
+#: inc/widgets/class-form-styler.php:516
+#: inc/widgets/class-form-styler.php:1233
+#: inc/widgets/class-form-styler.php:1799
 msgid "Dotted"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:518
-#: inc/widgets/class-form-styler.php:1235
-#: inc/widgets/class-form-styler.php:1801
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:517
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1234
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1800
+#: inc/widgets/class-form-styler.php:517
+#: inc/widgets/class-form-styler.php:1234
+#: inc/widgets/class-form-styler.php:1800
 msgid "Dashed"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:519
-#: inc/widgets/class-form-styler.php:1236
-#: inc/widgets/class-form-styler.php:1802
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:518
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1235
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1801
+#: inc/widgets/class-form-styler.php:518
+#: inc/widgets/class-form-styler.php:1235
+#: inc/widgets/class-form-styler.php:1801
 msgid "Groove"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:532
-#: inc/widgets/class-form-styler.php:1274
-#: inc/widgets/class-form-styler.php:1820
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:531
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1273
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1819
+#: inc/widgets/class-form-styler.php:531
+#: inc/widgets/class-form-styler.php:1273
+#: inc/widgets/class-form-styler.php:1819
 msgid "Border Width"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:572
-#: inc/widgets/class-form-styler.php:1501
-#: inc/widgets/class-form-styler.php:1870
-#: inc/widgets/class-logos.php:300
-#: inc/widgets/class-portfolio.php:1225
-#: inc/widgets/class-portfolio.php:1514
-#: inc/widgets/class-portfolio.php:1647
-#: inc/widgets/class-portfolio.php:1748
-#: inc/widgets/class-portfolio.php:1872
-#: inc/widgets/class-portfolio.php:2036
-#: inc/widgets/class-tabs.php:611
-#: inc/widgets/class-tabs.php:1057
-#: inc/widgets/class-testimonials.php:486
-#: inc/widgets/class-testimonials.php:621
-#: inc/widgets/class-testimonials.php:699
-#: inc/widgets/class-testimonials.php:785
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:571
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1500
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1869
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:299
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1224
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1513
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1646
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1747
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1871
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:2035
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:610
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:1056
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:485
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:620
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:698
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:784
+#: inc/widgets/class-form-styler.php:571
+#: inc/widgets/class-form-styler.php:1500
+#: inc/widgets/class-form-styler.php:1869
+#: inc/widgets/class-logos.php:299
+#: inc/widgets/class-portfolio.php:1224
+#: inc/widgets/class-portfolio.php:1513
+#: inc/widgets/class-portfolio.php:1646
+#: inc/widgets/class-portfolio.php:1747
+#: inc/widgets/class-portfolio.php:1871
+#: inc/widgets/class-portfolio.php:2035
+#: inc/widgets/class-tabs.php:610
+#: inc/widgets/class-tabs.php:1056
+#: inc/widgets/class-testimonials.php:485
+#: inc/widgets/class-testimonials.php:620
+#: inc/widgets/class-testimonials.php:698
+#: inc/widgets/class-testimonials.php:784
 msgid "Border Radius"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:593
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:592
+#: inc/widgets/class-form-styler.php:592
 msgid "Form Header"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:617
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:616
+#: inc/widgets/class-form-styler.php:616
 msgid "Title Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:637
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:636
+#: inc/widgets/class-form-styler.php:636
 msgid "Description Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:659
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:658
+#: inc/widgets/class-form-styler.php:658
 msgid "Distance"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:686
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:685
+#: inc/widgets/class-form-styler.php:685
 msgid "Field Labels"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:726
-#: inc/widgets/class-form-styler.php:804
-#: inc/widgets/class-portfolio.php:1460
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:725
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:803
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1459
+#: inc/widgets/class-form-styler.php:725
+#: inc/widgets/class-form-styler.php:803
+#: inc/widgets/class-portfolio.php:1459
 msgid "Spacing"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:756
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:755
+#: inc/widgets/class-form-styler.php:755
 msgid "Field Description"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:782
-#: inc/widgets/class-form-styler.php:2092
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:781
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2091
+#: inc/widgets/class-form-styler.php:781
+#: inc/widgets/class-form-styler.php:2091
 msgid "Link Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:833
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:832
+#: inc/widgets/class-form-styler.php:832
 msgid "Fields (Input, Textarea)"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:844
-#: inc/widgets/class-form-styler.php:1624
-#: inc/widgets/class-portfolio.php:967
-#: inc/widgets/class-portfolio.php:1932
-#: inc/widgets/class-tabs.php:129
-#: inc/widgets/class-tabs.php:501
-#: inc/widgets/class-tabs.php:672
-#: inc/widgets/class-tabs.php:908
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:843
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1623
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:966
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1931
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:128
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:500
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:671
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:907
+#: inc/widgets/class-form-styler.php:843
+#: inc/widgets/class-form-styler.php:1623
+#: inc/widgets/class-portfolio.php:966
+#: inc/widgets/class-portfolio.php:1931
+#: inc/widgets/class-tabs.php:128
+#: inc/widgets/class-tabs.php:500
+#: inc/widgets/class-tabs.php:671
+#: inc/widgets/class-tabs.php:907
 msgid "Normal"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:889
-#: inc/widgets/class-form-styler.php:1051
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:888
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1050
+#: inc/widgets/class-form-styler.php:888
+#: inc/widgets/class-form-styler.php:1050
 msgid "Placeholder Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1006
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1005
+#: inc/widgets/class-form-styler.php:1005
 msgid "Focus"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1179
-#: inc/widgets/class-form-styler.php:1765
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1178
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1764
+#: inc/widgets/class-form-styler.php:1178
+#: inc/widgets/class-form-styler.php:1764
 msgid "Transition Duration"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1328
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1327
+#: inc/widgets/class-form-styler.php:1327
 msgid "Input Width"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1360
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1359
+#: inc/widgets/class-form-styler.php:1359
 msgid "Input Height"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1411
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1410
+#: inc/widgets/class-form-styler.php:1410
 msgid "Textarea (Message) Height"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1436
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1435
+#: inc/widgets/class-form-styler.php:1435
 msgid "Textarea Width"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1546
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1545
+#: inc/widgets/class-form-styler.php:1545
 msgid "Vertical Gutter"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1578
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1577
+#: inc/widgets/class-form-styler.php:1577
 msgid "Submit Button"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1603
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1602
+#: inc/widgets/class-form-styler.php:1602
 msgid "Justified"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1632
-#: inc/widgets/class-form-styler.php:1698
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1631
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1697
+#: inc/widgets/class-form-styler.php:1631
+#: inc/widgets/class-form-styler.php:1697
 msgid "Background"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1690
-#: inc/widgets/class-portfolio.php:1053
-#: inc/widgets/class-portfolio.php:1985
-#: inc/widgets/class-tabs.php:147
-#: inc/widgets/class-tabs.php:536
-#: inc/widgets/class-tabs.php:711
-#: inc/widgets/class-tabs.php:935
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1689
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1052
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1984
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:146
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:535
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:710
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:934
+#: inc/widgets/class-form-styler.php:1689
+#: inc/widgets/class-portfolio.php:1052
+#: inc/widgets/class-portfolio.php:1984
+#: inc/widgets/class-tabs.php:146
+#: inc/widgets/class-tabs.php:535
+#: inc/widgets/class-tabs.php:710
+#: inc/widgets/class-tabs.php:934
 msgid "Hover"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1894
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1893
+#: inc/widgets/class-form-styler.php:1893
 msgid "Top Distance"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1927
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1926
+#: inc/widgets/class-form-styler.php:1926
 msgid "Checkbox & Radio"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1936
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1935
+#: inc/widgets/class-form-styler.php:1935
 msgid "Use Custom Styles"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1945
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1944
+#: inc/widgets/class-form-styler.php:1944
 msgid "Static Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:1973
-#: inc/widgets/class-testimonials.php:740
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1972
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:739
+#: inc/widgets/class-form-styler.php:1972
+#: inc/widgets/class-testimonials.php:739
 msgid "Active Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2027
-#: inc/widgets/class-testimonials.php:595
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2026
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:594
+#: inc/widgets/class-form-styler.php:2026
+#: inc/widgets/class-testimonials.php:594
 msgid "Size"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2067
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2066
+#: inc/widgets/class-form-styler.php:2066
 msgid "Custom HTML"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2105
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2104
+#: inc/widgets/class-form-styler.php:2104
 msgid "Divider Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2128
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2127
+#: inc/widgets/class-form-styler.php:2127
 msgid "Notices"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2137
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2136
+#: inc/widgets/class-form-styler.php:2136
 msgid "Error Text Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2165
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2164
+#: inc/widgets/class-form-styler.php:2164
 msgid "Error Field Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2184
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2183
+#: inc/widgets/class-form-styler.php:2183
 msgid "Error Field Background Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2202
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2201
+#: inc/widgets/class-form-styler.php:2201
 msgid "Error Field Border Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2220
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2219
+#: inc/widgets/class-form-styler.php:2219
 msgid "Success Text Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2237
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2236
+#: inc/widgets/class-form-styler.php:2236
 msgid "Success Background Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2253
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2252
+#: inc/widgets/class-form-styler.php:2252
 msgid "Success Border Color"
 msgstr ""
 
-#: inc/widgets/class-form-styler.php:2387
+#: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:2386
+#: inc/widgets/class-form-styler.php:2386
 msgid "Please select a form source and template from the widget settings."
 msgstr ""
 
-#: inc/widgets/class-logos.php:130
-#: inc/widgets/class-portfolio.php:216
-#: inc/widgets/class-portfolio.php:218
-#: inc/widgets/class-portfolio.php:313
-#: inc/widgets/class-portfolio.php:1277
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:129
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:215
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:217
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:312
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1276
+#: inc/widgets/class-logos.php:129
+#: inc/widgets/class-portfolio.php:215
+#: inc/widgets/class-portfolio.php:217
+#: inc/widgets/class-portfolio.php:312
+#: inc/widgets/class-portfolio.php:1276
 msgid "Title"
 msgstr ""
 
-#: inc/widgets/class-logos.php:132
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:131
+#: inc/widgets/class-logos.php:131
 msgid "Logo"
 msgstr ""
 
-#: inc/widgets/class-logos.php:141
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:140
+#: inc/widgets/class-logos.php:140
 msgid "Image"
 msgstr ""
 
-#: inc/widgets/class-logos.php:156
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:155
+#: inc/widgets/class-logos.php:155
 msgid "https://your-link.com"
 msgstr ""
 
-#: inc/widgets/class-logos.php:169
-#: inc/widgets/class-logos.php:267
-#: inc/widgets/class-portfolio.php:286
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:168
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:266
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:285
+#: inc/widgets/class-logos.php:168
+#: inc/widgets/class-logos.php:266
+#: inc/widgets/class-portfolio.php:285
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:80
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Logos"
 msgstr ""
 
-#: inc/widgets/class-logos.php:173
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:172
+#: inc/widgets/class-logos.php:172
 msgid "Logo 1"
 msgstr ""
 
-#: inc/widgets/class-logos.php:174
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:173
+#: inc/widgets/class-logos.php:173
 msgid "Logo 2"
 msgstr ""
 
-#: inc/widgets/class-logos.php:175
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:174
+#: inc/widgets/class-logos.php:174
 msgid "Logo 3"
 msgstr ""
 
-#: inc/widgets/class-logos.php:184
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:183
+#: inc/widgets/class-logos.php:183
 msgid "Scroll Direction"
 msgstr ""
 
-#: inc/widgets/class-logos.php:198
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:197
+#: inc/widgets/class-logos.php:197
 msgid "Scroll Speed (seconds)"
 msgstr ""
 
-#: inc/widgets/class-logos.php:212
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:211
+#: inc/widgets/class-logos.php:211
 msgid "Logo Width"
 msgstr ""
 
-#: inc/widgets/class-logos.php:238
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:237
+#: inc/widgets/class-logos.php:237
 msgid "Enable Links"
 msgstr ""
 
-#: inc/widgets/class-logos.php:248
-#: inc/widgets/class-testimonials.php:431
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:247
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:430
+#: inc/widgets/class-logos.php:247
+#: inc/widgets/class-testimonials.php:430
 msgid "Pause on Hover"
 msgstr ""
 
-#: inc/widgets/class-logos.php:275
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:274
+#: inc/widgets/class-logos.php:274
 msgid "Hover Effect"
 msgstr ""
 
-#: inc/widgets/class-logos.php:279
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:278
+#: inc/widgets/class-logos.php:278
 msgid "Grayscale"
 msgstr ""
 
-#: inc/widgets/class-logos.php:280
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:279
+#: inc/widgets/class-logos.php:279
 msgid "Scale"
 msgstr ""
 
-#: inc/widgets/class-logos.php:281
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:280
+#: inc/widgets/class-logos.php:280
 msgid "Opacity"
 msgstr ""
 
-#: inc/widgets/class-logos.php:333
-#: inc/widgets/class-logos.php:376
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:332
+#: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:375
+#: inc/widgets/class-logos.php:332
+#: inc/widgets/class-logos.php:375
 msgid "Margin"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:56
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:55
+#: inc/widgets/class-portfolio.php:55
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:106
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Portfolio"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:157
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:156
+#: inc/widgets/class-portfolio.php:156
 msgid "Category"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:166
-#: inc/widgets/class-portfolio.php:267
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:165
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:266
+#: inc/widgets/class-portfolio.php:165
+#: inc/widgets/class-portfolio.php:266
 msgid "Icon"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:173
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:172
+#: inc/widgets/class-portfolio.php:172
 msgid "Categories"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:178
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:177
+#: inc/widgets/class-portfolio.php:177
 msgid "Blog"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:191
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:190
+#: inc/widgets/class-portfolio.php:190
 msgid "Feature Image"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:204
-#: inc/widgets/class-portfolio.php:1431
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:203
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1430
+#: inc/widgets/class-portfolio.php:203
+#: inc/widgets/class-portfolio.php:1430
 msgid "Label"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:206
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:205
+#: inc/widgets/class-portfolio.php:205
 msgid "Free"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:228
-#: inc/widgets/class-portfolio.php:230
-#: inc/widgets/class-portfolio.php:1360
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:227
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:229
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1359
+#: inc/widgets/class-portfolio.php:227
+#: inc/widgets/class-portfolio.php:229
+#: inc/widgets/class-portfolio.php:1359
 msgid "Description"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:240
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:239
+#: inc/widgets/class-portfolio.php:239
 msgid "Button Text"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:242
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:241
+#: inc/widgets/class-portfolio.php:241
 msgid "View"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:251
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:250
+#: inc/widgets/class-portfolio.php:250
 msgid "Button Url"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:274
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:273
+#: inc/widgets/class-portfolio.php:273
 msgid "Url"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:322
-#: inc/widgets/class-portfolio.php:1564
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:321
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1563
+#: inc/widgets/class-portfolio.php:321
+#: inc/widgets/class-portfolio.php:1563
 msgid "Skills"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:327
-#: inc/widgets/class-portfolio.php:368
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:326
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:367
+#: inc/widgets/class-portfolio.php:326
+#: inc/widgets/class-portfolio.php:367
 msgid "React"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:330
-#: inc/widgets/class-portfolio.php:371
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:329
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:370
+#: inc/widgets/class-portfolio.php:329
+#: inc/widgets/class-portfolio.php:370
 msgid "Node.js"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:333
-#: inc/widgets/class-portfolio.php:374
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:332
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:373
+#: inc/widgets/class-portfolio.php:332
+#: inc/widgets/class-portfolio.php:373
 msgid "MangoDB"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:336
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:335
+#: inc/widgets/class-portfolio.php:335
 msgid "GraphQL"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:349
-#: inc/widgets/class-tabs.php:215
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:348
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:214
+#: inc/widgets/class-portfolio.php:348
+#: inc/widgets/class-tabs.php:214
 msgid "Items"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:356
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:355
+#: inc/widgets/class-portfolio.php:355
 msgid "Web Development"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:362
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:361
+#: inc/widgets/class-portfolio.php:361
 msgid "E-Commerce Platform"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:363
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:362
+#: inc/widgets/class-portfolio.php:362
 msgid "A modern e-commerce platform built with React and Node.js, featuring real-time inventory management and secure payment processing."
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:364
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:363
+#: inc/widgets/class-portfolio.php:363
 msgid "Web"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:365
-#: inc/widgets/class-portfolio.php:393
-#: inc/widgets/class-portfolio.php:418
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:364
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:392
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:417
+#: inc/widgets/class-portfolio.php:364
+#: inc/widgets/class-portfolio.php:392
+#: inc/widgets/class-portfolio.php:417
 msgid "View Details"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:377
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:376
+#: inc/widgets/class-portfolio.php:376
 msgid "Stripe"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:384
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:383
+#: inc/widgets/class-portfolio.php:383
 msgid "Mobile Apps"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:390
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:389
+#: inc/widgets/class-portfolio.php:389
 msgid "Mobile Banking App"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:391
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:390
+#: inc/widgets/class-portfolio.php:390
 msgid "Secure mobile banking application with biometric authentication and real-time transaction monitoring."
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:392
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:391
+#: inc/widgets/class-portfolio.php:391
 msgid "Mobile"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:396
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:395
+#: inc/widgets/class-portfolio.php:395
 msgid "React Native"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:399
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:398
+#: inc/widgets/class-portfolio.php:398
 msgid "Firebase"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:402
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:401
+#: inc/widgets/class-portfolio.php:401
 msgid "TypeScript"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:409
-#: inc/widgets/class-portfolio.php:417
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:408
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:416
+#: inc/widgets/class-portfolio.php:408
+#: inc/widgets/class-portfolio.php:416
 msgid "Design"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:415
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:414
+#: inc/widgets/class-portfolio.php:414
 msgid "Brand Identity Design"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:416
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:415
+#: inc/widgets/class-portfolio.php:415
 msgid "Complete brand identity package including logo design, color palette, and brand guidelines for a tech startup."
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:421
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:420
+#: inc/widgets/class-portfolio.php:420
 msgid "Figma"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:424
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:423
+#: inc/widgets/class-portfolio.php:423
 msgid "Adobe Illustrator"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:427
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:426
+#: inc/widgets/class-portfolio.php:426
 msgid "Photoshop"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:449
-#: inc/widgets/class-portfolio.php:881
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:448
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:880
+#: inc/widgets/class-portfolio.php:448
+#: inc/widgets/class-portfolio.php:880
 msgid "Filter"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:457
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:456
+#: inc/widgets/class-portfolio.php:456
 msgid "Enable"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:466
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:465
+#: inc/widgets/class-portfolio.php:465
 msgid "Position"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:469
-#: inc/widgets/class-tabs.php:255
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:468
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:254
+#: inc/widgets/class-portfolio.php:468
+#: inc/widgets/class-tabs.php:254
 msgid "Vertical"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:470
-#: inc/widgets/class-tabs.php:256
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:469
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:255
+#: inc/widgets/class-portfolio.php:469
+#: inc/widgets/class-tabs.php:255
 msgid "Horizontal"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:483
-#: inc/widgets/class-portfolio.php:515
-#: inc/widgets/class-tabs.php:270
-#: inc/widgets/class-tabs.php:305
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:482
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:514
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:269
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:304
+#: inc/widgets/class-portfolio.php:482
+#: inc/widgets/class-portfolio.php:514
+#: inc/widgets/class-tabs.php:269
+#: inc/widgets/class-tabs.php:304
 msgid "Justify"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:487
-#: inc/widgets/class-portfolio.php:519
-#: inc/widgets/class-portfolio.php:708
-#: inc/widgets/class-tabs.php:274
-#: inc/widgets/class-tabs.php:309
-#: inc/widgets/class-tabs.php:849
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:486
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:518
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:707
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:273
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:308
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:848
+#: inc/widgets/class-portfolio.php:486
+#: inc/widgets/class-portfolio.php:518
+#: inc/widgets/class-portfolio.php:707
+#: inc/widgets/class-tabs.php:273
+#: inc/widgets/class-tabs.php:308
+#: inc/widgets/class-tabs.php:848
 msgid "Start"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:495
-#: inc/widgets/class-portfolio.php:527
-#: inc/widgets/class-portfolio.php:716
-#: inc/widgets/class-tabs.php:282
-#: inc/widgets/class-tabs.php:317
-#: inc/widgets/class-tabs.php:857
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:494
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:526
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:715
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:281
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:316
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:856
+#: inc/widgets/class-portfolio.php:494
+#: inc/widgets/class-portfolio.php:526
+#: inc/widgets/class-portfolio.php:715
+#: inc/widgets/class-tabs.php:281
+#: inc/widgets/class-tabs.php:316
+#: inc/widgets/class-tabs.php:856
 msgid "End"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:499
-#: inc/widgets/class-portfolio.php:531
-#: inc/widgets/class-tabs.php:286
-#: inc/widgets/class-tabs.php:321
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:498
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:530
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:285
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:320
+#: inc/widgets/class-portfolio.php:498
+#: inc/widgets/class-portfolio.php:530
+#: inc/widgets/class-tabs.php:285
+#: inc/widgets/class-tabs.php:320
 msgid "Stretch"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:577
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:576
+#: inc/widgets/class-portfolio.php:576
 msgid "Width"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:616
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:615
+#: inc/widgets/class-portfolio.php:615
 msgid "Show \"All\" Tab"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:626
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:625
+#: inc/widgets/class-portfolio.php:625
 msgid "Text for \"All\" Tab"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:628
-#: inc/widgets/class-portfolio.php:2133
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:627
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:2132
+#: inc/widgets/class-portfolio.php:627
+#: inc/widgets/class-portfolio.php:2132
 msgid "All Projects"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:639
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:638
+#: inc/widgets/class-portfolio.php:638
 msgid "Enable Icon"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:649
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:648
+#: inc/widgets/class-portfolio.php:648
 msgid "All Tab Icon"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:650
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:649
+#: inc/widgets/class-portfolio.php:649
 msgid "Global icon will be replaced with individual category icon."
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:663
-#: inc/widgets/class-tabs.php:805
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:662
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:804
+#: inc/widgets/class-portfolio.php:662
+#: inc/widgets/class-tabs.php:804
 msgid "Icon Size"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:684
-#: inc/widgets/class-tabs.php:825
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:683
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:824
+#: inc/widgets/class-portfolio.php:683
+#: inc/widgets/class-tabs.php:824
 msgid "Icon Gap"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:704
-#: inc/widgets/class-tabs.php:845
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:703
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:844
+#: inc/widgets/class-portfolio.php:703
+#: inc/widgets/class-tabs.php:844
 msgid "Icon Justify"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:735
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:734
+#: inc/widgets/class-portfolio.php:734
 msgid "Icon Offset"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:775
-#: inc/widgets/class-portfolio.php:1922
-#: inc/widgets/class-testimonials.php:460
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:774
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1921
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:459
+#: inc/widgets/class-portfolio.php:774
+#: inc/widgets/class-portfolio.php:1921
+#: inc/widgets/class-testimonials.php:459
 msgid "Card"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:783
-#: inc/widgets/class-tabs.php:252
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:782
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:251
+#: inc/widgets/class-portfolio.php:782
+#: inc/widgets/class-tabs.php:251
 msgid "Layout"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:786
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:785
+#: inc/widgets/class-portfolio.php:785
 msgid "Boxes"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:787
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:786
+#: inc/widgets/class-portfolio.php:786
 msgid "Masonry"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:797
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:796
+#: inc/widgets/class-portfolio.php:796
 msgid "Columns"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:817
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:816
+#: inc/widgets/class-portfolio.php:816
 msgid "Columns Gap"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:839
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:838
+#: inc/widgets/class-portfolio.php:838
 msgid "Gap between each column in pixels."
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:850
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:849
+#: inc/widgets/class-portfolio.php:849
 msgid "Title Tag"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:899
-#: inc/widgets/class-portfolio.php:1593
-#: inc/widgets/class-portfolio.php:1818
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:898
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1592
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1817
+#: inc/widgets/class-portfolio.php:898
+#: inc/widgets/class-portfolio.php:1592
+#: inc/widgets/class-portfolio.php:1817
 msgid "Gap"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:932
-#: inc/widgets/class-portfolio.php:1317
-#: inc/widgets/class-portfolio.php:1389
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:931
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1316
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1388
+#: inc/widgets/class-portfolio.php:931
+#: inc/widgets/class-portfolio.php:1316
+#: inc/widgets/class-portfolio.php:1388
 msgid "Bottom Spacing"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:1139
-#: inc/widgets/class-tabs.php:571
-#: inc/widgets/class-tabs.php:747
-#: inc/widgets/class-tabs.php:962
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1138
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:570
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:746
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:961
+#: inc/widgets/class-portfolio.php:1138
+#: inc/widgets/class-tabs.php:570
+#: inc/widgets/class-tabs.php:746
+#: inc/widgets/class-tabs.php:961
 msgid "Active"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:1305
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1304
+#: inc/widgets/class-portfolio.php:1304
 msgid "Hover Color"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:1697
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1696
+#: inc/widgets/class-portfolio.php:1696
 msgid "Button"
 msgstr ""
 
-#: inc/widgets/class-portfolio.php:1798
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:1797
+#: inc/widgets/class-portfolio.php:1797
 msgid "Socials"
 msgstr ""
 
 #. translators: %s: Number of remaining items
-#: inc/widgets/class-portfolio.php:2411
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:2410
+#: inc/widgets/class-portfolio.php:2410
 #, php-format
 msgid "+%s More"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:48
-#: inc/widgets/class-tabs.php:244
-#: inc/widgets/class-tabs.php:425
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:47
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:243
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:424
+#: inc/widgets/class-tabs.php:47
+#: inc/widgets/class-tabs.php:243
+#: inc/widgets/class-tabs.php:424
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:87
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Tabs"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:115
-#: inc/widgets/class-tabs.php:119
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:114
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:118
+#: inc/widgets/class-tabs.php:114
+#: inc/widgets/class-tabs.php:118
 msgid "Tab Title"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:136
-#: inc/widgets/class-tabs.php:154
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:135
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:153
+#: inc/widgets/class-tabs.php:135
+#: inc/widgets/class-tabs.php:153
 msgid "Tab Icon"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:166
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:165
+#: inc/widgets/class-tabs.php:165
 msgid "Content Type"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:169
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:168
+#: inc/widgets/class-tabs.php:168
 msgid "Editor"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:183
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:182
+#: inc/widgets/class-tabs.php:182
 msgid "Tab Content"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:195
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:194
+#: inc/widgets/class-tabs.php:194
 msgid "Select Template"
 msgstr ""
 
 #. translators: %1$s: Opening anchor tag, %2$s: Closing anchor tag
-#: inc/widgets/class-tabs.php:198
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:197
+#: inc/widgets/class-tabs.php:197
 #, php-format
 msgid "To create a elementor section template click %1$s here %2$s."
 msgstr ""
 
-#: inc/widgets/class-tabs.php:220
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:219
+#: inc/widgets/class-tabs.php:219
 msgid "Branding"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:222
-#: inc/widgets/class-tabs.php:227
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:221
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:226
+#: inc/widgets/class-tabs.php:221
+#: inc/widgets/class-tabs.php:226
 msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet assumenda distinctio a excepturi."
 msgstr ""
 
-#: inc/widgets/class-tabs.php:225
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:224
+#: inc/widgets/class-tabs.php:224
 msgid "Organizing"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:340
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:339
+#: inc/widgets/class-tabs.php:339
 msgid "Title Align"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:368
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:367
+#: inc/widgets/class-tabs.php:367
 msgid "Title Width"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:406
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:405
+#: inc/widgets/class-tabs.php:405
 msgid "Show Icon"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:409
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:408
+#: inc/widgets/class-tabs.php:408
 msgid "Show"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:410
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:409
+#: inc/widgets/class-tabs.php:409
 msgid "Hide"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:433
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:432
+#: inc/widgets/class-tabs.php:432
 msgid "Tabs Gap"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:466
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:465
+#: inc/widgets/class-tabs.php:465
 msgid "Content Distance"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:651
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:650
+#: inc/widgets/class-tabs.php:650
 msgid "Titles"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:794
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:793
+#: inc/widgets/class-tabs.php:793
 msgid "Icons"
 msgstr ""
 
-#: inc/widgets/class-tabs.php:875
+#: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:874
+#: inc/widgets/class-tabs.php:874
 msgid "Icon Offset (Vertical)"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:53
-#: inc/widgets/class-testimonials.php:207
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:52
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:206
+#: inc/widgets/class-testimonials.php:52
+#: inc/widgets/class-testimonials.php:206
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:94
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Testimonials"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:143
-#: inc/widgets/class-testimonials.php:649
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:142
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:648
+#: inc/widgets/class-testimonials.php:142
+#: inc/widgets/class-testimonials.php:648
 msgid "Author"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:153
-#: inc/widgets/class-testimonials.php:586
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:152
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:585
+#: inc/widgets/class-testimonials.php:152
+#: inc/widgets/class-testimonials.php:585
 msgid "Avatar"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:165
-#: inc/widgets/class-testimonials.php:526
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:164
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:525
+#: inc/widgets/class-testimonials.php:164
+#: inc/widgets/class-testimonials.php:525
 msgid "Headline"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:175
-#: inc/widgets/class-testimonials.php:556
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:174
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:555
+#: inc/widgets/class-testimonials.php:174
+#: inc/widgets/class-testimonials.php:555
 msgid "Quote"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:185
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:184
+#: inc/widgets/class-testimonials.php:184
 msgid "Rating"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:211
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:210
+#: inc/widgets/class-testimonials.php:210
 msgid "John Doe"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:212
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:211
+#: inc/widgets/class-testimonials.php:211
 msgid "Outstanding service and supportive team!"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:216
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:215
+#: inc/widgets/class-testimonials.php:215
 msgid "Jane Smith"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:217
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:216
+#: inc/widgets/class-testimonials.php:216
 msgid "Fantastic experience, highly recommended!"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:221
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:220
+#: inc/widgets/class-testimonials.php:220
 msgid "Michael Brown"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:222
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:221
+#: inc/widgets/class-testimonials.php:221
 msgid "Professional and efficient, exceeded expectations."
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:226
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:225
+#: inc/widgets/class-testimonials.php:225
 msgid "Emily Davis"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:227
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:226
+#: inc/widgets/class-testimonials.php:226
 msgid "Great attention to detail and support."
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:239
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:238
+#: inc/widgets/class-testimonials.php:238
 msgid "Headline Tag"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:260
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:259
+#: inc/widgets/class-testimonials.php:259
 msgid "Author Tag"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:281
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:280
+#: inc/widgets/class-testimonials.php:280
 msgid "Enable Author Link"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:291
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:290
+#: inc/widgets/class-testimonials.php:290
 msgid "Show Pagination"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:301
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:300
+#: inc/widgets/class-testimonials.php:300
 msgid "Show Navigation"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:310
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:309
+#: inc/widgets/class-testimonials.php:309
 msgid "Card Alignment"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:314
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:313
+#: inc/widgets/class-testimonials.php:313
 msgid "Top"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:322
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:321
+#: inc/widgets/class-testimonials.php:321
 msgid "Bottom"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:347
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:346
+#: inc/widgets/class-testimonials.php:346
 msgid "Slider"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:355
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:354
+#: inc/widgets/class-testimonials.php:354
 msgid "Slides Per View"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:374
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:373
+#: inc/widgets/class-testimonials.php:373
 msgid "Slide Gap"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:381
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:380
+#: inc/widgets/class-testimonials.php:380
 msgid "Gap between slides in pixels."
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:388
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:387
+#: inc/widgets/class-testimonials.php:387
 msgid "Transition Speed"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:393
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:392
+#: inc/widgets/class-testimonials.php:392
 msgid "Duration of slide transition in milliseconds."
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:400
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:399
+#: inc/widgets/class-testimonials.php:399
 msgid "Autoplay"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:409
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:408
+#: inc/widgets/class-testimonials.php:408
 msgid "Autoplay Delay"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:414
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:413
+#: inc/widgets/class-testimonials.php:413
 msgid "Delay between slide transitions in milliseconds."
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:422
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:421
+#: inc/widgets/class-testimonials.php:421
 msgid "Infinite Loop"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:441
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:440
+#: inc/widgets/class-testimonials.php:440
 msgid "Center Slides"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:721
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:720
+#: inc/widgets/class-testimonials.php:720
 msgid "Pagination"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:729
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:728
+#: inc/widgets/class-testimonials.php:728
 msgid "Normal Color"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:753
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:752
+#: inc/widgets/class-testimonials.php:752
 msgid "Navigation"
 msgstr ""
 
-#: inc/widgets/class-testimonials.php:761
+#: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:760
+#: inc/widgets/class-testimonials.php:760
 msgid "Icon Color"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 #, js-format
 msgid "Error while data store process for %s."
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 #, js-format
 msgid "The item with id %s is updated successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 #, js-format
 msgid "The item with id %s is added successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Deleted successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Updated successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Error: Icon url should contain .svg extension"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Error on icon url"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 #, js-format
 msgid "Item not found with value %s"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Repeater fields"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Delete"
 msgstr ""
 
 #: assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Cancel"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/atoms/save-settings.js:24
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Saved"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/atoms/save-settings.js:25
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Save settings"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/atoms/save-settings.js:29
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Saving"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:61
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Dashboard"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:97
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Settings"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:126
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Close sidebar"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:130
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Open sidebar"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:163
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Notifications"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:182
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Close notification"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:194
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Show all notifications"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/molecules/docs-title.js:15
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "How to Use Elementor Widgets"
 msgstr ""
 
@@ -1546,145 +2081,174 @@ msgstr ""
 #: assets/src/js/admin/pages/settings/pages/widgets.js:34
 #: assets/src/js/admin/pages/settings/pages/widgets.js:124
 #: assets/src/js/admin/pages/settings/pages/widgets.js:407
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Error: Settings context not available."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:153
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Accessing Elementor Widgets?"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:163
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "1. Open the Elementor Editor:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:172
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Edit a page/post with Elementor."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:181
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Click \"Edit with Elementor\" from your WordPress dashboard."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:190
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "2. Find the Widget Panel:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:199
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- On the left side of the editor, you`ll see the Elementor panel."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:208
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Click the \"Widgets\" icon (grid-like icon) at the top."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:216
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Adding Widgets to Your Page?"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:226
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "1. Drag and Drop Method:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:235
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Locate the widget in the panel."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:244
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Drag it to your desired section/column."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:253
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "2. Click to Add Method:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:262
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Hover over a section or column."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:271
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Click the \"+\" icon to add a new widget."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:280
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Select your widget from the popup."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:288
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Customizing Widgets?"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:298
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Once added, you can customize each widget."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:307
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "1. Content Tab:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:316
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Configure the main content of the widget."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:325
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Example: For a button widget, set the text and link."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:334
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "2. Style Tab:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:343
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Customize colors, typography, spacing, and more."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:352
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Add borders, shadows, and other visual effects."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:361
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "3. Advanced Tab:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:370
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Add custom CSS, motion effects, and responsive settings."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:379
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Configure margins and padding for precise layout control."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:388
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "- Add custom attributes or IDs for advanced functionality."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:425
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
 msgid "Widgets"
 msgstr ""

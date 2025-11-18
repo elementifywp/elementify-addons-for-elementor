@@ -1,6 +1,6 @@
 {
 	"name": "elementify-addons-for-elementor",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Elementify Addons is a next-gen Elementor plugin that empowers anyone to build stunning, professional websites—faster, easier, and with zero coding.",
 	"author": "ElementifyWP",
 	"license": "GPL-3.0-or-later",
@@ -16,6 +16,8 @@
 		"build": "npm run clean && wp-scripts build --mode=production",
 		"start": "npm run clean && wp-scripts start --mode=development",
 		"clean": "shx rm -rf assets/build/*",
+		"lint:php": "vendor/bin/phpcs",
+		"lint:php:fix": "vendor/bin/phpcbf",
 		"lint:js": "wp-scripts lint-js assets/src/js",
 		"lint:js:fix": "wp-scripts lint-js assets/src/js --fix",
 		"lint:css": "wp-scripts lint-style \"assets/src/sass/**/*.scss\" \"assets/src/css/**/*.css\"",
