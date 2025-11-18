@@ -1306,6 +1306,23 @@
   transition: all 0.3s ease;
 }
 
+/* md */
+@media (max-width: 768px) {
+  .eae-tab {
+    gap: 0;
+  }
+  .eae-tab .eae-tab__list {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .eae-tab .eae-tab__content {
+    width: 100%;
+    padding: 15px;
+  }
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/

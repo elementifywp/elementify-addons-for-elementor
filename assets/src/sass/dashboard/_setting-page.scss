@@ -497,6 +497,24 @@
             max-width: 100%;
         }
     }
+    .eae-dashboard-container {
+        .eae-dashboard-wrap {
+            .eae-content-wrap {
+                .at-ctnr-fld {
+                    .eae-content-items {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 1rem;
+                        .eae-content-items__item{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    
+
 }
 
 

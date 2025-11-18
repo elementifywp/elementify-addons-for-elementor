@@ -167,3 +167,21 @@
         }
     }
 }
+
+
+/* md */
+@media (max-width: 768px) {
+
+    .eae-tab {
+    gap: 0;
+    .eae-tab__list{
+        width: 100%;
+        flex-direction: row;
+    }
+    .eae-tab__content {
+        width: 100%;
+        padding: 15px;
+        }
+
+    }
+}
