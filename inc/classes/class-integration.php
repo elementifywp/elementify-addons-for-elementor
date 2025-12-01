@@ -12,6 +12,8 @@ use Elementify_Addons_For_Elementor\Inc\Traits\Singleton;
 use Elementify_Addons_For_Elementor\Inc\Utils;
 use Elementor\Elements_Manager;
 use Elementor\Widgets_Manager;
+use Elementor\Controls_Manager;
+use Elementor\Element_Base;
 
 defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 
@@ -44,6 +46,14 @@ class Integration {
 	protected function setup_hooks(): void {
 		add_action( 'elementor/elements/categories_registered', array( $this, 'register_widgets_category' ), 1 );
 		add_action( 'elementor/widgets/register', array( $this, 'register_widgets' ) );
+
+		// Add controls to sections, columns, and widgets in Advanced tab.
+		add_action( 'elementor/element/column/section_advanced/after_section_end', array( $this, 'add_controls_section' ), 1 );
+		add_action( 'elementor/element/section/section_advanced/after_section_end', array( $this, 'add_controls_section' ), 1 );
+		add_action( 'elementor/element/common/_section_style/after_section_end', array( $this, 'add_controls_section' ), 1 );
+
+		// Add render attributes before rendering.
+		add_action( 'elementor/frontend/before_render', array( $this, 'before_render' ), 1 );
 	}
 
 	/**
@@ -118,7 +128,85 @@ class Integration {
 					throw new \Exception( 'Widget class not found: ' . $full_class );
 				}
 			} catch ( \Exception $e ) {
+				// Log error instead of displaying it directly.
 				echo wp_kses_post( $e->getMessage() );
+				continue;
+			}
+		}
+	}
+
+	/**
+	 * Add controls to sections, columns, and widgets in Advanced tab.
+	 *
+	 * @since 1.0.0
+	 * @param Element_Base $element Element instance.
+	 * @return void
+	 */
+	public function add_controls_section( $element ): void {
+		$element->start_controls_section(
+			'elementify_wrapper_link',
+			array(
+				'label' => esc_html__( 'Wrapper Link', 'elementify-addons-for-elementor' ),
+				'tab'   => Controls_Manager::TAB_ADVANCED,
+			)
+		);
+
+		$element->add_control(
+			'elementify_wrapper_link_url',
+			array(
+				'label'       => esc_html__( 'Link', 'elementify-addons-for-elementor' ),
+				'type'        => Controls_Manager::URL,
+				'dynamic'     => array(
+					'active' => true,
+				),
+				'placeholder' => 'https://example.com',
+				'description' => esc_html__( 'Add a link to make the entire element clickable.', 'elementify-addons-for-elementor' ),
+			)
+		);
+
+		$element->add_control(
+			'elementify_wrapper_link_cursor',
+			array(
+				'label'        => esc_html__( 'Pointer Cursor', 'elementify-addons-for-elementor' ),
+				'type'         => Controls_Manager::SWITCHER,
+				'default'      => 'yes',
+				'return_value' => 'yes',
+				'description'  => esc_html__( 'Show pointer cursor when hovering over the element.', 'elementify-addons-for-elementor' ),
+			)
+		);
+
+		$element->end_controls_section();
+	}
+
+	/**
+	 * Add wrapper link attributes before element render.
+	 *
+	 * @since 1.0.0
+	 * @param Element_Base $element Element instance.
+	 * @return void
+	 */
+	public function before_render( Element_Base $element ): void {
+		$settings = $element->get_settings_for_display();
+
+		if ( ! empty( $settings['elementify_wrapper_link_url']['url'] ) ) {
+			$url = $settings['elementify_wrapper_link_url'];
+
+			// Validate URL.
+			if ( empty( $url['url'] ) ) {
+				return;
+			}
+
+			// Add wrapper link attributes.
+			$element->add_render_attribute(
+				'_wrapper',
+				array(
+					'data-elementify-wrapper-link' => wp_json_encode( $url ),
+				)
+			);
+
+			// Add cursor class if enabled.
+			if ( ! empty( $settings['elementify_wrapper_link_cursor'] ) && 'yes' === $settings['elementify_wrapper_link_cursor'] ) {
+				$element->add_render_attribute( '_wrapper', 'class', 'elementify-wrapper-link-cursor' );
 			}
 		}
 	}

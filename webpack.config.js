@@ -18,7 +18,7 @@ const BUILD_DIR = path.resolve(__dirname, "assets/build");
 
 const entry = {
   editor: [path.join(SRC_DIR, 'js/editor.js')],
-  main: [path.join(SRC_DIR, 'sass/main.scss')],
+  main: [path.join(SRC_DIR, 'js/main.js')],
   widget: [path.join(SRC_DIR, 'js/widget.js')],
   admin: [path.join(SRC_DIR, 'js/admin.js')],
   icon: [path.join(SRC_DIR, 'sass/icon.scss')],

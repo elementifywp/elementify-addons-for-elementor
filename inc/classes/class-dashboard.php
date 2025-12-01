@@ -63,6 +63,8 @@ class Dashboard {
 
 		// Register settings once, not twice.
 		add_action( 'admin_init', array( $this, 'register_settings' ) );
+		// Add activation redirect hook.
+		add_action( 'admin_init', array( $this, 'activation_redirect' ) );
 	}
 
 	/**
@@ -257,6 +259,21 @@ class Dashboard {
 				'sanitize_callback' => array( $this, 'sanitize_settings' ),
 			)
 		);
+	}
+
+	/**
+	 * Checks if we need to redirect after activation, and redirects to the dashboard page if necessary.
+	 */
+	public function activation_redirect() {
+		// Check if we need to redirect.
+		if ( get_option( 'elementify_addons_for_elementor_activation_redirect', false ) ) {
+			// Delete the redirect option.
+			delete_option( 'elementify_addons_for_elementor_activation_redirect' );
+
+			// Redirect to the dashboard page.
+			wp_safe_redirect( Utils::get_dashboard_url() );
+			exit;
+		}
 	}
 
 	/**

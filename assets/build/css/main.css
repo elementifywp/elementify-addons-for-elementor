@@ -308,4 +308,19 @@
   width: 100% !important;
 }
 
+.elementify-wrapper-link-cursor {
+  cursor: pointer !important;
+}
+
+[data-elementify-wrapper-link] {
+  position: relative;
+}
+
+[data-elementify-wrapper-link]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
 /*# sourceMappingURL=main.css.map*/

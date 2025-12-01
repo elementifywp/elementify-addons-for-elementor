@@ -31,8 +31,8 @@ final class Plugin {
 		// Load class.
 		Assets::get_instance();
 		Utils::get_instance();
-		Integration::get_instance();
 		Rest_Endpoint::get_instance();
+		Integration::get_instance();
 		if ( is_admin() ) {
 			Dashboard::get_instance();
 		}
@@ -57,6 +57,9 @@ final class Plugin {
 			flush_rewrite_rules();
 			update_option( 'elementify_addons_for_elementor_version', $new_version );
 		}
+
+		// Set activation redirect flag.
+		add_option( 'elementify_addons_for_elementor_activation_redirect', true );
 	}
 
 	/**
@@ -69,6 +72,8 @@ final class Plugin {
 	 * @return void
 	 */
 	public function deactivate() {
+		// Clean up the redirect flag on deactivation.
+		delete_option( 'elementify_addons_for_elementor_activation_redirect' );
 		flush_rewrite_rules();
 	}
 
