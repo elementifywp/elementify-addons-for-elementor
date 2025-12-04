@@ -17,4 +17,18 @@
   padding: 2px;
 }
 
+.elementor-control-elementify_wrapper_link::before {
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 15px;
+  right: 15px;
+  top: 0;
+  margin: auto;
+  bottom: 0px;
+  content: "\e001";
+  font-family: "ElementifyWP", sans-serif;
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=editor.css.map*/
