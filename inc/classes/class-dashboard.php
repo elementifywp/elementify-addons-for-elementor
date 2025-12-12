@@ -18,6 +18,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  */
 class Dashboard {
 
+
 	use Singleton;
 
 	/**
@@ -63,8 +64,9 @@ class Dashboard {
 
 		// Register settings once, not twice.
 		add_action( 'admin_init', array( $this, 'register_settings' ) );
-		// Add activation redirect hook.
-		add_action( 'admin_init', array( $this, 'activation_redirect' ) );
+
+		// Check for activation redirect.
+		$this->check_activation_redirect();
 	}
 
 	/**
@@ -264,15 +266,22 @@ class Dashboard {
 	/**
 	 * Checks if we need to redirect after activation, and redirects to the dashboard page if necessary.
 	 */
-	public function activation_redirect() {
-		// Check if we need to redirect.
+	public function check_activation_redirect() {
+		// Only run on admin pages and for the correct user.
+		if ( ! is_admin() || ! current_user_can( 'manage_options' ) ) {
+			return;
+		}
+
+		// Check if the redirect flag exists.
 		if ( get_option( 'elementify_addons_for_elementor_activation_redirect', false ) ) {
-			// Delete the redirect option.
+			// Delete the option so it only redirects once.
 			delete_option( 'elementify_addons_for_elementor_activation_redirect' );
 
-			// Redirect to the dashboard page.
-			wp_safe_redirect( Utils::get_dashboard_url() );
-			exit;
+			// Perform the redirect (avoid during bulk activation).
+			if ( ! Utils::is_bulk_activation() ) {
+				wp_safe_redirect( Utils::get_dashboard_url() );
+				exit;
+			}
 		}
 	}
 

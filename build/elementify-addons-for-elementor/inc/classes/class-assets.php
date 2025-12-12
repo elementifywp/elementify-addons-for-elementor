@@ -50,6 +50,25 @@ class Assets {
 		wp_register_style( 'elementify-addons-for-elementor-icons', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/icon{$suffix}.css", array(), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/icon{$suffix}.css" ), 'all' );
 		wp_register_style( 'elementify-addons-for-elementor', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/main{$suffix}.css", array( 'elementify-addons-for-elementor-icons', 'elementor-frontend' ), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/main{$suffix}.css" ), 'all' );
 		wp_enqueue_style( 'elementify-addons-for-elementor' );
+
+		// Register scripts.
+		$asset_config_file = sprintf( '%s/js/main.asset.php', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH );
+
+		if ( ! file_exists( $asset_config_file ) ) {
+			return;
+		}
+
+		$editor_asset    = include_once $asset_config_file;
+		$js_dependencies = ( ! empty( $editor_asset['dependencies'] ) ) ? $editor_asset['dependencies'] : array();
+		$version         = ( ! empty( $editor_asset['version'] ) ) ? $editor_asset['version'] : filemtime( $asset_config_file );
+
+		wp_enqueue_script(
+			'elementify-addons-for-elementor',
+			ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . 'js/main.js',
+			array_unique( array_merge( $js_dependencies, array( 'jquery' ) ) ),
+			$version,
+			true
+		);
 	}
 
 	/**

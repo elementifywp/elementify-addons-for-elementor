@@ -21,6 +21,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  */
 class Utils {
 
+
 	use Singleton;
 
 	/**
@@ -533,5 +534,17 @@ class Utils {
 		);
 
 		return ! empty( $key ) ? ( isset( $options[ $key ] ) ? $options[ $key ] : array() ) : $options;
+	}
+
+	/**
+	 * Check if this is a bulk activation request
+	 * $_GET['activate-multi'] is set by WordPress during bulk activation
+	 *
+	 * @return bool
+	 */
+	public static function is_bulk_activation() {
+		// Check if this is a bulk activation request.
+		// $_GET['activate-multi'] is set by WordPress during bulk activation.
+		return isset( $_GET['activate-multi'] ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 	}
 }

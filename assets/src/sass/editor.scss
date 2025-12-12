@@ -23,3 +23,16 @@ $font-family_1: "ElementifyWP", sans-serif;
 
     }
 }
+.elementor-control-elementify_wrapper_link::before {
+    position: absolute;
+    display: block;
+    height: 15px;
+    width: 15px;
+    right: 15px;
+    top: 0;
+    margin: auto;
+    bottom: 0;
+    content: "\e001";
+    font-family: ElementifyWP, sans-serif;
+    font-size: 14px;
+}
