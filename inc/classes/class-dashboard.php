@@ -212,7 +212,7 @@ class Dashboard {
 		}
 
 		$editor_asset    = include_once $asset_config_file;
-		$js_dependencies = ( ! empty( $editor_asset['dependencies'] ) ) ? $editor_asset['dependencies'] : array();
+		$js_dependencies = ( ! empty( $editor_asset['dependencies'] ) ) ? $editor_asset['dependencies'] : array( 'wp-api-fetch' );
 		$version         = ( ! empty( $editor_asset['version'] ) ) ? $editor_asset['version'] : filemtime( $asset_config_file );
 
 		// Register scripts.

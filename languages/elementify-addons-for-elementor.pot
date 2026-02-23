@@ -1,15 +1,15 @@
-# Copyright (C) 2025 elementifywp
+# Copyright (C) 2026 elementifywp
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Elementify Addons for Elementor 1.0.2\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elementify-addons-for-elementor\n"
+"Project-Id-Version: Elementify Addons for Elementor 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elementify-addons-for-elementor-private\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-12T06:13:29+00:00\n"
+"POT-Creation-Date: 2026-02-23T03:20:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -38,238 +38,369 @@ msgstr ""
 msgid "https://elementifywp.com/"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:149
-#: inc/classes/class-integration.php:149
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:199
+#: inc/classes/class-assets.php:199
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:385
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:510
+msgid "Import Templates"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:200
+#: inc/classes/class-assets.php:200
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:561
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:672
+msgid "Search templates..."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:201
+#: inc/classes/class-assets.php:201
+msgid "Insert"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:202
+#: inc/classes/class-assets.php:202
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:71
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:154
+msgid "Preview"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:203
+#: inc/classes/class-assets.php:203
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:570
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:677
+msgid "Loading..."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:204
+#: inc/classes/class-assets.php:204
+msgid "No templates found."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:205
+#: inc/classes/class-assets.php:205
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:84
+#: assets/src/js/editor/model.jsx:451
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:164
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:570
+msgid "Importing..."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-assets.php:206
+#: inc/classes/class-assets.php:206
+msgid "Error occurred. Please try again."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:150
+#: inc/classes/class-integration.php:150
 msgid "Wrapper Link"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:157
+#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:158
 #: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:252
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:153
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:197
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:678
-#: inc/classes/class-integration.php:157
+#: inc/classes/class-integration.php:158
 #: inc/widgets/class-animated-text.php:252
 #: inc/widgets/class-logos.php:153
 #: inc/widgets/class-testimonials.php:197
 #: inc/widgets/class-testimonials.php:678
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34909
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36912
 msgid "Link"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:163
-#: inc/classes/class-integration.php:163
+#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:164
+#: inc/classes/class-integration.php:164
 msgid "Add a link to make the entire element clickable."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:170
-#: inc/classes/class-integration.php:170
+#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:171
+#: inc/classes/class-integration.php:171
 msgid "Pointer Cursor"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:174
-#: inc/classes/class-integration.php:174
+#: build/elementify-addons-for-elementor/inc/classes/class-integration.php:175
+#: inc/classes/class-integration.php:175
 msgid "Show pointer cursor when hovering over the element."
 msgstr ""
 
+#: build/elementify-addons-for-elementor/inc/classes/class-library-manager.php:215
+#: inc/classes/class-library-manager.php:215
+msgid "Template not found."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-manager.php:240
+#: inc/classes/class-library-manager.php:240
+msgid "Permission denied."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-manager.php:262
+#: inc/classes/class-library-manager.php:262
+msgid "Insufficient permissions."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-manager.php:318
+#: inc/classes/class-library-manager.php:318
+msgid "Template imported successfully."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:50
+#: inc/classes/class-library-source.php:50
+msgid "Elementify Addons Library"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:70
+#: inc/classes/class-library-source.php:70
+msgid "Cannot save to remote library"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:83
+#: inc/classes/class-library-source.php:83
+msgid "Cannot update remote library"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:96
+#: inc/classes/class-library-source.php:96
+msgid "Cannot delete from remote library"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:109
+#: inc/classes/class-library-source.php:109
+msgid "Cannot export from remote library"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:167
+#: inc/classes/class-library-source.php:167
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38390
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38491
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38521
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38940
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39232
+msgid "Untitled"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:341
+#: inc/classes/class-library-source.php:341
+msgid "Failed to retrieve template data from server."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-library-source.php:347
+#: inc/classes/class-library-source.php:347
+msgid "Template does not have any content"
+msgstr ""
+
 #. translators: 1: Minimum required PHP version, 2: Current PHP version
-#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:96
-#: inc/classes/class-plugin.php:96
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:116
+#: inc/classes/class-plugin.php:116
 #, php-format
 msgid "Elementify Addons for Elementor requires PHP %1$s or higher. You are running PHP %2$s. Please upgrade your PHP version."
 msgstr ""
 
 #. translators: 1: Minimum required WordPress version, 2: Current WordPress version
-#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:121
-#: inc/classes/class-plugin.php:121
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:141
+#: inc/classes/class-plugin.php:141
 #, php-format
 msgid "Elementify Addons for Elementor requires WordPress %1$s or higher. You are running version %2$s. Please upgrade WordPress."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:206
-#: inc/classes/class-plugin.php:206
+#. translators: 1: Plugin name
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:175
+#: inc/classes/class-plugin.php:175
+#, php-format
+msgid "Elementify Addons for Elementor: The plugin requires pretty permalinks to be enabled. Please go to <a href=\"%s\">Permalink Settings</a> and enable an option other than <code>Plain</code>."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:261
+#: inc/classes/class-plugin.php:261
 msgid "Cloning is forbidden."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:219
-#: inc/classes/class-plugin.php:219
+#: build/elementify-addons-for-elementor/inc/classes/class-plugin.php:274
+#: inc/classes/class-plugin.php:274
 msgid "Unserializing instances of this class is forbidden."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:79
-#: inc/classes/class-rest-endpoint.php:79
+#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:88
+#: inc/classes/class-rest-endpoint.php:88
 msgid "You do not have permission to access this resource."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:122
-#: inc/classes/class-rest-endpoint.php:122
+#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:130
+#: inc/classes/class-rest-endpoint.php:130
 msgid "Invalid settings data provided."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:215
-#: inc/classes/class-rest-endpoint.php:215
+#: build/elementify-addons-for-elementor/inc/classes/class-rest-endpoint.php:223
+#: inc/classes/class-rest-endpoint.php:223
 msgid "The settings data could not be sanitized."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:59
-#: inc/classes/class-utils.php:59
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:61
+#: inc/classes/class-utils.php:61
 msgid "(no title)"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:74
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:413
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:421
-#: inc/classes/class-utils.php:74
-#: inc/classes/class-utils.php:413
-#: inc/classes/class-utils.php:421
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:76
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:443
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:451
+#: inc/classes/class-utils.php:76
+#: inc/classes/class-utils.php:443
+#: inc/classes/class-utils.php:451
 msgid "Elementify Addons"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:234
-#: inc/classes/class-utils.php:234
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:236
+#: inc/classes/class-utils.php:236
 msgid "Full"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:329
-#: inc/classes/class-utils.php:329
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:359
+#: inc/classes/class-utils.php:359
 msgid "Enable animation text."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:334
-#: inc/classes/class-utils.php:334
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:364
+#: inc/classes/class-utils.php:364
 msgid "Enable from styler."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:339
-#: inc/classes/class-utils.php:339
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:369
+#: inc/classes/class-utils.php:369
 msgid "Enable tabs."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:344
-#: inc/classes/class-utils.php:344
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:374
+#: inc/classes/class-utils.php:374
 msgid "Enable logos."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:349
-#: inc/classes/class-utils.php:349
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:379
+#: inc/classes/class-utils.php:379
 msgid "Enable testimonials."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:354
-#: inc/classes/class-utils.php:354
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:384
+#: inc/classes/class-utils.php:384
 msgid "Enable Portfolio."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:420
-#: inc/classes/class-utils.php:420
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:450
+#: inc/classes/class-utils.php:450
 msgid "Elementify Addons Page"
 msgstr ""
 
 #. translators: %s is the plugin name
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:432
-#: inc/classes/class-utils.php:432
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:462
+#: inc/classes/class-utils.php:462
 #, php-format
 msgid "Thank you for selecting %s for Elementor – your new go-to tool for creating stunning, functional, and super-fast websites without any coding."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:447
-#: inc/classes/class-utils.php:447
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:477
+#: inc/classes/class-utils.php:477
 msgid "Join Our Facebook Community"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:448
-#: inc/classes/class-utils.php:448
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:478
+#: inc/classes/class-utils.php:478
 msgid "Become part of a larger community!. Connect with fellow designers, showcase your work, gain inspiration, and keep up with exclusive tips and insights from our team and community members."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:449
-#: inc/classes/class-utils.php:449
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:479
+#: inc/classes/class-utils.php:479
 msgid "Join Now"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:457
-#: inc/classes/class-utils.php:457
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:487
+#: inc/classes/class-utils.php:487
 msgid "Need Assistance or Have Inquiries?"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:458
-#: inc/classes/class-utils.php:458
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:488
+#: inc/classes/class-utils.php:488
 msgid "We’re here for you – anytime! Whether you’re facing a technical issue or exploring a feature, our dedicated support team is available 24/7 to assist you. Get live help or submit a ticket, and we’ll take care of it."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:459
-#: inc/classes/class-utils.php:459
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:489
+#: inc/classes/class-utils.php:489
 msgid "Get Support"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:475
-#: inc/classes/class-utils.php:475
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:505
+#: inc/classes/class-utils.php:505
 msgid "Stay Updated"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:476
-#: inc/classes/class-utils.php:476
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:506
+#: inc/classes/class-utils.php:506
 msgid "Subscribe to Our Newsletter! Don’t miss out on new feature releases, tutorials, design inspiration, or special offers. Our newsletter is concise, engaging, and always a great read."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:477
-#: inc/classes/class-utils.php:477
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:507
+#: inc/classes/class-utils.php:507
 msgid "Subscribe Now"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:492
-#: inc/classes/class-utils.php:492
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:522
+#: inc/classes/class-utils.php:522
 msgid "Docs & Tutorials or Guides & Resources"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:493
-#: inc/classes/class-utils.php:493
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:523
+#: inc/classes/class-utils.php:523
 msgid "Become proficient with ElementifyWP — Gradually. Our detailed documentation serves as your primary resource for all things ElementifyWP. Regardless of whether you`re a beginner or diving into more advanced features, you`ll discover all the solutions in our extensive knowledge base, filled with images, videos, and recommended practices."
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:496
-#: inc/classes/class-utils.php:496
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:526
+#: inc/classes/class-utils.php:526
 msgid "Documentation"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:504
-#: inc/classes/class-utils.php:504
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:534
+#: inc/classes/class-utils.php:534
 msgid "SEO"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:508
-#: inc/classes/class-utils.php:508
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:538
+#: inc/classes/class-utils.php:538
 msgid "Advanced Animated Text"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:512
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:542
 #: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:48
-#: inc/classes/class-utils.php:512
+#: inc/classes/class-utils.php:542
 #: inc/widgets/class-form-styler.php:48
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:71
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:724
 msgid "Form Styler"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:516
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:546
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:47
-#: inc/classes/class-utils.php:516
+#: inc/classes/class-utils.php:546
 #: inc/widgets/class-logos.php:47
 msgid "Logos Carousel"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:520
-#: inc/classes/class-utils.php:520
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:550
+#: inc/classes/class-utils.php:550
 msgid "Portfolio Widget"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:524
-#: inc/classes/class-utils.php:524
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:554
+#: inc/classes/class-utils.php:554
 msgid "Tabs Widget"
 msgstr ""
 
-#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:528
-#: inc/classes/class-utils.php:528
+#: build/elementify-addons-for-elementor/inc/classes/class-utils.php:558
+#: inc/classes/class-utils.php:558
 msgid "Testimonials Carousel"
 msgstr ""
 
@@ -279,7 +410,7 @@ msgstr ""
 #: inc/widgets/class-animated-text.php:421
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:56
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:718
 msgid "Animated Text"
 msgstr ""
 
@@ -348,6 +479,7 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-animated-text.php:187
 #: inc/widgets/class-animated-text.php:187
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32022
 msgid "HTML Tag"
 msgstr ""
 
@@ -387,6 +519,9 @@ msgstr ""
 #: inc/widgets/class-logos.php:187
 #: inc/widgets/class-portfolio.php:550
 #: inc/widgets/class-tabs.php:343
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39941
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41251
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42536
 msgid "Left"
 msgstr ""
 
@@ -414,6 +549,11 @@ msgstr ""
 #: inc/widgets/class-tabs.php:347
 #: inc/widgets/class-tabs.php:852
 #: inc/widgets/class-testimonials.php:317
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39944
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39979
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41261
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42539
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42574
 msgid "Center"
 msgstr ""
 
@@ -429,6 +569,9 @@ msgstr ""
 #: inc/widgets/class-logos.php:188
 #: inc/widgets/class-portfolio.php:558
 #: inc/widgets/class-tabs.php:351
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39947
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41266
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42542
 msgid "Right"
 msgstr ""
 
@@ -569,6 +712,8 @@ msgstr ""
 #: inc/widgets/class-tabs.php:622
 #: inc/widgets/class-tabs.php:1077
 #: inc/widgets/class-testimonials.php:505
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34516
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34548
 msgid "Padding"
 msgstr ""
 
@@ -621,6 +766,16 @@ msgstr ""
 #: inc/widgets/class-testimonials.php:564
 #: inc/widgets/class-testimonials.php:657
 #: inc/widgets/class-testimonials.php:687
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17624
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17848
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18053
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28644
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28893
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28901
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29041
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29208
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40072
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41083
 msgid "Color"
 msgstr ""
 
@@ -631,6 +786,9 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:135
 #: inc/widgets/class-form-styler.php:135
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35054
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40040
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40816
 msgid "Source"
 msgstr ""
 
@@ -680,6 +838,9 @@ msgstr ""
 #: inc/widgets/class-form-styler.php:296
 #: inc/widgets/class-form-styler.php:337
 #: inc/widgets/class-tabs.php:169
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:47
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:132
 msgid "Template"
 msgstr ""
 
@@ -772,6 +933,12 @@ msgstr ""
 #: inc/widgets/class-form-styler.php:1230
 #: inc/widgets/class-form-styler.php:1796
 #: inc/widgets/class-logos.php:277
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14952
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15770
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28059
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33997
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44845
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46031
 msgid "None"
 msgstr ""
 
@@ -931,6 +1098,29 @@ msgstr ""
 #: inc/widgets/class-tabs.php:500
 #: inc/widgets/class-tabs.php:671
 #: inc/widgets/class-tabs.php:907
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18029
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20067
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20494
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21517
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21995
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22516
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28665
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29074
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30173
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35336
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36047
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36327
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36632
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37256
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41564
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42722
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43687
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44607
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44745
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44815
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44859
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45104
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45388
 msgid "Normal"
 msgstr ""
 
@@ -943,6 +1133,7 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1005
 #: inc/widgets/class-form-styler.php:1005
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28695
 msgid "Focus"
 msgstr ""
 
@@ -992,6 +1183,7 @@ msgstr ""
 #: build/elementify-addons-for-elementor/inc/widgets/class-form-styler.php:1697
 #: inc/widgets/class-form-styler.php:1631
 #: inc/widgets/class-form-styler.php:1697
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17670
 msgid "Background"
 msgstr ""
 
@@ -1009,6 +1201,24 @@ msgstr ""
 #: inc/widgets/class-tabs.php:535
 #: inc/widgets/class-tabs.php:710
 #: inc/widgets/class-tabs.php:934
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20077
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20504
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21527
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22005
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22526
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28675
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29084
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30183
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35346
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36057
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36337
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36642
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37266
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41574
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42732
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43697
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45114
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45398
 msgid "Hover"
 msgstr ""
 
@@ -1043,6 +1253,9 @@ msgstr ""
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:594
 #: inc/widgets/class-form-styler.php:2026
 #: inc/widgets/class-testimonials.php:594
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40255
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40917
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40953
 msgid "Size"
 msgstr ""
 
@@ -1111,6 +1324,9 @@ msgstr ""
 #: inc/widgets/class-portfolio.php:217
 #: inc/widgets/class-portfolio.php:312
 #: inc/widgets/class-portfolio.php:1276
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33333
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33632
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57045
 msgid "Title"
 msgstr ""
 
@@ -1121,6 +1337,10 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:140
 #: inc/widgets/class-logos.php:140
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17858
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29537
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34915
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40461
 msgid "Image"
 msgstr ""
 
@@ -1137,7 +1357,7 @@ msgstr ""
 #: inc/widgets/class-portfolio.php:285
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:80
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:730
 msgid "Logos"
 msgstr ""
 
@@ -1190,16 +1410,21 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:278
 #: inc/widgets/class-logos.php:278
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30438
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30575
 msgid "Grayscale"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:279
 #: inc/widgets/class-logos.php:279
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43141
 msgid "Scale"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:280
 #: inc/widgets/class-logos.php:280
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30468
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30585
 msgid "Opacity"
 msgstr ""
 
@@ -1207,6 +1432,8 @@ msgstr ""
 #: build/elementify-addons-for-elementor/inc/widgets/class-logos.php:375
 #: inc/widgets/class-logos.php:332
 #: inc/widgets/class-logos.php:375
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34507
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34538
 msgid "Margin"
 msgstr ""
 
@@ -1214,7 +1441,7 @@ msgstr ""
 #: inc/widgets/class-portfolio.php:55
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:106
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:748
 msgid "Portfolio"
 msgstr ""
 
@@ -1272,8 +1499,14 @@ msgid "Button Text"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:241
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:364
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:392
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:417
 #: inc/widgets/class-portfolio.php:241
-msgid "View"
+#: inc/widgets/class-portfolio.php:364
+#: inc/widgets/class-portfolio.php:392
+#: inc/widgets/class-portfolio.php:417
+msgid "View Details"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:250
@@ -1344,15 +1577,6 @@ msgstr ""
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:363
 #: inc/widgets/class-portfolio.php:363
 msgid "Web"
-msgstr ""
-
-#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:364
-#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:392
-#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:417
-#: inc/widgets/class-portfolio.php:364
-#: inc/widgets/class-portfolio.php:392
-#: inc/widgets/class-portfolio.php:417
-msgid "View Details"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:376
@@ -1431,6 +1655,8 @@ msgstr ""
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:880
 #: inc/widgets/class-portfolio.php:448
 #: inc/widgets/class-portfolio.php:880
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30156
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30368
 msgid "Filter"
 msgstr ""
 
@@ -1441,6 +1667,11 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:465
 #: inc/widgets/class-portfolio.php:465
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22708
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35321
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35616
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35677
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35714
 msgid "Position"
 msgstr ""
 
@@ -1466,6 +1697,7 @@ msgstr ""
 #: inc/widgets/class-portfolio.php:514
 #: inc/widgets/class-tabs.php:269
 #: inc/widgets/class-tabs.php:304
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41256
 msgid "Justify"
 msgstr ""
 
@@ -1512,6 +1744,14 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:576
 #: inc/widgets/class-portfolio.php:576
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16483
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16497
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16511
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16525
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16539
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16553
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46748
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46825
 msgid "Width"
 msgstr ""
 
@@ -1645,6 +1885,8 @@ msgstr ""
 #: inc/widgets/class-tabs.php:570
 #: inc/widgets/class-tabs.php:746
 #: inc/widgets/class-tabs.php:961
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28685
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53647
 msgid "Active"
 msgstr ""
 
@@ -1664,8 +1906,8 @@ msgid "Socials"
 msgstr ""
 
 #. translators: %s: Number of remaining items
-#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:2410
-#: inc/widgets/class-portfolio.php:2410
+#: build/elementify-addons-for-elementor/inc/widgets/class-portfolio.php:2413
+#: inc/widgets/class-portfolio.php:2413
 #, php-format
 msgid "+%s More"
 msgstr ""
@@ -1678,7 +1920,7 @@ msgstr ""
 #: inc/widgets/class-tabs.php:424
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:87
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:736
 msgid "Tabs"
 msgstr ""
 
@@ -1757,11 +1999,13 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:408
 #: inc/widgets/class-tabs.php:408
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53625
 msgid "Show"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-tabs.php:409
 #: inc/widgets/class-tabs.php:409
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53627
 msgid "Hide"
 msgstr ""
 
@@ -1796,7 +2040,7 @@ msgstr ""
 #: inc/widgets/class-testimonials.php:206
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:94
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:742
 msgid "Testimonials"
 msgstr ""
 
@@ -1905,11 +2149,15 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:313
 #: inc/widgets/class-testimonials.php:313
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39976
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42571
 msgid "Top"
 msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:321
 #: inc/widgets/class-testimonials.php:321
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39982
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42577
 msgid "Bottom"
 msgstr ""
 
@@ -1945,6 +2193,10 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:399
 #: inc/widgets/class-testimonials.php:399
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15636
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15709
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45865
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45958
 msgid "Autoplay"
 msgstr ""
 
@@ -1970,6 +2222,7 @@ msgstr ""
 
 #: build/elementify-addons-for-elementor/inc/widgets/class-testimonials.php:720
 #: inc/widgets/class-testimonials.php:720
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53225
 msgid "Pagination"
 msgstr ""
 
@@ -1988,128 +2241,144 @@ msgstr ""
 msgid "Icon Color"
 msgstr ""
 
+#. translators: %s: action type
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:48949
 #, js-format
 msgid "Error while data store process for %s."
 msgstr ""
 
+#. translators: %s: item id
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:49163
 #, js-format
 msgid "The item with id %s is updated successfully"
 msgstr ""
 
+#. translators: %s: item id
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:49197
 #, js-format
 msgid "The item with id %s is added successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:49235
 msgid "Deleted successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:49338
 msgid "Updated successfully"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:13165
 msgid "Error: Icon url should contain .svg extension"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:13186
 msgid "Error on icon url"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40607
 #, js-format
 msgid "Item not found with value %s"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:54031
 msgid "Repeater fields"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:52594
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:54033
 msgid "Delete"
 msgstr ""
 
 #: assets/build/js/admin.js:1
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:52632
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:54035
 msgid "Cancel"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/atoms/save-settings.js:24
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:80
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57397
 msgid "Saved"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/atoms/save-settings.js:25
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:81
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57398
 msgid "Save settings"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/atoms/save-settings.js:29
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:82
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57399
 msgid "Saving"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:61
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:314
 msgid "Dashboard"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:97
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:348
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15697
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33382
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45946
 msgid "Settings"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:126
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:367
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58329
 msgid "Close sidebar"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:130
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:367
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58329
 msgid "Open sidebar"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:163
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:389
 msgid "Notifications"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:182
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:395
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58297
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58311
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58347
 msgid "Close notification"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/organisms/admin-header.js:194
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:405
 msgid "Show all notifications"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/components/molecules/docs-title.js:15
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:125
 msgid "How to Use Elementor Widgets"
 msgstr ""
 
@@ -2117,174 +2386,3184 @@ msgstr ""
 #: assets/src/js/admin/pages/settings/pages/widgets.js:34
 #: assets/src/js/admin/pages/settings/pages/widgets.js:124
 #: assets/src/js/admin/pages/settings/pages/widgets.js:407
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:700
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:762
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:904
 msgid "Error: Settings context not available."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:153
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:783
 msgid "Accessing Elementor Widgets?"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:163
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:788
 msgid "1. Open the Elementor Editor:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:172
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:792
 msgid "- Edit a page/post with Elementor."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:181
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:796
 msgid "- Click \"Edit with Elementor\" from your WordPress dashboard."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:190
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:800
 msgid "2. Find the Widget Panel:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:199
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:804
 msgid "- On the left side of the editor, you`ll see the Elementor panel."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:208
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:808
 msgid "- Click the \"Widgets\" icon (grid-like icon) at the top."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:216
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:812
 msgid "Adding Widgets to Your Page?"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:226
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:817
 msgid "1. Drag and Drop Method:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:235
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:821
 msgid "- Locate the widget in the panel."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:244
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:825
 msgid "- Drag it to your desired section/column."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:253
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:829
 msgid "2. Click to Add Method:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:262
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:833
 msgid "- Hover over a section or column."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:271
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:837
 msgid "- Click the \"+\" icon to add a new widget."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:280
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:841
 msgid "- Select your widget from the popup."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:288
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:845
 msgid "Customizing Widgets?"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:298
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:850
 msgid "Once added, you can customize each widget."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:307
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:854
 msgid "1. Content Tab:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:316
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:858
 msgid "- Configure the main content of the widget."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:325
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:862
 msgid "- Example: For a button widget, set the text and link."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:334
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:866
 msgid "2. Style Tab:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:343
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:870
 msgid "- Customize colors, typography, spacing, and more."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:352
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:874
 msgid "Add borders, shadows, and other visual effects."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:361
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:878
 msgid "3. Advanced Tab:"
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:370
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:882
 msgid "- Add custom CSS, motion effects, and responsive settings."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:379
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:886
 msgid "- Configure margins and padding for precise layout control."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:388
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:890
 msgid "- Add custom attributes or IDs for advanced functionality."
 msgstr ""
 
 #: assets/build/js/admin.js:1
 #: assets/src/js/admin/pages/settings/pages/widgets.js:425
-#: build/elementify-addons-for-elementor/assets/build/js/admin.js:1
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:916
 msgid "Widgets"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:51
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:135
+msgid "No Image"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:57
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:140
+msgid "Premium"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:85
+#: assets/src/js/editor/model.jsx:454
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:164
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:572
+msgid "Import"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/components/TemplateCard.jsx:95
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:174
+msgid "Untitled Template"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:162
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:358
+msgid "Failed to load templates"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:181
+#: assets/src/js/editor/model.jsx:198
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:370
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:378
+msgid "All Templates"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:189
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:374
+msgid "Failed to load templates. Please try again."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:228
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:397
+msgid "Elementor editor is not available."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:292
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:446
+msgid "Template imported successfully!"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:302
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:451
+msgid "Template imported."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:312
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:458
+msgid "Error importing template. Please try again."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:217
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:390
+msgid "Invalid template selected."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:328
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:467
+msgid "Preview not available."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:336
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:471
+msgid "Preview not available for this template."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:403
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:529
+msgid "Back to Library"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:411
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:542
+msgid "Library"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:424
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:551
+msgid "Blocks"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:431
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:556
+msgid "Pages"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:461
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57766
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:579
+msgid "Refresh"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:470
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27745
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:585
+msgid "Close"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:486
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:599
+msgid "Loading preview..."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:571
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:677
+msgid "templates found"
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:616
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:710
+msgid "Loading templates..."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:631
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:720
+msgid "No templates found. Try a different search."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:635
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:720
+msgid "No templates available."
+msgstr ""
+
+#: assets/build/js/editor.js:1
+#: assets/src/js/editor/model.jsx:642
+#: build/elementify-addons-for-elementor/assets/build/js/editor.js:724
+msgid "Clear filters"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:12616
+msgid "Other audio"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:13288
+msgid "Atrc Iframe"
+msgstr ""
+
+#. translators: %s: location
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:13897
+#, js-format
+msgid "Embedded content from Google Maps. Location: %s."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14576
+msgid "Youtube video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14595
+msgid "Vimeo video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14605
+msgid "Other video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14886
+msgid "Animation"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14895
+msgid "Delay (Seconds)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14905
+msgid "Duration (Seconds)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14915
+msgid "Iteration"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14955
+msgid "BounceIn"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14958
+msgid "FadeIn"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14961
+msgid "FadeOut"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14964
+msgid "Flip"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14967
+msgid "RotateIn"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14970
+msgid "RotateOut"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14973
+msgid "SlideInLeft"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14976
+msgid "SlideInRight"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14979
+msgid "SlideInUp"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14982
+msgid "SlideInDown"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14985
+msgid "ZoomIn"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:14988
+msgid "HeartBeat"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15155
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42616
+msgid "Use 3D Transforms"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15163
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42624
+msgid "Perspective"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15171
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40452
+msgid "Type"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15174
+msgid "Visible on scroll"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15177
+msgid "Progressive on scroll"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15184
+msgid "Final transform"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15184
+msgid "New transform"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15192
+msgid "Optional:"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15192
+msgid "For initial transformation, use the transform options."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15192
+msgid "For a smooth transformation, use the transition options."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15218
+msgid "Animation scroll"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15287
+msgid "Predefined"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15297
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16202
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16218
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16234
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16250
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16266
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16282
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17963
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18005
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39950
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39985
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40049
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40221
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40822
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42545
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42580
+msgid "Custom"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15518
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33239
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45701
+msgid "Select or upload background media"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15531
+msgid "Replace audio"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15531
+msgid "Add audio"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15544
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33252
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45714
+msgid "Remove media"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15571
+msgid "Audio URL"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15622
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45851
+msgid "Autoplay may cause usability issues for some users."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15646
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15722
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45875
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45971
+msgid "Loop"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15656
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15734
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45885
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45983
+msgid "Muted"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15666
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45895
+msgid "Controls"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15676
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15758
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45915
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46019
+msgid "Preload"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15686
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15783
+msgid "Controlslist"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15746
+msgid "Playback ctrl"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15764
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17996
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34000
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34743
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40212
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46025
+msgid "Auto"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15767
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46028
+msgid "Metadata"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15790
+msgid "nodownload"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15793
+msgid "nofullscreen"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15796
+msgid "noremoteplayback"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15811
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28425
+msgid "Audio"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15870
+msgid "Audio source"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15876
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29953
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33445
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46155
+msgid "Self hosted"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:15879
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33618
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46158
+msgid "URL"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16173
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17442
+msgid "Background position"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16203
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16219
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16235
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16251
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16267
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16283
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22726
+msgid "X"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16211
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16227
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16243
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16259
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16275
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16291
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22735
+msgid "Y"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16466
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17456
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17530
+msgid "Background size"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16480
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16494
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16508
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16522
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16536
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16550
+msgid "Custom width and height"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16489
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16503
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16517
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16531
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16545
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:16559
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46781
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46855
+msgid "Height"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17449
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17512
+msgid "Background repeat"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17463
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17560
+msgid "Background attachment"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17470
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17578
+msgid "Background blend mode"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17480
+msgid "Background image settings"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17646
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17868
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29639
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34868
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34921
+msgid "Video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17877
+msgid "Either use background gradient color or background image."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17933
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17969
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17993
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18011
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18026
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22714
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34731
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35764
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36885
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39938
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39973
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40209
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42533
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42568
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43427
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43914
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44604
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44742
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44812
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44833
+msgid "Default"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17936
+msgid "Left top"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17939
+msgid "Left center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17942
+msgid "Left bottom"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17945
+msgid "Right top"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17948
+msgid "Right center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17951
+msgid "Right bottom"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17954
+msgid "Center top"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17957
+msgid "Center center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17960
+msgid "Center bottom"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17972
+msgid "Repeat"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17975
+msgid "Repeat-x"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17978
+msgid "Repeat-y"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17981
+msgid "Space"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17984
+msgid "Round"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17987
+msgid "No-repeat"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:17999
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40218
+msgid "Cover"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18002
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40215
+msgid "Contain"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18014
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34740
+msgid "Scroll"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18017
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35773
+msgid "Fixed"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18020
+msgid "Local"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18032
+msgid "Multiply"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18035
+msgid "Screen"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18038
+msgid "Overlay"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18041
+msgid "Darken"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18044
+msgid "Lighten"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18047
+msgid "Color dodge"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18050
+msgid "Saturation"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18056
+msgid "Luminosity"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18092
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19419
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28115
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32826
+msgid "Svg 1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18111
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19435
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28136
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32840
+msgid "Svg 2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18138
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19457
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28151
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32854
+msgid "Svg 3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18177
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19487
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28165
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32868
+msgid "Svg 4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18196
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19503
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28181
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32882
+msgid "Svg 5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18215
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19521
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28198
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32897
+msgid "Svg 6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18248
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19560
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28217
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32912
+msgid "Svg 7"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18272
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19588
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28232
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32927
+msgid "Svg 8"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18302
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19624
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28249
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32942
+msgid "Svg 9"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18317
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19643
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28264
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32957
+msgid "Svg 10"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18353
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19673
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28283
+msgid "Svg 11"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18371
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19695
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28298
+msgid "Svg 12"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18395
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19723
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28315
+msgid "Svg 13"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18411
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19743
+msgid "Svg 14"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18427
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19763
+msgid "Svg 15"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18447
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19779
+msgid "Svg 16"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18470
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19806
+msgid "Svg 17"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18494
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19834
+msgid "Svg 18"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:18524
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19870
+msgid "Svg 19"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19289
+msgid "Top shape"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19299
+msgid "Bottom shape"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:19308
+msgid "Block shape"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20051
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21187
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21233
+msgid "Border radius"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20477
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:20720
+msgid "Borders"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21127
+msgid "Boundary"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21176
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21222
+msgid "Border"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21198
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21244
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22498
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22667
+msgid "Box shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21482
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:21955
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36012
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36160
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36353
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45067
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45343
+msgid "Enter value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22717
+msgid "Inset"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22744
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30408
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30565
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41767
+msgid "Blur"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22753
+msgid "Spread"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:22893
+msgid "Add following scripts:"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23243
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29789
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34904
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38095
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38270
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38814
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39262
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39521
+msgid "Select"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23246
+msgid "1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23249
+msgid "2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23252
+msgid "3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23255
+msgid "4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23258
+msgid "5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23261
+msgid "6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23337
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23460
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23728
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23834
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23934
+msgid "All full width"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23359
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24976
+msgid "Five columns layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23441
+msgid "6-6-6-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23480
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25022
+msgid "Four columns layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23603
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25142
+msgid "Single column layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23682
+msgid "4-4-4-4-4-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23705
+msgid "6-6-6-6-6-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23752
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25188
+msgid "Six columns layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23852
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25234
+msgid "Three columns layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:23950
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25280
+msgid "Two columns layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24114
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25402
+msgid "Select columns"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24247
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25533
+msgid "One column"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24264
+msgid "1-11"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24280
+msgid "2-10"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24296
+msgid "3-9"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24312
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25819
+msgid "4-8"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24328
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26014
+msgid "5-7"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24344
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26269
+msgid "6-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24360
+msgid "7-5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24376
+msgid "8-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24392
+msgid "9-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24408
+msgid "10-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24424
+msgid "11-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24443
+msgid "1-10-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24461
+msgid "1-1-10"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24479
+msgid "2-2-8"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24497
+msgid "2-8-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24515
+msgid "3-3-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24533
+msgid "3-6-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24551
+msgid "4-4-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24569
+msgid "6-3-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24587
+msgid "8-2-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24605
+msgid "10-1-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24626
+msgid "2-2-2-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24646
+msgid "3-3-3-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24666
+msgid "6-2-2-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24689
+msgid "1-1-1-1-8"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24711
+msgid "2-2-2-2-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24733
+msgid "Equal 5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24755
+msgid "4-2-2-2-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24777
+msgid "8-1-1-1-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24802
+msgid "Equal 6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:24829
+msgid "Custom width"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25551
+msgid "2-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25567
+msgid "2-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25586
+msgid "3-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25604
+msgid "3-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25622
+msgid "3-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25640
+msgid "3-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25658
+msgid "3-5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25679
+msgid "4-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25699
+msgid "4-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25719
+msgid "4-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25739
+msgid "4-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25759
+msgid "4-5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25779
+msgid "4-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25799
+msgid "4-7"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25839
+msgid "4-9"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25859
+msgid "4-10"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25882
+msgid "5-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25904
+msgid "5-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25926
+msgid "5-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25948
+msgid "5-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25970
+msgid "5-5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:25992
+msgid "5-6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26036
+msgid "5-8"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26058
+msgid "5-9"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26080
+msgid "5-10"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26102
+msgid "5-11"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26124
+msgid "5-12"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26149
+msgid "6-1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26173
+msgid "6-2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26197
+msgid "6-3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26221
+msgid "6-4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26245
+msgid "6-5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26293
+msgid "6-7"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26317
+msgid "6-8"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26341
+msgid "6-9"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26656
+msgid "Custom widths"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26900
+msgid "Post types"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26916
+msgid "Taxonomy terms"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26940
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26956
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27076
+msgid "Value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26948
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27117
+msgid "Select field"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26966
+msgid "Select specific page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26969
+msgid "Front page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26972
+msgid "Home page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26975
+msgid "Any archive page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26978
+msgid "Any post type archive page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26981
+msgid "Any taxonomy archive page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26984
+msgid "Any author page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26987
+msgid "Any date-based archive page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26990
+msgid "Any singular page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26993
+msgid "Search result page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:26996
+msgid "404 page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27004
+msgid "Post type"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27018
+msgid "Taxonomy"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27032
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27132
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39312
+msgid "Users"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27046
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38409
+msgid "Posts"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27064
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38959
+msgid "Terms"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27086
+msgid "Select value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27089
+msgid "Logged in"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27107
+msgid "Field"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27119
+msgid "Site specific page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27120
+msgid "Archive pages"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27123
+msgid "Post type archive"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27125
+msgid "Taxonomy archive"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27127
+msgid "Author archive"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27135
+msgid "User"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27150
+msgid "Condition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27160
+msgid "Select condition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27163
+msgid "Equal"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27166
+msgid "Not equal"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27178
+msgid "Conditional display"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27249
+msgid "Condition group deleted."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27269
+msgid "With the last condition deleted, the conditional group was too deleted."
+msgstr ""
+
+#. translators: %s: placeholder for idx
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27313
+#, js-format
+msgid "Group %d"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27314
+msgid "Delete condition group"
+msgstr ""
+
+#. translators: %s: placeholder for idx
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27326
+#, js-format
+msgid "Condition %d"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27327
+msgid "Remove condition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27341
+msgid "Condition item has && (AND) condition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27342
+msgid "AND Add condition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27351
+msgid "Group has || (OR) condition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27352
+msgid "OR Add condition group"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27440
+msgid "Initial value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27449
+msgid "Final value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27523
+msgid "Custom attributes"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27632
+msgid "You can type in custom HTML attributes for this block in the field above."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27632
+msgid "Example:"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27632
+msgid "If the attributes are already present on the blocks it wouldn't apply."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27714
+msgid "Select date: Date"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27716
+msgid "Immediately"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27720
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27762
+msgid "Date"
+msgstr ""
+
+#. translators: %s: placeholder for title
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27893
+#, js-format
+msgid "Hide on %s."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:27903
+msgid "Device display"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28056
+msgid "Divider type"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28062
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40458
+msgid "Svg"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28411
+msgid "Select audio"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:28705
+msgid "Visited"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29389
+msgid "Choose from options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29523
+msgid "Select image"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29625
+msgid "Select video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29778
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33086
+msgid "Add wp_enqueue_media(); on the page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29787
+msgid "Select or upload file"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29850
+msgid "Replace files"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29850
+msgid "Replace file"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29850
+msgid "Add files"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29850
+msgid "Add file"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29865
+msgid "Reset files"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29865
+msgid "Remove file"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29884
+msgid "File URL"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29950
+msgid "File source"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:29956
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33448
+msgid "External"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30145
+msgid "Add filter options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30418
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30569
+msgid "Brightness"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30428
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30572
+msgid "Contrast"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30448
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30578
+msgid "Hue rotate"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30458
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30582
+msgid "Invert"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30478
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30588
+msgid "Saturate"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30488
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30591
+msgid "Sepia"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30498
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30522
+msgid "Drop shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30525
+msgid "H-shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30526
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30535
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30544
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30566
+msgid "px"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30534
+msgid "V-shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30543
+msgid "Shadow blur"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30554
+msgid "Shadow color"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30579
+msgid "deg"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30602
+msgid "%"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30713
+msgid "Align content"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30764
+msgid "Align content start"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30780
+msgid "Align content end"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30796
+msgid "Align content center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30812
+msgid "Align content between"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30828
+msgid "Align content around"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:30844
+msgid "Align content stretch"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31087
+msgid "Align items"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31138
+msgid "Align items start"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31154
+msgid "Align items end"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31170
+msgid "Align items center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31186
+msgid "Align items baseline"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31202
+msgid "Align items stretch"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31319
+msgid "Align self"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31370
+msgid "Align self start"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31386
+msgid "Align self end"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31402
+msgid "Align self center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31418
+msgid "Align self baseline"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31434
+msgid "Align self stretch"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31585
+msgid "Direction"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31636
+msgid "Horizontal(Row)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31640
+msgid "Vertical(Column)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31644
+msgid "Row reverse"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31648
+msgid "Column reverse"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31753
+msgid "Justify content"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31804
+msgid "Justify content start"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31820
+msgid "Justify content end"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31836
+msgid "Justify content center"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31852
+msgid "Justify content between"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31868
+msgid "Justify content around"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:31884
+msgid "Justify content evenly"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32075
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41896
+msgid "div"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32078
+msgid "section"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32081
+msgid "article"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32084
+msgid "aside"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32087
+msgid "footer"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32090
+msgid "header"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32093
+msgid "address"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32096
+msgid "main"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32099
+msgid "nav"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32102
+msgid "blockquote"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32105
+msgid "details"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32108
+msgid "summary"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32111
+msgid "hgroup"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32170
+msgid "WordPress icons"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32183
+msgid "Font Awesome icons"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32338
+msgid "Remove icon"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32358
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32466
+msgid "All icons"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32486
+msgid "No icons found!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32744
+msgid "Image shape"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:32780
+msgid "Mask shape options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33250
+msgid "Replace media"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33250
+msgid "Add media"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33270
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38087
+msgid "Image size"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33299
+msgid "Image URL"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33322
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33371
+msgid "Image details"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33325
+msgid "Alt text"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33442
+msgid "Image source"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33604
+msgid "Allow link"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33643
+msgid "Open in new tab"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33657
+msgid "Relation"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33822
+msgid "Map marker deleted."
+msgstr ""
+
+#. translators: %s: tag name a
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33850
+#, js-format
+msgid "To utilize advanced map functionalities, a %1$sGoogle Map API Key%2$s is needed."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33855
+msgid "Location"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33857
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33911
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33913
+msgid "Enter a location…"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33865
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33921
+msgid "Latitude"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33867
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33923
+msgid "Enter latitude…"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33875
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33931
+msgid "Longitude"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33877
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33933
+msgid "Enter longitude"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33886
+msgid "Markers"
+msgstr ""
+
+#. translators: %d: Index
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33905
+#, js-format
+msgid "Marker %d"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33906
+msgid "Remove marker"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33941
+msgid "Marker title"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33943
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33953
+msgid "Custom marker"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33951
+msgid "Marker description"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33964
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33965
+msgid "Add marker"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33972
+msgid "Map options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33977
+msgid "Full Screen Control"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33985
+msgid "Gesture handling"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33991
+msgid "Cooperative"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:33994
+msgid "Greedy"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34009
+msgid "Map Type"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34015
+msgid "Road Map"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34018
+msgid "Satellite View"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34021
+msgid "Hybrid"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34024
+msgid "Terrain"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34033
+msgid "Map Type Control"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34041
+msgid "Zoom Control"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34049
+msgid "Streen View Control"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34057
+msgid "Map Zoom Level"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34467
+msgid "Margin & Padding"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34666
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34694
+msgid "Overflow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34734
+msgid "Visible"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34737
+msgid "Hidden"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:34886
+msgid "Popup options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35042
+msgid "Popup"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35308
+msgid "Position options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35684
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35726
+msgid "Position direction"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35767
+msgid "Relative"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35770
+msgid "Static"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35776
+msgid "Absolute"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35779
+msgid "Sticky"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35864
+msgid "Progress value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35865
+msgid "The progress value should be less or equal to the maximum value."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:35874
+msgid "Progress maximum value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36839
+msgid "Button style"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36888
+msgid "Primary"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36891
+msgid "Secondary"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36894
+msgid "Success"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36897
+msgid "Danger"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36900
+msgid "Warning"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36903
+msgid "Info"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36906
+msgid "Light"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36909
+msgid "Dark"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36915
+msgid "Outline primary"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36918
+msgid "Outline secondary"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36921
+msgid "Outline success"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36924
+msgid "Outline danger"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36927
+msgid "Outline warning"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36930
+msgid "Outline info"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36933
+msgid "Outline light"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:36936
+msgid "Outline dark"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37522
+msgid "Google font"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37523
+msgid "Remove font"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37539
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37540
+msgid "Add Google font"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37691
+#, js-format
+msgid "This text is styled with a Google font `%s` and weight `%s`."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37691
+msgid "default"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37903
+msgid "Bad response from the server. Make sure the API key is correct."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37976
+#, js-format
+msgid "An error occurred: %s"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37984
+msgid "Google font family"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:37999
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44138
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44295
+msgid "Font weight"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38285
+msgid "No types found!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38542
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39075
+msgid "Loading…"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38695
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:38832
+msgid "No taxonomies found!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39065
+msgid "No terms found!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39293
+msgid "No users"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39375
+msgid "No users found!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39929
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40190
+msgid "Mask position"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39932
+msgid "Position X"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39959
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42554
+msgid "Custom value"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39967
+msgid "Position Y"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:39994
+msgid "Custom Y"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40018
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40023
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40796
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40801
+msgid "Choose svg"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40046
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40819
+msgid "Defined"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40059
+msgid "To ensure proper functionality of the options, make sure to add the `at-svg` class to the SVG element."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40169
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40293
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40903
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40933
+msgid "Flip vertically"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40176
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40305
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40910
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40943
+msgid "Flip horizontally"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40183
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40317
+msgid "Bring front"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40203
+msgid "Mask size"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40230
+msgid "Custom mask size"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40340
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:40924
+msgid "Shape options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41201
+msgid "Text align"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41544
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41712
+msgid "Text shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41749
+msgid "H shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41758
+msgid "V shadow"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41822
+msgid "Text tag"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41875
+msgid "H1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41878
+msgid "H2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41881
+msgid "H3"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41884
+msgid "H4"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41887
+msgid "H5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41890
+msgid "H6"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41893
+msgid "p"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:41899
+msgid "span"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42524
+msgid "3D transformations origin"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42524
+msgid "2D transformations origin"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42527
+msgid "OriginX"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42562
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42589
+msgid "OriginY"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42597
+msgid "OriginZ"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42630
+msgid "Transform options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42641
+msgid "Add transform options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42650
+msgid "For a smooth transformation on hover, use the transition options properly."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42653
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42741
+msgid "Origin"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42673
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43060
+msgid "Transform"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42925
+msgid "TranslateX"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42933
+msgid "TranslateY"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42941
+msgid "TranslateZ"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42952
+msgid "Rotate angle"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42953
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43036
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43047
+msgid "Unit: deg"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42963
+msgid "RotateX"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42973
+msgid "RotateY"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42983
+msgid "RotateZ"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42996
+msgid "ScaleX"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:42997
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43009
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43021
+msgid "Allowed max 5 and min -5"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43008
+msgid "ScaleY"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43020
+msgid "ScaleZ"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43035
+msgid "SkewX"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43046
+msgid "SkewY"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43127
+msgid "Translate"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43134
+msgid "Rotate"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43148
+msgid "Skew"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43275
+msgid "Transition"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43313
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43352
+msgid "Duration"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43323
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43368
+msgid "Timing function"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43333
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43384
+msgid "Delay"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43353
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43385
+msgid "In seconds"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43430
+msgid "Ease"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43433
+msgid "Linear"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43436
+msgid "Ease in"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43439
+msgid "Ease out"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43442
+msgid "Ease in out"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43660
+msgid "Add typography options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43670
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44256
+msgid "Typography"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43904
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44285
+msgid "Font family"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43915
+msgid "System fonts"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43922
+msgid "Google fonts"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:43929
+msgid "Custom fonts"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44019
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44275
+msgid "Font size"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44078
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44305
+msgid "Font style"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44315
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44920
+msgid "Text decoration"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44325
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44980
+msgid "Text transform"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44335
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44659
+msgid "Line height"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44345
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44490
+msgid "Letter spacing"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44610
+msgid "Number"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44613
+msgid "Length unit"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44712
+msgid "Arial"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44715
+msgid "Tahoma"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44718
+msgid "Verdana"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44721
+msgid "Helvetica"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44724
+msgid "Times New Roman"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44727
+msgid "Trebuchet MS"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44730
+msgid "Georgia"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44748
+msgid "Bold"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44751
+msgid "100"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44754
+msgid "200"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44757
+msgid "300"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44760
+msgid "400"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44763
+msgid "500"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44766
+msgid "600"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44769
+msgid "700"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44772
+msgid "800"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44775
+msgid "900"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44787
+msgid "none"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44791
+msgid "Uppercase"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44795
+msgid "Lowercase"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44799
+msgid "Capitalize"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44818
+msgid "Italic"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44821
+msgid "Oblique"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44836
+msgid "Underline"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44839
+msgid "Overline"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44842
+msgid "Line Through"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44851
+msgid "XS"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44855
+msgid "Small"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44863
+msgid "Medium"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:44867
+msgid "Large"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45712
+msgid "Replace video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45712
+msgid "Add video"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45756
+msgid "Video URL"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45905
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46007
+msgid "Play inline"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45925
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46044
+msgid "Poster"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45935
+msgid "Video on mobile"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:45995
+msgid "Playback controls"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46060
+msgid "Enable video on mobile"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46149
+msgid "Video source"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46173
+msgid "Enable video settings"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46174
+msgid "Enabling this setting will disable all video settings from the provided URL but will apply the defined settings."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46676
+msgid "Width & Height"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46737
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46815
+msgid "Min width"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46759
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46835
+msgid "Max width"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46770
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46845
+msgid "Min height"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46792
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46865
+msgid "Max height"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46935
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:46969
+msgid "Z-Index"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:52596
+msgid "Are you sure?"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:52598
+msgid "This action cannot be undone!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53034
+msgid "items"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53044
+msgid "First page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53054
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53238
+msgid "Previous page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53068
+msgid "of"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53076
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53268
+msgid "Next page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53086
+msgid "Last page"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53240
+msgctxt "previous page link label"
+msgid "Previous"
+msgstr ""
+
+#. translators: %s is the page number.
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53255
+#, js-format
+msgid "Page %s"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53270
+msgctxt "previous page link label"
+msgid "Next"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53615
+msgid "options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53681
+msgid "All options reset"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53687
+msgid "Reset all"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53700
+msgid "Show options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53700
+msgid "Hide options"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53935
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:53937
+msgid "Add rpt fields"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:54489
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:54501
+msgid "Search"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:55893
+msgid "Author Biography"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:55982
+msgid "Author image"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:55983
+msgid "Not author image found!"
+msgstr ""
+
+#. translators: %s is the Author name.
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56072
+#, js-format
+msgid "%s Avatar"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56072
+msgid "Default Avatar"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56136
+msgid "Author Name"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56232
+msgid "Post not found."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56307
+msgid "Block cannot be rendered inside itself."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56314
+msgid "This content is password protected."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56390
+msgid "Post date"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56390
+msgid "Post modified date"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56493
+msgid "No excerpt found"
+msgstr ""
+
+#. translators: %s: The image's alt text.
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56586
+#, js-format
+msgid "Featured image: %s"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56586
+msgid "Featured image"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56587
+msgid "Not featured image found!"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56664
+msgid "Meta value not found for the provided meta key and it should be accessible through the REST API."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56672
+msgid "Supported values are limited to strings, numbers, or scalar values only."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56768
+msgid "Term items not found."
+msgstr ""
+
+#. translators: If your word count is based on single characters (e.g. East Asian characters), enter 'characters_excluding_spaces' or 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate into your own language.
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56940
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr ""
+
+#. translators: %d is the number of minutes the post will take to read.
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:56943
+#, js-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57522
+msgid "Folder"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57756
+msgid "Click for descending order"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57756
+msgid "Click for ascending order"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57781
+msgid "List layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57781
+msgid "Grid layout"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57971
+msgid "Total:"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:57973
+msgid "Processed:"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58281
+msgid "More"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58297
+msgid "Open notification"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58908
+msgid "Menu 1"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:58911
+msgid "Menu 2"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59029
+msgid "Mobile (xs)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59030
+msgid "Applied to all devices since mobile-first design approach."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59038
+msgid "Mobile (sm)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59039
+msgid "Applied to devices from minimum width 576px."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59046
+msgid "Tablet (md)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59047
+msgid "Applied to devices from minimum width 768px."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59054
+msgid "Laptop (lg)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59055
+msgid "Applied to devices from minimum width 992px."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59062
+msgid "Desktop (xl)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59063
+msgid "Applied to devices from minimum width 1200px."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59070
+msgid "Screen (xxl)"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59071
+msgid "Applied to devices from minimum width 1400px."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59182
+msgid "Error copying to clipboard:"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:59488
+msgid "The 'value' parameter must be a string"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60102
+msgid "The first argument must be an object."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60106
+msgid "The second argument must be a string."
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60345
+msgctxt "Indicates this palette comes from the theme."
+msgid "Theme"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60351
+msgctxt "Indicates this palette comes from WordPress."
+msgid "Default"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60357
+msgctxt "Indicates this palette is created by the user."
+msgid "Custom"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60415
+msgctxt "Indicates this gradient comes from the theme."
+msgid "Theme"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60421
+msgctxt "Indicates this gradient comes from WordPress."
+msgid "Default"
+msgstr ""
+
+#: build/elementify-addons-for-elementor/assets/build/js/admin.js:60427
+msgctxt "Indicates this gradient is created by the user."
+msgid "Custom"
 msgstr ""

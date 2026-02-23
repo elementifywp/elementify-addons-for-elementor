@@ -1,6 +1,6 @@
 === Elementify Addons for Elementor ===
 Plugin Name         : Elementify Addons for Elementor
-Version             : 1.0.2
+Version             : 1.0.3
 Author              : elementifywp
 Author URI          : https://elementifywp.com/
 Contributors        : elementifywp, rabindratharu
@@ -8,7 +8,7 @@ Donate link         : https://github.com/elementifywp/elementify-addons-for-elem
 Tags                : Elementor, Elementor Addons, Elementor Widget
 Requires at least   : 5.2
 Tested up to        : 6.9
-Stable tag          : 1.0.2
+Stable tag          : 1.0.3
 Requires PHP        : 7.4
 License             : GPLv3 or later
 License URI         : https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -106,6 +106,9 @@ License: MIT - https://opensource.org/licenses/MIT
 Source: https://github.com/desandro/imagesloaded
 
 == Changelog ==
+= 1.0.3 - 23/02/2026 =
+- New: Template importer.
+
 = 1.0.2 - 12/12/2025 =
 - New: Added widget wrapper link extension.
 - New: Added activation redirect to plugin dashboard.

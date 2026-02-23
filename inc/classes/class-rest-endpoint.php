@@ -67,6 +67,15 @@ class Rest_Endpoint {
 	}
 
 	/**
+	 * Checks if a user has permission to access templates.
+	 *
+	 * @return bool True if user has permission.
+	 */
+	public function check_permissions(): bool {
+		return current_user_can( 'edit_posts' );
+	}
+
+	/**
 	 * Checks if a given request has access to read and manage settings.
 	 *
 	 * @since 1.0.0
@@ -82,7 +91,6 @@ class Rest_Endpoint {
 		}
 		return true;
 	}
-
 
 	/**
 	 * Retrieves the settings.

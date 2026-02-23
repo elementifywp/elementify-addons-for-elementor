@@ -26,6 +26,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  */
 class Integration {
 
+
 	use Singleton;
 
 	/**

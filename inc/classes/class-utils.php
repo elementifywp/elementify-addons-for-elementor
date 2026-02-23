@@ -22,6 +22,8 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 class Utils {
 
 
+
+
 	use Singleton;
 
 	/**
@@ -272,45 +274,73 @@ class Utils {
 			$options = array();
 		}
 
+		// If key is provided, return that specific value
 		if ( ! empty( $key ) ) {
-			return $options[ $key ] ?? ( $default_options[ $key ] ?? false );
+			// First check if it exists in saved options
+			if ( isset( $options[ $key ] ) ) {
+				return $options[ $key ];
+			}
+			// Fall back to default if exists
+			if ( isset( $default_options[ $key ] ) ) {
+				return $default_options[ $key ];
+			}
+			// Return false if key doesn't exist
+			return false;
 		}
 
-		return array_merge( $default_options, $options );
+		// Merge defaults with saved options (saved options override defaults)
+		$merged_options = array_merge( $default_options, $options );
+
+		// Ensure all boolean values are properly cast
+		foreach ( $merged_options as $option_key => $value ) {
+			if ( isset( $default_options[ $option_key ] ) && is_bool( $default_options[ $option_key ] ) ) {
+				$merged_options[ $option_key ] = (bool) $value;
+			}
+		}
+
+		return $merged_options;
 	}
 
 	/**
-	 * Update the plugin options.
+	 * Update plugin options.
 	 *
 	 * @since 1.0.0
-	 * @param string|array $key_or_data Option key or array of options.
-	 * @param mixed        $val Value for the option key (if key is provided).
-	 * @return void
+	 * @param array $options Options to update.
+	 * @return bool True if options were updated, false otherwise.
 	 */
-	public static function update_options( $key_or_data, $val = '' ): void {
+	public static function update_options( array $options ): bool {
 		if ( ! defined( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_NAME' ) ) {
-			return;
+			return false;
 		}
 
-		$options = self::get_options();
-		$schema  = self::get_settings_schema()['properties'];
+		$default_options = self::get_default_options();
 
-		if ( is_string( $key_or_data ) && ! empty( $key_or_data ) ) {
-			// Sanitize based on schema type.
-			if ( isset( $schema[ $key_or_data ]['type'] ) ) {
-				$val = self::sanitize_option( $val, $schema[ $key_or_data ] );
-			}
-			$options[ $key_or_data ] = $val;
-		} elseif ( is_array( $key_or_data ) ) {
-			foreach ( $key_or_data as $key => $value ) {
-				if ( isset( $schema[ $key ]['type'] ) ) {
-					$key_or_data[ $key ] = self::sanitize_option( $value, $schema[ $key ] );
+		// Validate and sanitize options
+		$sanitized_options = array();
+
+		foreach ( $default_options as $key => $default_value ) {
+			// Check if option exists in input
+			if ( isset( $options[ $key ] ) ) {
+				// Sanitize based on default value type
+				if ( is_bool( $default_value ) ) {
+					$sanitized_options[ $key ] = (bool) $options[ $key ];
+				} elseif ( is_int( $default_value ) ) {
+					$sanitized_options[ $key ] = (int) $options[ $key ];
+				} elseif ( is_string( $default_value ) ) {
+					$sanitized_options[ $key ] = sanitize_text_field( $options[ $key ] );
+				} elseif ( is_array( $default_value ) ) {
+					$sanitized_options[ $key ] = is_array( $options[ $key ] ) ? $options[ $key ] : array();
+				} else {
+					$sanitized_options[ $key ] = $options[ $key ];
 				}
+			} else {
+				// Use default value if not provided
+				$sanitized_options[ $key ] = $default_value;
 			}
-			$options = array_merge( $options, $key_or_data );
 		}
 
-		update_option( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_NAME, $options );
+		// Update the option in database
+		return update_option( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_NAME, $sanitized_options );
 	}
 
 	/**

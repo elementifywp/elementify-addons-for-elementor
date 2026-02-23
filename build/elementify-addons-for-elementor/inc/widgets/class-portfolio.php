@@ -238,7 +238,7 @@ class Portfolio extends Widget_Base {
 			array(
 				'label'       => esc_html__( 'Button Text', 'elementify-addons-for-elementor' ),
 				'type'        => Controls_Manager::TEXT,
-				'default'     => esc_html__( 'View', 'elementify-addons-for-elementor' ),
+				'default'     => esc_html__( 'View Details', 'elementify-addons-for-elementor' ),
 				'dynamic'     => array( 'active' => true ),
 				'label_block' => true,
 				'separator'   => 'before',
@@ -2163,6 +2163,8 @@ class Portfolio extends Widget_Base {
 				$separator_html = ob_get_clean();
 			}
 
+			$separator_html;
+
 			$html .= sprintf(
 				'<button class="eae-portfolio-filter__button" data-filter=".eae-%s"><span class="eae-portfolio-filter__button-inner">%s %s</span></button>',
 				$slug,
@@ -2207,7 +2209,7 @@ class Portfolio extends Widget_Base {
 		}
 		?>
 		<div <?php $this->print_render_attribute_string( 'eae-portfolio-filter-wrapper' ); ?>>
-			<?php echo wp_kses_post( $html ); ?>
+			<?php echo $html; // phpcs:ignore ?>
 		</div>
 		<?php
 	}
@@ -2246,6 +2248,7 @@ class Portfolio extends Widget_Base {
 
 				<?php
 				foreach ( $settings['items'] as $index => $item ) :
+
 					$item_key = $this->get_repeater_setting_key( 'portfolio_item', 'portfolio', $index );
 					$this->add_render_attribute(
 						$item_key,

@@ -19,7 +19,22 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  */
 final class Plugin {
 
+
 	use Singleton;
+
+	/**
+	 * Minimum required PHP version.
+	 *
+	 * @var string
+	 */
+	private $min_php_version = '7.4';
+
+	/**
+	 * Minimum required WordPress version.
+	 *
+	 * @var string
+	 */
+	private $min_wp_version = '6.1';
 
 	/**
 	 * Constructor
@@ -29,6 +44,11 @@ final class Plugin {
 	protected function __construct() {
 
 		if ( ! $this->can_boot() ) {
+			return;
+		}
+
+		// Ensure pretty permalinks are enabled.
+		if ( ! $this->has_pretty_permalinks() ) {
 			return;
 		}
 
@@ -131,6 +151,42 @@ final class Plugin {
 		<?php
 	}
 
+
+	/**
+	 * Returns whether pretty permalinks are enabled.
+	 *
+	 * Will also render an admin notice if not enabled.
+	 */
+	private function has_pretty_permalinks(): bool {
+		if ( ! empty( get_option( 'permalink_structure' ) ) ) {
+			return true;
+		}
+
+		foreach ( array(
+			'admin_notices',
+			'network_admin_notices',
+		) as $hook ) {
+			add_action(
+				$hook,
+				static function () {
+					wp_admin_notice(
+						sprintf(
+						/* translators: 1: Plugin name */
+							__( 'Elementify Addons for Elementor: The plugin requires pretty permalinks to be enabled. Please go to <a href="%s">Permalink Settings</a> and enable an option other than <code>Plain</code>.', 'elementify-addons-for-elementor' ),
+							admin_url( 'options-permalink.php' ),
+						),
+						array(
+							'type'        => 'error',
+							'dismissible' => false,
+						)
+					);
+				}
+			);
+		}
+
+		return false;
+	}
+
 	/**
 	 * Load plugin translations — now safely on init
 	 */
@@ -149,11 +205,10 @@ final class Plugin {
 
 		Utils::get_instance();
 		Assets::get_instance();
-		Rest_Endpoint::get_instance();
 		Integration::get_instance();
-		if ( is_admin() ) {
-			Dashboard::get_instance();
-		}
+		Dashboard::get_instance();
+		Rest_Endpoint::get_instance();
+		Library_Manager::get_instance();
 	}
 
 	/**

@@ -129,27 +129,7 @@
             top: 0;
             border-radius: 4px;
 
-            &:hover {
-                // box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-                margin-top: -5px;
-                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.985);
-                transition: all 0.3s ease 0s;
-
-                .eae-portfolio__overlay {
-                    opacity: 1;
-                    bottom: 0;
-                    transition: all 0.3s ease 0s;
-
-                    .eae-portfolio__overlay-content {
-                        transition: all 0.3s ease 0s;
-                        bottom: 0;
-                    }
-                }
-                .eae-portfolio__title {
-                    color: var(--e-global-color-primary);
-                    transition: all 0.3s ease 0s;
-                }
-            }
+            
 
             .eae-portfolio__media {
                 position: relative;
@@ -197,7 +177,7 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                backdrop-filter: blur(2px);
+                                backdrop-filter: blur(0);
                                 padding: 7px;
 
                                 svg {
@@ -219,6 +199,28 @@
                             line-height: 1;
                         }
                     }
+                }
+            }
+
+            &:hover {
+                // box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+                margin-top: -5px;
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.985);
+                transition: all 0.3s ease 0s;
+
+                .eae-portfolio__overlay {
+                    opacity: 1;
+                    bottom: 0;
+                    transition: all 0.3s ease 0s;
+
+                    .eae-portfolio__overlay-content {
+                        transition: all 0.3s ease 0s;
+                        bottom: 0; 
+                    }
+                }
+                .eae-portfolio__title {
+                    color: var(--e-global-color-primary);
+                    transition: all 0.3s ease 0s;
                 }
             }
 

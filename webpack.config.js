@@ -22,6 +22,7 @@ const entry = {
   widget: [path.join(SRC_DIR, 'js/widget.js')],
   admin: [path.join(SRC_DIR, 'js/admin.js')],
   icon: [path.join(SRC_DIR, 'sass/icon.scss')],
+  //tailwind: [path.join(SRC_DIR, 'sass/tailwind.css')],
 };
 
 const output = {

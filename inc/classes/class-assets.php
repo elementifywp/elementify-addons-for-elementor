@@ -35,8 +35,21 @@ class Assets {
 	 */
 	protected function setup_hooks() {
 		add_action( 'wp_enqueue_scripts', array( $this, 'register_assets' ), 20 );
-		add_action( 'elementor/frontend/before_register_scripts', array( $this, 'register_elementor_frontend_assets' ) );
-		add_action( 'elementor/editor/before_enqueue_scripts', array( $this, 'register_elementor_editor_assets' ) );
+		add_action( 'elementor/frontend/before_register_scripts', array( $this, 'frontend_assets' ) );
+		add_action( 'elementor/preview/enqueue_styles', array( $this, 'preview_assets' ) );
+		add_action( 'elementor/editor/after_enqueue_scripts', array( $this, 'editor_assets' ) );
+	}
+
+	/**
+	 * Add inline styles for editor.
+	 *
+	 * @return void
+	 */
+	public function preview_assets() {
+
+		$suffix = is_rtl() ? '-rtl' : '';
+		// Enqueue styles.
+		wp_enqueue_style( 'elementify-addons-for-elementor-preview', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/editor{$suffix}.css", array( 'elementify-addons-for-elementor-icons' ), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/editor{$suffix}.css" ), 'all' );
 	}
 
 	/**
@@ -47,9 +60,9 @@ class Assets {
 	public function register_assets() {
 		$suffix = is_rtl() ? '-rtl' : '';
 		// Enqueue styles.
+		// wp_register_style( 'elementify-addons-for-elementor-tailwind', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/tailwind{$suffix}.css", array(), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/tailwind{$suffix}.css" ), 'all' );
 		wp_register_style( 'elementify-addons-for-elementor-icons', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/icon{$suffix}.css", array(), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/icon{$suffix}.css" ), 'all' );
-		wp_register_style( 'elementify-addons-for-elementor', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/main{$suffix}.css", array( 'elementify-addons-for-elementor-icons', 'elementor-frontend' ), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/main{$suffix}.css" ), 'all' );
-		wp_enqueue_style( 'elementify-addons-for-elementor' );
+		wp_enqueue_style( 'elementify-addons-for-elementor', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/main{$suffix}.css", array( 'elementify-addons-for-elementor-icons', 'elementor-frontend' ), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/main{$suffix}.css" ), 'all' );
 
 		// Register scripts.
 		$asset_config_file = sprintf( '%s/js/main.asset.php', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH );
@@ -77,7 +90,7 @@ class Assets {
 	 * @since 1.0.0
 	 * @return void
 	 */
-	public function register_elementor_frontend_assets() {
+	public function frontend_assets() {
 
 		// Register styles.
 		$suffix = is_rtl() ? '-rtl' : '';
@@ -137,27 +150,21 @@ class Assets {
 	 * @since 1.0.0
 	 * @return void
 	 */
-	public function register_elementor_editor_assets() {
+	public function editor_assets() {
 		// Register styles.
 		$suffix = is_rtl() ? '-rtl' : '';
-
-		// Register styles.
+		// wp_register_style( 'elementify-addons-for-elementor-tailwind', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/tailwind{$suffix}.css", array(), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/tailwind{$suffix}.css" ), 'all' );
 		wp_register_style( 'elementify-addons-for-elementor-icons', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/icon{$suffix}.css", array(), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/icon{$suffix}.css" ), 'all' );
-		wp_register_style( 'elementify-addons-for-elementor-editor', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/editor{$suffix}.css", array( 'elementify-addons-for-elementor-icons' ), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/editor{$suffix}.css" ), 'all' );
-		wp_enqueue_style( 'elementify-addons-for-elementor-editor' );
+		wp_enqueue_style( 'elementify-addons-for-elementor-editor', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . "css/editor{$suffix}.css", array( 'elementify-addons-for-elementor-icons' ), filemtime( ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH . "/css/editor{$suffix}.css" ), 'all' );
 
 		// Register scripts.
 		$asset_config_file = sprintf( '%s/js/editor.asset.php', ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH );
-
 		if ( ! file_exists( $asset_config_file ) ) {
 			return;
 		}
-
 		$editor_asset    = include_once $asset_config_file;
 		$js_dependencies = ( ! empty( $editor_asset['dependencies'] ) ) ? $editor_asset['dependencies'] : array();
 		$version         = ( ! empty( $editor_asset['version'] ) ) ? $editor_asset['version'] : filemtime( $asset_config_file );
-
-		// Register scripts.
 		wp_enqueue_script(
 			'isotope',
 			ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . 'library/isotope/isotope.pkgd.min.js',
@@ -175,9 +182,30 @@ class Assets {
 		wp_enqueue_script(
 			'elementify-addons-for-elementor-editor',
 			ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . 'js/editor.js',
-			array_unique( array_merge( $js_dependencies, array( 'jquery', 'elementor-editor', 'isotope', 'packery' ) ) ),
+			array_unique( array_merge( $js_dependencies, array( 'jquery', 'isotope', 'packery' ) ) ),
 			$version,
 			true
+		);
+
+		// Localize script.
+		wp_localize_script(
+			'elementify-addons-for-elementor-editor',
+			'etiSettings',
+			array(
+				'nonce'   => wp_create_nonce( 'eti_nonce' ),
+				'restUrl' => rest_url( 'elementify-addons-for-elementor/v1/' ),
+				'ajaxUrl' => admin_url( 'admin-ajax.php' ),
+				'strings' => array(
+					'importTemplates' => __( 'Import Templates', 'elementify-addons-for-elementor' ),
+					'searchTemplates' => __( 'Search templates...', 'elementify-addons-for-elementor' ),
+					'insert'          => __( 'Insert', 'elementify-addons-for-elementor' ),
+					'preview'         => __( 'Preview', 'elementify-addons-for-elementor' ),
+					'loading'         => __( 'Loading...', 'elementify-addons-for-elementor' ),
+					'noTemplates'     => __( 'No templates found.', 'elementify-addons-for-elementor' ),
+					'importing'       => __( 'Importing...', 'elementify-addons-for-elementor' ),
+					'error'           => __( 'Error occurred. Please try again.', 'elementify-addons-for-elementor' ),
+				),
+			)
 		);
 	}
 }
