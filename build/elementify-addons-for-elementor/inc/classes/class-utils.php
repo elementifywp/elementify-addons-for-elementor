@@ -456,7 +456,7 @@ class Utils {
 				'dashboard'       => array(
 					'title'      => $plugin_name,
 					'logo'       => ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . 'images/logo.png',
-					'background' => ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . 'images/dashboard-banner.png',
+					'background' => ELEMENTIFY_ADDONS_FOR_ELEMENTOR_BUILD_PATH_URL . 'images/banner-1544x500.png',
 					'notice'     => sprintf(
 						/* translators: %s is the plugin name */
 						esc_html__( 'Thank you for selecting %s for Elementor – your new go-to tool for creating stunning, functional, and super-fast websites without any coding.', 'elementify-addons-for-elementor' ),

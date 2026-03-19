@@ -1,6 +1,6 @@
 === Elementify Addons for Elementor ===
 Plugin Name         : Elementify Addons for Elementor
-Version             : 1.0.3
+Version             : 1.0.4
 Author              : elementifywp
 Author URI          : https://elementifywp.com/
 Contributors        : elementifywp, rabindratharu
@@ -8,7 +8,7 @@ Donate link         : https://github.com/elementifywp/elementify-addons-for-elem
 Tags                : Elementor, Elementor Addons, Elementor Widget
 Requires at least   : 5.2
 Tested up to        : 6.9
-Stable tag          : 1.0.3
+Stable tag          : 1.0.4
 Requires PHP        : 7.4
 License             : GPLv3 or later
 License URI         : https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -76,12 +76,13 @@ Absolutely! It will work with any theme where Elementor works.
 == Screenshots ==
 
 1. Plugin Settings
-2. Animated Text Widget
-3. Form Styler Widget
-4. Logos Carousel Widget
-5. Portfolio Widget
-6. Tabs Widget
-7. Testimonial Carousel Widget
+2. Demo Import
+3. Animated Text Widget
+4. Form Styler Widget
+5. Logos Carousel Widget
+6. Portfolio Widget
+7. Tabs Widget
+8. Testimonial Carousel Widget
 
 == Credits ==
 
@@ -106,6 +107,9 @@ License: MIT - https://opensource.org/licenses/MIT
 Source: https://github.com/desandro/imagesloaded
 
 == Changelog ==
+= 1.0.4 - 17/03/2026 =
+- Fix: Template importer image issue and improve design.
+
 = 1.0.3 - 23/02/2026 =
 - New: Template importer.
 

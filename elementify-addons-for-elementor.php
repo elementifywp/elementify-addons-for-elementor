@@ -3,7 +3,7 @@
  * Plugin Name:       Elementify Addons for Elementor
  * Plugin URI:        https://elementifywp.com/elementify-addons
  * Description:       <a href="https://elementifywp.com/">Elementify Addons for Elementor</a> is a powerful and lightweight extension designed to supercharge your Elementor Page Builder. Packed with a collection of creative and fully customizable widgets, it helps you build faster and design smarter—just like a pro. Whether you're crafting landing pages, blogs, or business websites, Elementify Addons makes it easy to create stunning layouts with minimal effort and maximum flexibility.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Requires Plugins:  elementor
  * Requires at least: 5.2
  * Requires PHP:      7.4
@@ -23,7 +23,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
 /**
  * Define plugin constants.
  */
-define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_VERSION', '1.0.3' );
+define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_VERSION', '1.0.4' );
 define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_NAME', 'elementify-addons-for-elementor' );
 define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'ELEMENTIFY_ADDONS_FOR_ELEMENTOR_URL', plugin_dir_url( __FILE__ ) );

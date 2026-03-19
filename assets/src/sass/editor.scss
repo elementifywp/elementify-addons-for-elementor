@@ -185,6 +185,9 @@ $varPrefix: "--at";
             transition: all 0.3s ease 0s;
             cursor: pointer;
             border-radius: 50px;
+            display: flex;
+  align-items: center;
+  justify-content: center;
             &:hover{
               background: var(--at-primary);
             }
@@ -397,16 +400,16 @@ $varPrefix: "--at";
               }
               
             }
-            &:hover .eae-template-actions {
+            &:hover .eae-template-actions, &.eae-template-disabled-active .eae-template-actions, &.eae-template-importing .eae-template-actions {
               transform: scale(1);
               opacity: 1;
               transition: all 0.3s ease 0s;
             }
-            &:hover{
+            &:hover, &.eae-template-disabled-active, &.eae-template-importing{
               top: -5px;
               box-shadow: 0 22px 40px -23px rgba(0, 0, 0, 0.46);
             }
-            &:hover .components-card__media:before{
+            &:hover .components-card__media:before, &.eae-template-disabled-active .components-card__media:before,&.eae-template-importing .components-card__media:before{
               opacity: 1;
               transition: all 0.3s ease 0s;
             }
